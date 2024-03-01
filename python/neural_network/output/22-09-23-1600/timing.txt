@@ -1,0 +1,16 @@
+Dimension:   2    0.08 s for      31 iterations, SIC-POVM: True
+Dimension:   3   58.71 s for   10000 iterations, SIC-POVM: False
+Dimension:   4    0.47 s for      51 iterations, SIC-POVM: True
+Dimension:   5    1.94 s for     140 iterations, SIC-POVM: True
+Dimension:   6    4.09 s for     162 iterations, SIC-POVM: True
+Dimension:   7    3.18 s for      91 iterations, SIC-POVM: True
+Dimension:   8   13.07 s for     232 iterations, SIC-POVM: True
+Dimension:   9   19.10 s for     233 iterations, SIC-POVM: True
+Dimension:  10   40.72 s for     481 iterations, SIC-POVM: True
+Dimension:  11 2531.48 s for   10000 iterations, SIC-POVM: False
+Dimension:  12 3339.88 s for   10000 iterations, SIC-POVM: False
+Dimension:  13 4069.22 s for   10000 iterations, SIC-POVM: False
+Dimension:  14 5047.37 s for   10000 iterations, SIC-POVM: False
+Dimension:  15 6244.38 s for   10000 iterations, SIC-POVM: False
+Dimension:  16 7563.05 s for   10000 iterations, SIC-POVM: False
+Dimension:  17 9112.17 s for   10000 iterations, SIC-POVM: False

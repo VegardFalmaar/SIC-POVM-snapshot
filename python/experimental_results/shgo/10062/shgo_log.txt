@@ -1,0 +1,58 @@
+INFO:scipy.optimize.shgo:Splitting first generation
+INFO:scipy.optimize.shgo:Constructing and refining simplicial complex graph structure
+INFO:scipy.optimize.shgo:Triangulation completed, evaluating all constraints and objective function values.
+INFO:scipy.optimize.shgo:Evaluations completed.
+INFO:scipy.optimize.shgo:Searching for minimizer pool...
+INFO:scipy.optimize.shgo:============================================================
+INFO:scipy.optimize.shgo:v.x = [ 0.000000e+00  0.000000e+00] is minimizer
+INFO:scipy.optimize.shgo:v.f = 0.33333333333333337 is minimizer
+INFO:scipy.optimize.shgo:==============================
+INFO:scipy.optimize.shgo:Neighbors:
+INFO:scipy.optimize.shgo:==============================
+INFO:scipy.optimize.shgo:x = (-1.0, 1.0) || f = inf
+INFO:scipy.optimize.shgo:x = (1.0, 1.0) || f = inf
+INFO:scipy.optimize.shgo:x = (1.0, -1.0) || f = inf
+INFO:scipy.optimize.shgo:x = (-1.0, -1.0) || f = inf
+INFO:scipy.optimize.shgo:============================================================
+INFO:scipy.optimize.shgo:Vertex minimiser maps = []
+INFO:scipy.optimize.shgo:Starting minimization at [ 0.000000e+00  0.000000e+00]...
+INFO:scipy.optimize.shgo:cbounds found for v_min.x_a = [ 0.000000e+00  0.000000e+00]
+INFO:scipy.optimize.shgo:cbounds = [[-1.0, 1.0], [-1.0, 1.0]]
+INFO:scipy.optimize.shgo:lres =            message: `xtol` termination condition is satisfied.
+           success: True
+            status: 2
+               fun: 1e-15
+                 x: [ 3.251e-01  3.251e-01]
+               nit: 49
+              nfev: 192
+              njev: 64
+              nhev: 0
+          cg_niter: 38
+      cg_stop_cond: 4
+              grad: [ 2.975e-08  0.000e+00]
+   lagrangian_grad: [ 1.645e-08 -1.330e-08]
+            constr: [array([ 4.597e-01])]
+               jac: [array([[ 7.071e-01,  7.071e-01]])]
+       constr_nfev: [192]
+       constr_njev: [0]
+       constr_nhev: [0]
+                 v: [array([-1.881e-08])]
+            method: tr_interior_point
+        optimality: 1.6447285802660186e-08
+  constr_violation: 0.0
+    execution_time: 0.04379677772521973
+         tr_radius: 4.1092356685511445e-09
+    constr_penalty: 1.0
+ barrier_parameter: 2.048000000000001e-09
+ barrier_tolerance: 2.048000000000001e-09
+             niter: 49
+INFO:scipy.optimize.shgo:Function evaluations done = 1 / 50000000
+INFO:scipy.optimize.shgo:self.HC.V[x].f = 0.333333
+INFO:scipy.optimize.shgo:Lowest function evaluation = 0.000000
+INFO:scipy.optimize.shgo:Specified minimum = 0.000000
+INFO:scipy.optimize.shgo:Minimiser pool = SHGO.X_min = []
+INFO:scipy.optimize.shgo:Function evaluations done = 1 / 50000000
+INFO:scipy.optimize.shgo:self.HC.V[x].f = 0.333333
+INFO:scipy.optimize.shgo:Lowest function evaluation = 0.000000
+INFO:scipy.optimize.shgo:Specified minimum = 0.000000
+INFO:scipy.optimize.shgo:Successfully completed construction of complex.

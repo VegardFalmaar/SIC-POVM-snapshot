@@ -1,0 +1,3 @@
+INFO:random-gd-1036:trial:      0 / 100_000  |  f_evals:       5_103 / 50_000_000  |  f_min: 4.163336e-16
+INFO:random-gd-1036:Converged due to current_f_min close to 0.0.
+INFO:random-gd-1036:Elapsed time: 0.378 seconds

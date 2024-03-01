@@ -1,0 +1,26 @@
+Starting job 738446 on b5201 on betzy at Sun Nov 12 15:17:00 CET 2023
+
+/cluster/projects/nn9284k/conda/povm/lib/python3.11/site-packages/scipy/optimize/_hessian_update_strategy.py:182: UserWarning: delta_grad == 0.0. Check if the approximated function is linear. If the function is linear better results can be obtained by defining the Hessian as zero instead of using quasi-Newton approximations.
+  warn('delta_grad == 0.0. Check if the approximated '
+
+Job 738446 consumed 149.0 billing hours from project nn9284k.
+
+Submitted 2023-11-12T15:16:59; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 24.0 hours
+Elapsed wallclock time:   9.3 hours
+
+Task and CPU statistics:
+ID            CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+738446          16            0.0 %  2023-11-12T15:17:00    9.3 h  0
+738446.batch    16      1    42.3 %  2023-11-12T15:17:00    9.3 h  0
+
+Used CPU time:   2.6 CPU days
+Unused CPU time: 3.6 CPU days
+
+Memory statistics, in GiB:
+ID             Alloc   Usage
+738446          96.0        
+738446.batch    96.0     0.8
+
+Job 738446 completed at Mon Nov 13 00:35:42 CET 2023

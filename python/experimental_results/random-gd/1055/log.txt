@@ -1,0 +1,24 @@
+INFO:random-gd-1055:trial      0 / 100_000  |  f_evals      11_571 / 50_000_000  |  f_min 1.633944e-02
+INFO:random-gd-1055:trial      1 / 100_000  |  f_evals      16_008 / 50_000_000  |  f_min 1.633944e-02
+INFO:random-gd-1055:trial      2 / 100_000  |  f_evals      17_661 / 50_000_000  |  f_min 1.633944e-02
+INFO:random-gd-1055:trial      3 / 100_000  |  f_evals      19_372 / 50_000_000  |  f_min 5.469016e-03
+INFO:random-gd-1055:trial      4 / 100_000  |  f_evals      19_981 / 50_000_000  |  f_min 5.469016e-03
+INFO:random-gd-1055:trial      5 / 100_000  |  f_evals      22_910 / 50_000_000  |  f_min 5.469016e-03
+INFO:random-gd-1055:trial      6 / 100_000  |  f_evals      23_925 / 50_000_000  |  f_min 5.469016e-03
+INFO:random-gd-1055:trial      7 / 100_000  |  f_evals      32_799 / 50_000_000  |  f_min 2.564677e-09
+INFO:random-gd-1055:trial      8 / 100_000  |  f_evals      35_583 / 50_000_000  |  f_min 2.564677e-09
+INFO:random-gd-1055:trial      9 / 100_000  |  f_evals      38_019 / 50_000_000  |  f_min 2.564677e-09
+INFO:random-gd-1055:trial     10 / 100_000  |  f_evals      41_209 / 50_000_000  |  f_min 5.153850e-11
+INFO:random-gd-1055:trial     11 / 100_000  |  f_evals      56_376 / 50_000_000  |  f_min 5.153850e-11
+INFO:random-gd-1055:trial     12 / 100_000  |  f_evals      56_985 / 50_000_000  |  f_min 5.153850e-11
+INFO:random-gd-1055:trial     13 / 100_000  |  f_evals      57_594 / 50_000_000  |  f_min 5.153850e-11
+INFO:random-gd-1055:trial     14 / 100_000  |  f_evals      58_203 / 50_000_000  |  f_min 5.153850e-11
+INFO:random-gd-1055:trial     15 / 100_000  |  f_evals      59_653 / 50_000_000  |  f_min 5.153850e-11
+INFO:random-gd-1055:trial     16 / 100_000  |  f_evals      60_262 / 50_000_000  |  f_min 5.153850e-11
+INFO:random-gd-1055:trial     17 / 100_000  |  f_evals      61_306 / 50_000_000  |  f_min 5.153850e-11
+INFO:random-gd-1055:trial     18 / 100_000  |  f_evals      61_915 / 50_000_000  |  f_min 5.153850e-11
+INFO:random-gd-1055:trial     19 / 100_000  |  f_evals      77_024 / 50_000_000  |  f_min 5.153850e-11
+INFO:random-gd-1055:trial     20 / 100_000  |  f_evals      78_184 / 50_000_000  |  f_min 5.153850e-11
+INFO:random-gd-1055:trial     21 / 100_000  |  f_evals      79_866 / 50_000_000  |  f_min 5.286299e-12
+INFO:random-gd-1055:Converged due to current_f_min close to 0.0.
+INFO:random-gd-1055:Elapsed time: 1.919 seconds

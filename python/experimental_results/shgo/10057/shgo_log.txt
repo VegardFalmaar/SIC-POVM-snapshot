@@ -1,0 +1,334 @@
+DEBUG:scipy.optimize.shgo:Splitting first generation
+DEBUG:scipy.optimize.shgo:============================================================
+DEBUG:scipy.optimize.shgo:Starting iteration # 1
+DEBUG:scipy.optimize.shgo:Constructing and refining simplicial complex graph structure
+DEBUG:scipy.optimize.shgo:Triangulation completed, evaluating all constraints and objective function values.
+DEBUG:scipy.optimize.shgo:Evaluations completed.
+DEBUG:scipy.optimize.shgo:Searching for minimizer pool...
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:v.x = [ 0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00] is minimizer
+DEBUG:scipy.optimize.shgo:v.f = 0.6666666666666667 is minimizer
+DEBUG:scipy.optimize.shgo:Neighbors:
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, -1.0, 1.0, 1.0, -1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 1.0, 1.0, 1.0, -1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 1.0, 1.0, -1.0, -1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 1.0, 1.0, 1.0, -1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, -1.0, 1.0, -1.0, -1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 1.0, -1.0, -1.0, -1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 1.0, -1.0, 1.0, 1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, -1.0, 1.0, 1.0, -1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, -1.0, 1.0, -1.0, 1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, -1.0, 1.0, 1.0, 1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 1.0, -1.0, -1.0, 1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, -1.0, 1.0, -1.0, -1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 1.0, 1.0, 1.0, 1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 1.0, -1.0, 1.0, 1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, -1.0, 1.0, -1.0, -1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, -1.0, 1.0, -1.0, 1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, -1.0, 1.0, 1.0, 1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, -1.0, -1.0, 1.0, -1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, -1.0, 1.0, 1.0, 1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, -1.0, -1.0, 1.0, 1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 1.0, 1.0, -1.0, -1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, -1.0, 1.0, 1.0, -1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, -1.0, -1.0, 1.0, 1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, -1.0, 1.0, -1.0, 1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 1.0, -1.0, 1.0, 1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 1.0, -1.0, -1.0, -1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 1.0, 1.0, -1.0, 1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 1.0, -1.0, -1.0, -1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 1.0, -1.0, -1.0, -1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 1.0, -1.0, -1.0, 1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 1.0, -1.0, 1.0, 1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 1.0, -1.0, -1.0, -1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 1.0, 1.0, -1.0, -1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 1.0, 1.0, 1.0, -1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, -1.0, 1.0, -1.0, 1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, -1.0, -1.0, -1.0, -1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 1.0, -1.0, 1.0, 1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 1.0, 1.0, 1.0, -1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 1.0, 1.0, -1.0, -1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, -1.0, -1.0, -1.0, 1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 1.0, -1.0, -1.0, 1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, -1.0, 1.0, 1.0, 1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, -1.0, -1.0, -1.0, 1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, -1.0, 1.0, -1.0, -1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, -1.0, 1.0, -1.0, -1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, -1.0, -1.0, 1.0, 1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, -1.0, 1.0, 1.0, -1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 1.0, 1.0, 1.0, 1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 1.0, 1.0, 1.0, -1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 1.0, 1.0, -1.0, 1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, -1.0, -1.0, -1.0, 1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 1.0, -1.0, -1.0, -1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, -1.0, -1.0, 1.0, -1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 1.0, -1.0, 1.0, -1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 1.0, -1.0, -1.0, 1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, -1.0, -1.0, 1.0, -1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, -1.0, -1.0, -1.0, 1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, -1.0, 1.0, 1.0, 1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 1.0, -1.0, 1.0, -1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 1.0, -1.0, -1.0, -1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 1.0, -1.0, 1.0, 1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, -1.0, -1.0, 1.0, -1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, -1.0, -1.0, 1.0, 1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 1.0, 1.0, 1.0, 1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 1.0, 1.0, -1.0, 1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 1.0, 1.0, -1.0, 1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, -1.0, -1.0, 1.0, 1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, -1.0, -1.0, -1.0, -1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, -1.0, 1.0, 1.0, -1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 1.0, 1.0, 1.0, -1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, -1.0, 1.0, 1.0, -1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 1.0, 1.0, 1.0, -1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, -1.0, 1.0, 1.0, -1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 1.0, -1.0, 1.0, 1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 1.0, 1.0, -1.0, -1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, -1.0, 1.0, 1.0, 1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, -1.0, 1.0, -1.0, 1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 1.0, 1.0, 1.0, 1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 1.0, -1.0, 1.0, 1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, -1.0, -1.0, 1.0, -1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, -1.0, 1.0, -1.0, 1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 1.0, 1.0, -1.0, 1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, -1.0, -1.0, -1.0, 1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, -1.0, 1.0, 1.0, 1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 1.0, 1.0, -1.0, -1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, -1.0, -1.0, 1.0, 1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 1.0, -1.0, -1.0, 1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 1.0, -1.0, -1.0, 1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 1.0, 1.0, -1.0, 1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, -1.0, -1.0, 1.0, 1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 1.0, -1.0, 1.0, -1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, -1.0, 1.0, -1.0, -1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, -1.0, -1.0, -1.0, -1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 1.0, 1.0, 1.0, -1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 1.0, 1.0, -1.0, -1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, -1.0, 1.0, -1.0, 1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, -1.0, 1.0, 1.0, -1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, -1.0, -1.0, 1.0, -1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 1.0, 1.0, -1.0, 1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 1.0, -1.0, 1.0, -1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, -1.0, -1.0, 1.0, 1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, -1.0, -1.0, -1.0, -1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, -1.0, -1.0, 1.0, -1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 1.0, 1.0, 1.0, -1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 1.0, 1.0, -1.0, -1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 1.0, -1.0, 1.0, -1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, -1.0, -1.0, -1.0, 1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 1.0, 1.0, -1.0, -1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, -1.0, -1.0, -1.0, 1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, -1.0, 1.0, -1.0, -1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 1.0, 1.0, 1.0, -1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 1.0, -1.0, -1.0, -1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, -1.0, 1.0, -1.0, -1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, -1.0, -1.0, 1.0, -1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 1.0, -1.0, 1.0, -1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 1.0, -1.0, -1.0, -1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 1.0, 1.0, 1.0, -1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 1.0, -1.0, 1.0, -1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, -1.0, -1.0, -1.0, 1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, -1.0, 1.0, -1.0, 1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 1.0, 1.0, -1.0, -1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 1.0, -1.0, 1.0, -1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 1.0, -1.0, -1.0, -1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 1.0, -1.0, 1.0, 1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, -1.0, -1.0, 1.0, -1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, -1.0, -1.0, -1.0, -1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, -1.0, 1.0, 1.0, 1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, -1.0, 1.0, 1.0, 1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, -1.0, -1.0, 1.0, 1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, -1.0, 1.0, -1.0, -1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 1.0, 1.0, -1.0, 1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, -1.0, -1.0, 1.0, 1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, -1.0, -1.0, -1.0, 1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 1.0, -1.0, -1.0, 1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 1.0, 1.0, -1.0, -1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, -1.0, -1.0, 1.0, -1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 1.0, 1.0, -1.0, 1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 1.0, -1.0, -1.0, -1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 1.0, 1.0, 1.0, -1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 1.0, 1.0, -1.0, -1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 1.0, -1.0, -1.0, 1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 1.0, 1.0, -1.0, -1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, -1.0, -1.0, 1.0, 1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 1.0, 1.0, 1.0, -1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, -1.0, 1.0, -1.0, -1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 1.0, -1.0, -1.0, 1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, -1.0, 1.0, 1.0, 1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 1.0, -1.0, -1.0, 1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, -1.0, -1.0, -1.0, 1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, -1.0, 1.0, 1.0, 1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, -1.0, 1.0, -1.0, -1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 1.0, 1.0, 1.0, 1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 1.0, -1.0, 1.0, -1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, -1.0, 1.0, -1.0, 1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, -1.0, -1.0, -1.0, 1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 1.0, 1.0, 1.0, 1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, -1.0, 1.0, -1.0, 1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 1.0, -1.0, 1.0, -1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, -1.0, 1.0, 1.0, -1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 1.0, 1.0, -1.0, 1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 1.0, -1.0, -1.0, -1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, -1.0, -1.0, 1.0, 1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, -1.0, -1.0, 1.0, -1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 1.0, -1.0, -1.0, 1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, -1.0, 1.0, -1.0, 1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 1.0, -1.0, -1.0, -1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 1.0, -1.0, 1.0, -1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, -1.0, 1.0, 1.0, 1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, -1.0, -1.0, -1.0, -1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, -1.0, 1.0, 1.0, 1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 1.0, -1.0, 1.0, 1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 1.0, 1.0, 1.0, 1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, -1.0, -1.0, 1.0, 1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, -1.0, 1.0, 1.0, 1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 1.0, -1.0, -1.0, 1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 1.0, 1.0, -1.0, 1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, -1.0, -1.0, 1.0, 1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, -1.0, 1.0, -1.0, -1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, -1.0, 1.0, -1.0, -1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, -1.0, -1.0, -1.0, 1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 1.0, -1.0, -1.0, 1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 1.0, -1.0, 1.0, 1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, -1.0, -1.0, -1.0, -1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 1.0, 1.0, 1.0, -1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, -1.0, 1.0, 1.0, -1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, -1.0, 1.0, 1.0, -1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, -1.0, 1.0, -1.0, 1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, -1.0, 1.0, -1.0, -1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, -1.0, -1.0, 1.0, 1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 1.0, 1.0, 1.0, -1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, -1.0, 1.0, -1.0, -1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, -1.0, -1.0, -1.0, 1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, -1.0, -1.0, -1.0, 1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, -1.0, 1.0, 1.0, 1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, -1.0, 1.0, -1.0, 1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, -1.0, -1.0, 1.0, -1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 1.0, -1.0, 1.0, -1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 1.0, 1.0, -1.0, 1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, -1.0, 1.0, -1.0, 1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, -1.0, -1.0, -1.0, 1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 1.0, 1.0, 1.0, 1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 1.0, -1.0, 1.0, -1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 1.0, 1.0, -1.0, -1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, -1.0, 1.0, 1.0, -1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 1.0, -1.0, 1.0, -1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, -1.0, 1.0, 1.0, -1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, -1.0, -1.0, -1.0, -1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 1.0, 1.0, -1.0, 1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, -1.0, -1.0, -1.0, -1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 1.0, -1.0, 1.0, 1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, -1.0, 1.0, 1.0, -1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 1.0, -1.0, -1.0, -1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, -1.0, -1.0, 1.0, -1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, -1.0, -1.0, 1.0, -1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 1.0, 1.0, -1.0, 1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 1.0, -1.0, -1.0, 1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, -1.0, 1.0, -1.0, 1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 1.0, -1.0, 1.0, -1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 1.0, 1.0, -1.0, 1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 1.0, -1.0, -1.0, -1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 1.0, -1.0, -1.0, -1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 1.0, -1.0, -1.0, 1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 1.0, -1.0, 1.0, 1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 1.0, -1.0, 1.0, -1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, -1.0, -1.0, 1.0, -1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 1.0, 1.0, 1.0, -1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 1.0, 1.0, -1.0, -1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 1.0, -1.0, 1.0, 1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 1.0, -1.0, -1.0, 1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, -1.0, 1.0, 1.0, 1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, -1.0, 1.0, -1.0, 1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 1.0, -1.0, 1.0, 1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 1.0, 1.0, -1.0, -1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, -1.0, 1.0, 1.0, -1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 1.0, 1.0, 1.0, 1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 1.0, 1.0, -1.0, 1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 1.0, 1.0, 1.0, 1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, -1.0, -1.0, -1.0, 1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, -1.0, -1.0, 1.0, 1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, -1.0, -1.0, 1.0, -1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, -1.0, 1.0, -1.0, -1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, -1.0, -1.0, -1.0, -1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 1.0, -1.0, 1.0, 1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, -1.0, 1.0, 1.0, -1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:Performing local minimizations.
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:Starting local minimization at [ 0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00]
+DEBUG:scipy.optimize.shgo:Vertex minimiser maps = []
+DEBUG:scipy.optimize.shgo:cbounds found for v_min.x_a = [ 0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00]
+DEBUG:scipy.optimize.shgo:cbounds = [[-1.0, 1.0], [-1.0, 1.0], [-1.0, 1.0], [-1.0, 1.0], [-1.0, 1.0], [-1.0, 1.0], [-1.0, 1.0], [-1.0, 1.0]]
+DEBUG:scipy.optimize.shgo:Return value of local minimization:
+           message: `gtol` termination condition is satisfied.
+           success: True
+            status: 1
+               fun: 1e-15
+                 x: [ 2.917e-01  2.604e-01  1.900e-01  4.343e-01  4.697e-02
+                      1.648e-01 -1.445e-01  2.686e-01]
+               nit: 453
+              nfev: 4122
+              njev: 458
+              nhev: 0
+          cg_niter: 517
+      cg_stop_cond: 4
+              grad: [ 0.000e+00  0.000e+00  0.000e+00  0.000e+00  0.000e+00
+                      0.000e+00 -0.000e+00  0.000e+00]
+   lagrangian_grad: [ 5.764e-10  5.147e-10  3.754e-10  8.583e-10  9.281e-11
+                      3.257e-10 -2.856e-10  5.309e-10]
+            constr: [array([ 7.072e-01])]
+               jac: [array([[ 4.125e-01,  3.683e-01,  2.686e-01,
+                             6.142e-01,  6.642e-02,  2.331e-01,
+                            -2.044e-01,  3.799e-01]])]
+       constr_nfev: [4122]
+       constr_njev: [0]
+       constr_nhev: [0]
+                 v: [array([ 1.397e-09])]
+            method: tr_interior_point
+        optimality: 8.582874634059614e-10
+  constr_violation: 0.0
+    execution_time: 1.1378638744354248
+         tr_radius: 583081.2137585147
+    constr_penalty: 1.0
+ barrier_parameter: 1.0240000000000006e-08
+ barrier_tolerance: 1.0240000000000006e-08
+             niter: 453
+DEBUG:scipy.optimize.shgo:Function evaluations done = 1 / 50000000
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)].f = 0.666667
+DEBUG:scipy.optimize.shgo:Lowest function evaluation = 0.000000
+DEBUG:scipy.optimize.shgo:Specified minimum = 0.000000
+DEBUG:scipy.optimize.shgo:Minimiser pool = SHGO.X_min = []
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:Iteration # 1 done
+DEBUG:scipy.optimize.shgo:Function evaluations done = 1 / 50000000
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0)].f = 0.666667
+DEBUG:scipy.optimize.shgo:Lowest function evaluation = 0.000000
+DEBUG:scipy.optimize.shgo:Specified minimum = 0.000000
+INFO:scipy.optimize.shgo:Successfully completed construction of complex.
+INFO:scipy.optimize.shgo:Return value from optimization:
+ message: Optimization terminated successfully.
+ success: True
+     fun: 1e-15
+    funl: [ 1.000e-15]
+       x: [ 2.917e-01  2.604e-01  1.900e-01  4.343e-01  4.697e-02
+            1.648e-01 -1.445e-01  2.686e-01]
+      xl: [[ 2.917e-01  2.604e-01  1.900e-01  4.343e-01  4.697e-02
+             1.648e-01 -1.445e-01  2.686e-01]]
+     nit: 1
+    nfev: 4123
+   nlfev: 4122
+   nljev: 458
+   nlhev: 0

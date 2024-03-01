@@ -1,0 +1,11 @@
+INFO:devo_BFGS:trial:      0 / 100_000  |  f_evals:      12_090 / 50_000_000  |  f_min: 5.459734e-03
+INFO:devo_BFGS:trial:      1 / 100_000  |  f_evals:      26_130 / 50_000_000  |  f_min: 5.459734e-03
+INFO:devo_BFGS:trial:      2 / 100_000  |  f_evals:      41_340 / 50_000_000  |  f_min: 5.459734e-03
+INFO:devo_BFGS:trial:      3 / 100_000  |  f_evals:      52_962 / 50_000_000  |  f_min: 5.459734e-03
+INFO:devo_BFGS:trial:      4 / 100_000  |  f_evals:      72_072 / 50_000_000  |  f_min: 5.459734e-03
+INFO:devo_BFGS:trial:      5 / 100_000  |  f_evals:     123_357 / 50_000_000  |  f_min: 5.270411e-03
+INFO:devo_BFGS:trial:      6 / 100_000  |  f_evals:     190_983 / 50_000_000  |  f_min: 5.270411e-03
+INFO:devo_BFGS:trial:      7 / 100_000  |  f_evals:     231_621 / 50_000_000  |  f_min: 5.270411e-03
+INFO:devo_BFGS:trial:      8 / 100_000  |  f_evals:     240_201 / 50_000_000  |  f_min: 7.049916e-15
+INFO:devo_BFGS:Converged due to current_f_min close to 0.0.
+INFO:devo_BFGS:Elapsed time: 77.892 seconds

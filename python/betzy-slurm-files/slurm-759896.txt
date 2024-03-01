@@ -1,0 +1,39 @@
+Starting job 759896 on preproc-1 on betzy at Sat Nov 25 09:34:59 CET 2023
+
+/cluster/projects/nn9284k/conda/povm/lib/python3.11/site-packages/scipy/optimize/_hessian_update_strategy.py:182: UserWarning: delta_grad == 0.0. Check if the approximated function is linear. If the function is linear better results can be obtained by defining the Hessian as zero instead of using quasi-Newton approximations.
+  warn('delta_grad == 0.0. Check if the approximated '
+/cluster/projects/nn9284k/conda/povm/lib/python3.11/site-packages/scipy/optimize/_hessian_update_strategy.py:182: UserWarning: delta_grad == 0.0. Check if the approximated function is linear. If the function is linear better results can be obtained by defining the Hessian as zero instead of using quasi-Newton approximations.
+  warn('delta_grad == 0.0. Check if the approximated '
+/cluster/projects/nn9284k/conda/povm/lib/python3.11/site-packages/scipy/optimize/_hessian_update_strategy.py:182: UserWarning: delta_grad == 0.0. Check if the approximated function is linear. If the function is linear better results can be obtained by defining the Hessian as zero instead of using quasi-Newton approximations.
+  warn('delta_grad == 0.0. Check if the approximated '
+/cluster/projects/nn9284k/conda/povm/lib/python3.11/site-packages/scipy/optimize/_hessian_update_strategy.py:182: UserWarning: delta_grad == 0.0. Check if the approximated function is linear. If the function is linear better results can be obtained by defining the Hessian as zero instead of using quasi-Newton approximations.
+  warn('delta_grad == 0.0. Check if the approximated '
+/cluster/projects/nn9284k/conda/povm/lib/python3.11/site-packages/scipy/optimize/_hessian_update_strategy.py:182: UserWarning: delta_grad == 0.0. Check if the approximated function is linear. If the function is linear better results can be obtained by defining the Hessian as zero instead of using quasi-Newton approximations.
+  warn('delta_grad == 0.0. Check if the approximated '
+/cluster/projects/nn9284k/conda/povm/lib/python3.11/site-packages/scipy/optimize/_hessian_update_strategy.py:182: UserWarning: delta_grad == 0.0. Check if the approximated function is linear. If the function is linear better results can be obtained by defining the Hessian as zero instead of using quasi-Newton approximations.
+  warn('delta_grad == 0.0. Check if the approximated '
+/cluster/projects/nn9284k/conda/povm/lib/python3.11/site-packages/scipy/optimize/_hessian_update_strategy.py:182: UserWarning: delta_grad == 0.0. Check if the approximated function is linear. If the function is linear better results can be obtained by defining the Hessian as zero instead of using quasi-Newton approximations.
+  warn('delta_grad == 0.0. Check if the approximated '
+slurmstepd: error: *** JOB 759896 ON preproc-1 CANCELLED AT 2023-11-26T09:35:27 DUE TO TIME LIMIT ***
+
+Job 759896 consumed 1536.5 billing hours from project nn9284k.
+
+Submitted 2023-11-25T09:34:58; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 24.0 hours
+Elapsed wallclock time:   1.0 days
+
+Task and CPU statistics:
+ID            CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+759896          64            0.0 %  2023-11-25T09:34:59   24.0 h  0
+759896.batch    64      1     0.0 %  2023-11-25T09:34:59   24.0 h  Signal 15
+
+Used CPU time:   1.3 CPU seconds
+Unused CPU time: 64.0 CPU days
+
+Memory statistics, in GiB:
+ID             Alloc   Usage
+759896         128.0        
+759896.batch   128.0     0.3
+
+Job 759896 completed at Sun Nov 26 09:35:29 CET 2023

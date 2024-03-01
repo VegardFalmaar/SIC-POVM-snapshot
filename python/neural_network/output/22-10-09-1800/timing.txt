@@ -1,0 +1,19 @@
+Dimension:   2    0.15 s for          1 starting vectors, SIC-POVM: True
+Dimension:   3   44.85 s for max no. of starting vectors, SIC-POVM: False
+Dimension:   4    0.94 s for          1 starting vectors, SIC-POVM: True
+Dimension:   5    1.08 s for          1 starting vectors, SIC-POVM: True
+Dimension:   6   22.17 s for          3 starting vectors, SIC-POVM: True
+Dimension:   7   34.88 s for          3 starting vectors, SIC-POVM: True
+Dimension:   8   36.94 s for          2 starting vectors, SIC-POVM: True
+Dimension:   9   16.66 s for          1 starting vectors, SIC-POVM: True
+Dimension:  10  173.56 s for          6 starting vectors, SIC-POVM: True
+Dimension:  11  125.46 s for          4 starting vectors, SIC-POVM: True
+Dimension:  12 4668.80 s for        101 starting vectors, SIC-POVM: True
+Dimension:  13 3598.29 s for         62 starting vectors, SIC-POVM: True
+Dimension:  14 3876.95 s for         54 starting vectors, SIC-POVM: True
+Dimension:  15  308.56 s for          4 starting vectors, SIC-POVM: True
+Dimension:  16   54.91 s for          1 starting vectors, SIC-POVM: True
+Dimension:  17 21176.89 s for max no. of starting vectors, SIC-POVM: False
+Dimension:  18 26408.49 s for max no. of starting vectors, SIC-POVM: False
+Dimension:  19 27595.48 s for        161 starting vectors, SIC-POVM: True
+Dimension:  20 39324.61 s for max no. of starting vectors, SIC-POVM: False

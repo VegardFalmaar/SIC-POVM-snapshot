@@ -1,0 +1,101 @@
+Starting job 757190 on b5201 on betzy at Fri Nov 24 13:30:55 CET 2023
+
+Error.  nthreads cannot be larger than environment variable "NUMEXPR_MAX_THREADS" (64)/cluster/projects/nn9284k/conda/povm/lib/python3.11/site-packages/scipy/optimize/_hessian_update_strategy.py:182: UserWarning: delta_grad == 0.0. Check if the approximated function is linear. If the function is linear better results can be obtained by defining the Hessian as zero instead of using quasi-Newton approximations.
+  warn('delta_grad == 0.0. Check if the approximated '
+/cluster/projects/nn9284k/conda/povm/lib/python3.11/site-packages/scipy/optimize/_hessian_update_strategy.py:182: UserWarning: delta_grad == 0.0. Check if the approximated function is linear. If the function is linear better results can be obtained by defining the Hessian as zero instead of using quasi-Newton approximations.
+  warn('delta_grad == 0.0. Check if the approximated '
+/cluster/projects/nn9284k/conda/povm/lib/python3.11/site-packages/scipy/optimize/_hessian_update_strategy.py:182: UserWarning: delta_grad == 0.0. Check if the approximated function is linear. If the function is linear better results can be obtained by defining the Hessian as zero instead of using quasi-Newton approximations.
+  warn('delta_grad == 0.0. Check if the approximated '
+/cluster/projects/nn9284k/conda/povm/lib/python3.11/site-packages/scipy/optimize/_hessian_update_strategy.py:182: UserWarning: delta_grad == 0.0. Check if the approximated function is linear. If the function is linear better results can be obtained by defining the Hessian as zero instead of using quasi-Newton approximations.
+  warn('delta_grad == 0.0. Check if the approximated '
+/cluster/projects/nn9284k/conda/povm/lib/python3.11/site-packages/scipy/optimize/_hessian_update_strategy.py:182: UserWarning: delta_grad == 0.0. Check if the approximated function is linear. If the function is linear better results can be obtained by defining the Hessian as zero instead of using quasi-Newton approximations.
+  warn('delta_grad == 0.0. Check if the approximated '
+/cluster/projects/nn9284k/conda/povm/lib/python3.11/site-packages/scipy/optimize/_hessian_update_strategy.py:182: UserWarning: delta_grad == 0.0. Check if the approximated function is linear. If the function is linear better results can be obtained by defining the Hessian as zero instead of using quasi-Newton approximations.
+  warn('delta_grad == 0.0. Check if the approximated '
+/cluster/projects/nn9284k/conda/povm/lib/python3.11/site-packages/scipy/optimize/_hessian_update_strategy.py:182: UserWarning: delta_grad == 0.0. Check if the approximated function is linear. If the function is linear better results can be obtained by defining the Hessian as zero instead of using quasi-Newton approximations.
+  warn('delta_grad == 0.0. Check if the approximated '
+
+=============================================
+Modified devo in d = 10 with pop-thinning 0.9
+
+=============================================
+Modified devo in d = 11 with pop-thinning 0.9
+
+=============================================
+Modified devo in d = 12 with pop-thinning 0.9
+
+=============================================
+Modified devo in d = 13 with pop-thinning 0.9
+
+=============================================
+Modified devo in d = 14 with pop-thinning 0.9
+
+=============================================
+Modified devo in d = 15 with pop-thinning 0.9
+
+=============================================
+Modified devo in d = 16 with pop-thinning 0.9
+
+=============================================
+Modified devo in d = 17 with pop-thinning 0.9
+
+=============================================
+Modified devo in d = 18 with pop-thinning 0.9
+
+=============================================
+Modified devo in d = 19 with pop-thinning 0.9
+
+=============================================
+Modified devo in d = 20 with pop-thinning 0.9
+
+=============================================
+Modified devo in d = 21 with pop-thinning 0.9
+
+=============================================
+Modified devo in d = 22 with pop-thinning 0.9
+
+=============================================
+Modified devo in d = 23 with pop-thinning 0.9
+
+=============================================
+Modified devo in d = 24 with pop-thinning 0.9
+
+=============================================
+Modified devo in d = 25 with pop-thinning 0.9
+
+=============================================
+Modified devo in d = 26 with pop-thinning 0.9
+
+=============================================
+Modified devo in d = 27 with pop-thinning 0.9
+
+=============================================
+Modified devo in d = 28 with pop-thinning 0.9
+
+=============================================
+Modified devo in d = 29 with pop-thinning 0.9
+
+=============================================
+Modified devo in d = 30 with pop-thinning 0.9
+
+Job 757190 consumed 2398.0 billing hours from project nn9284k.
+
+Submitted 2023-11-24T13:30:54; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 24.0 hours
+Elapsed wallclock time:   18.7 hours
+
+Task and CPU statistics:
+ID            CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+757190         128            0.0 %  2023-11-24T13:30:55   18.7 h  0
+757190.batch   128      1    13.4 %  2023-11-24T13:30:55   18.7 h  0
+
+Used CPU time:   13.4 CPU days
+Unused CPU time: 86.5 CPU days
+
+Memory statistics, in GiB:
+ID             Alloc   Usage
+757190         256.0        
+757190.batch   256.0     0.3
+
+Job 757190 completed at Sat Nov 25 08:14:59 CET 2023

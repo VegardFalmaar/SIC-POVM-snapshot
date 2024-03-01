@@ -1,0 +1,67 @@
+Starting job 761732 on preproc-1 on betzy at Mon Nov 27 20:46:43 CET 2023
+
+/cluster/projects/nn9284k/conda/povm/lib/python3.11/site-packages/scipy/optimize/_hessian_update_strategy.py:182: UserWarning: delta_grad == 0.0. Check if the approximated function is linear. If the function is linear better results can be obtained by defining the Hessian as zero instead of using quasi-Newton approximations.
+  warn('delta_grad == 0.0. Check if the approximated '
+/cluster/projects/nn9284k/conda/povm/lib/python3.11/site-packages/scipy/optimize/_hessian_update_strategy.py:182: UserWarning: delta_grad == 0.0. Check if the approximated function is linear. If the function is linear better results can be obtained by defining the Hessian as zero instead of using quasi-Newton approximations.
+  warn('delta_grad == 0.0. Check if the approximated '
+/cluster/projects/nn9284k/conda/povm/lib/python3.11/site-packages/scipy/optimize/_hessian_update_strategy.py:182: UserWarning: delta_grad == 0.0. Check if the approximated function is linear. If the function is linear better results can be obtained by defining the Hessian as zero instead of using quasi-Newton approximations.
+  warn('delta_grad == 0.0. Check if the approximated '
+/cluster/projects/nn9284k/conda/povm/lib/python3.11/site-packages/scipy/optimize/_hessian_update_strategy.py:182: UserWarning: delta_grad == 0.0. Check if the approximated function is linear. If the function is linear better results can be obtained by defining the Hessian as zero instead of using quasi-Newton approximations.
+  warn('delta_grad == 0.0. Check if the approximated '
+/cluster/projects/nn9284k/conda/povm/lib/python3.11/site-packages/scipy/optimize/_hessian_update_strategy.py:182: UserWarning: delta_grad == 0.0. Check if the approximated function is linear. If the function is linear better results can be obtained by defining the Hessian as zero instead of using quasi-Newton approximations.
+  warn('delta_grad == 0.0. Check if the approximated '
+
+=============================================
+Modified devo in d = 10 with pop-thinning 0.6
+
+=============================================
+Modified devo in d = 11 with pop-thinning 0.6
+
+=============================================
+Modified devo in d = 12 with pop-thinning 0.6
+
+=============================================
+Modified devo in d = 13 with pop-thinning 0.6
+
+=============================================
+Modified devo in d = 14 with pop-thinning 0.6
+
+=============================================
+Modified devo in d = 15 with pop-thinning 0.6
+
+=============================================
+Modified devo in d = 16 with pop-thinning 0.6
+
+=============================================
+Modified devo in d = 17 with pop-thinning 0.6
+
+=============================================
+Modified devo in d = 18 with pop-thinning 0.6
+
+=============================================
+Modified devo in d = 19 with pop-thinning 0.6
+
+=============================================
+Modified devo in d = 20 with pop-thinning 0.6
+
+Job 761732 consumed 257.6 billing hours from project nn9284k.
+
+Submitted 2023-11-27T20:46:42; waited 0.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 24.0 hours
+Elapsed wallclock time:   4.0 hours
+
+Task and CPU statistics:
+ID            CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+761732          64            0.0 %  2023-11-27T20:46:42    4.0 h  0
+761732.batch    64      1    63.1 %  2023-11-27T20:46:42    4.0 h  0
+
+Used CPU time:   6.8 CPU days
+Unused CPU time: 4.0 CPU days
+
+Memory statistics, in GiB:
+ID             Alloc   Usage
+761732         128.0        
+761732.batch   128.0     0.2
+
+Job 761732 completed at Tue Nov 28 00:48:10 CET 2023

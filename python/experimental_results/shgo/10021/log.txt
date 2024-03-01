@@ -1,0 +1,11 @@
+INFO:shgo-10021:Converged due to current_f_min close to 0.0.
+INFO:shgo-10021:The OptimizeResult object says success=True
+INFO:shgo-10021:OptimizeResult.message is
+Optimization terminated successfully.
+INFO:shgo-10021:OptimizeResult.nfev is
+717
+INFO:shgo-10021:OptimizeResult.nlfev is
+630
+INFO:shgo-10021:OptimizeResult.nit is
+5
+INFO:shgo-10021:Elapsed time: 4.186 seconds

@@ -1,0 +1,12 @@
+DEBUG:shgo-10031:Setting random seed 585997
+INFO:shgo-10031:Converged due to current_f_min close to 0.0.
+INFO:shgo-10031:The OptimizeResult object says success=True
+INFO:shgo-10031:OptimizeResult.message is
+Optimization terminated successfully.
+INFO:shgo-10031:OptimizeResult.nfev is
+717
+INFO:shgo-10031:OptimizeResult.nlfev is
+630
+INFO:shgo-10031:OptimizeResult.nit is
+5
+INFO:shgo-10031:Elapsed time: 9.449 seconds

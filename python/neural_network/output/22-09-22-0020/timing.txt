@@ -1,0 +1,3 @@
+Dimension:   2    0.15 s for     172 iterations, SIC-POVM: True
+Dimension:   3   46.57 s for   50000 iterations, SIC-POVM: False
+Dimension:   4    0.02 s for      14 iterations, SIC-POVM: True

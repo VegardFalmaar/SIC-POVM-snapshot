@@ -1,0 +1,321 @@
+INFO:scipy.optimize.shgo:Splitting first generation
+INFO:scipy.optimize.shgo:Constructing and refining simplicial complex graph structure
+INFO:scipy.optimize.shgo:Triangulation completed, evaluating all constraints and objective function values.
+INFO:scipy.optimize.shgo:Evaluations completed.
+INFO:scipy.optimize.shgo:Function evaluations done = 17 / 50000000
+INFO:scipy.optimize.shgo:self.HC.V[x].f = 1001.000000
+INFO:scipy.optimize.shgo:self.HC.V[x].f = 0.500000
+INFO:scipy.optimize.shgo:Lowest function evaluation = 0.500000
+INFO:scipy.optimize.shgo:Specified minimum = 0.000000
+INFO:scipy.optimize.shgo:Constructing and refining simplicial complex graph structure
+INFO:scipy.optimize.shgo:Triangulation completed, evaluating all constraints and objective function values.
+INFO:scipy.optimize.shgo:Evaluations completed.
+INFO:scipy.optimize.shgo:Function evaluations done = 36 / 50000000
+INFO:scipy.optimize.shgo:self.HC.V[x].f = 1001.000000
+INFO:scipy.optimize.shgo:self.HC.V[x].f = 0.500000
+INFO:scipy.optimize.shgo:Lowest function evaluation = 0.500000
+INFO:scipy.optimize.shgo:Specified minimum = 0.000000
+INFO:scipy.optimize.shgo:Constructing and refining simplicial complex graph structure
+INFO:scipy.optimize.shgo:Triangulation completed, evaluating all constraints and objective function values.
+INFO:scipy.optimize.shgo:Evaluations completed.
+INFO:scipy.optimize.shgo:Function evaluations done = 53 / 50000000
+INFO:scipy.optimize.shgo:self.HC.V[x].f = 1001.000000
+INFO:scipy.optimize.shgo:self.HC.V[x].f = 0.500000
+INFO:scipy.optimize.shgo:Lowest function evaluation = 0.500000
+INFO:scipy.optimize.shgo:Specified minimum = 0.000000
+INFO:scipy.optimize.shgo:Constructing and refining simplicial complex graph structure
+INFO:scipy.optimize.shgo:Triangulation completed, evaluating all constraints and objective function values.
+INFO:scipy.optimize.shgo:Evaluations completed.
+INFO:scipy.optimize.shgo:Function evaluations done = 70 / 50000000
+INFO:scipy.optimize.shgo:self.HC.V[x].f = 1001.000000
+INFO:scipy.optimize.shgo:self.HC.V[x].f = 0.500000
+INFO:scipy.optimize.shgo:Lowest function evaluation = 0.500000
+INFO:scipy.optimize.shgo:Specified minimum = 0.000000
+INFO:scipy.optimize.shgo:Constructing and refining simplicial complex graph structure
+INFO:scipy.optimize.shgo:Triangulation completed, evaluating all constraints and objective function values.
+INFO:scipy.optimize.shgo:Evaluations completed.
+INFO:scipy.optimize.shgo:Function evaluations done = 87 / 50000000
+INFO:scipy.optimize.shgo:self.HC.V[x].f = 1001.000000
+INFO:scipy.optimize.shgo:self.HC.V[x].f = 0.500000
+INFO:scipy.optimize.shgo:self.HC.V[x].f = 0.000000
+INFO:scipy.optimize.shgo:Lowest function evaluation = 0.000000
+INFO:scipy.optimize.shgo:Specified minimum = 0.000000
+INFO:scipy.optimize.shgo:Searching for minimizer pool...
+INFO:scipy.optimize.shgo:============================================================
+INFO:scipy.optimize.shgo:v.x = [ 5.000000e-01 -5.000000e-01 -5.000000e-01 -5.000000e-01] is minimizer
+INFO:scipy.optimize.shgo:v.f = 1e-15 is minimizer
+INFO:scipy.optimize.shgo:==============================
+INFO:scipy.optimize.shgo:Neighbors:
+INFO:scipy.optimize.shgo:==============================
+INFO:scipy.optimize.shgo:x = (1.0, -1.0, -1.0, -1.0) || f = 1001.0
+INFO:scipy.optimize.shgo:x = (1.0, -1.0, 0.0, 0.0) || f = 415.21356237309516
+INFO:scipy.optimize.shgo:x = (0.0, 0.0, 0.0, -1.0) || f = 0.5
+INFO:scipy.optimize.shgo:x = (0.0, -1.0, -1.0, -1.0) || f = 733.0508075688772
+INFO:scipy.optimize.shgo:x = (0.0, -1.0, 0.0, 0.0) || f = 0.5
+INFO:scipy.optimize.shgo:x = (0.0, 0.0, -1.0, 0.0) || f = 0.5
+INFO:scipy.optimize.shgo:x = (1.0, 0.0, -1.0, -1.0) || f = 733.0508075688772
+INFO:scipy.optimize.shgo:x = (1.0, -1.0, -1.0, 0.0) || f = 733.0508075688772
+INFO:scipy.optimize.shgo:x = (0.0, 0.0, 0.0, 0.0) || f = 0.5
+INFO:scipy.optimize.shgo:x = (1.0, 0.0, 0.0, -1.0) || f = 415.21356237309516
+INFO:scipy.optimize.shgo:x = (0.0, -1.0, -1.0, 0.0) || f = 415.21356237309516
+INFO:scipy.optimize.shgo:x = (1.0, 0.0, -1.0, 0.0) || f = 415.21356237309516
+INFO:scipy.optimize.shgo:x = (1.0, -1.0, 0.0, -1.0) || f = 733.0508075688772
+INFO:scipy.optimize.shgo:x = (1.0, 0.0, 0.0, 0.0) || f = 0.5
+INFO:scipy.optimize.shgo:x = (0.0, -1.0, 0.0, -1.0) || f = 415.21356237309516
+INFO:scipy.optimize.shgo:x = (0.0, 0.0, -1.0, -1.0) || f = 415.21356237309516
+INFO:scipy.optimize.shgo:============================================================
+INFO:scipy.optimize.shgo:============================================================
+INFO:scipy.optimize.shgo:v.x = [ 5.000000e-01 -5.000000e-01 -5.000000e-01  5.000000e-01] is minimizer
+INFO:scipy.optimize.shgo:v.f = 1e-15 is minimizer
+INFO:scipy.optimize.shgo:==============================
+INFO:scipy.optimize.shgo:Neighbors:
+INFO:scipy.optimize.shgo:==============================
+INFO:scipy.optimize.shgo:x = (0.0, -1.0, 0.0, 1.0) || f = 415.21356237309516
+INFO:scipy.optimize.shgo:x = (0.0, 0.0, 0.0, 1.0) || f = 0.5
+INFO:scipy.optimize.shgo:x = (1.0, -1.0, 0.0, 0.0) || f = 415.21356237309516
+INFO:scipy.optimize.shgo:x = (1.0, -1.0, -1.0, 1.0) || f = 1001.0
+INFO:scipy.optimize.shgo:x = (0.0, -1.0, 0.0, 0.0) || f = 0.5
+INFO:scipy.optimize.shgo:x = (0.0, 0.0, -1.0, 0.0) || f = 0.5
+INFO:scipy.optimize.shgo:x = (0.0, -1.0, -1.0, 1.0) || f = 733.0508075688772
+INFO:scipy.optimize.shgo:x = (1.0, -1.0, -1.0, 0.0) || f = 733.0508075688772
+INFO:scipy.optimize.shgo:x = (0.0, 0.0, 0.0, 0.0) || f = 0.5
+INFO:scipy.optimize.shgo:x = (1.0, 0.0, -1.0, 1.0) || f = 733.0508075688772
+INFO:scipy.optimize.shgo:x = (0.0, -1.0, -1.0, 0.0) || f = 415.21356237309516
+INFO:scipy.optimize.shgo:x = (1.0, 0.0, 0.0, 0.0) || f = 0.5
+INFO:scipy.optimize.shgo:x = (1.0, 0.0, 0.0, 1.0) || f = 415.21356237309516
+INFO:scipy.optimize.shgo:x = (1.0, 0.0, -1.0, 0.0) || f = 415.21356237309516
+INFO:scipy.optimize.shgo:x = (0.0, 0.0, -1.0, 1.0) || f = 415.21356237309516
+INFO:scipy.optimize.shgo:x = (1.0, -1.0, 0.0, 1.0) || f = 733.0508075688772
+INFO:scipy.optimize.shgo:============================================================
+INFO:scipy.optimize.shgo:============================================================
+INFO:scipy.optimize.shgo:v.x = [-5.000000e-01  5.000000e-01 -5.000000e-01 -5.000000e-01] is minimizer
+INFO:scipy.optimize.shgo:v.f = 1e-15 is minimizer
+INFO:scipy.optimize.shgo:==============================
+INFO:scipy.optimize.shgo:Neighbors:
+INFO:scipy.optimize.shgo:==============================
+INFO:scipy.optimize.shgo:x = (0.0, 0.0, 0.0, -1.0) || f = 0.5
+INFO:scipy.optimize.shgo:x = (0.0, 0.0, -1.0, 0.0) || f = 0.5
+INFO:scipy.optimize.shgo:x = (0.0, 1.0, 0.0, 0.0) || f = 0.5
+INFO:scipy.optimize.shgo:x = (0.0, 1.0, -1.0, 0.0) || f = 415.21356237309516
+INFO:scipy.optimize.shgo:x = (-1.0, 0.0, -1.0, -1.0) || f = 733.0508075688772
+INFO:scipy.optimize.shgo:x = (-1.0, 1.0, -1.0, -1.0) || f = 1001.0
+INFO:scipy.optimize.shgo:x = (0.0, 0.0, 0.0, 0.0) || f = 0.5
+INFO:scipy.optimize.shgo:x = (-1.0, 0.0, 0.0, -1.0) || f = 415.21356237309516
+INFO:scipy.optimize.shgo:x = (-1.0, 1.0, 0.0, -1.0) || f = 733.0508075688772
+INFO:scipy.optimize.shgo:x = (-1.0, 0.0, -1.0, 0.0) || f = 415.21356237309516
+INFO:scipy.optimize.shgo:x = (-1.0, 1.0, -1.0, 0.0) || f = 733.0508075688772
+INFO:scipy.optimize.shgo:x = (0.0, 1.0, -1.0, -1.0) || f = 733.0508075688772
+INFO:scipy.optimize.shgo:x = (-1.0, 1.0, 0.0, 0.0) || f = 415.21356237309516
+INFO:scipy.optimize.shgo:x = (-1.0, 0.0, 0.0, 0.0) || f = 0.5
+INFO:scipy.optimize.shgo:x = (0.0, 0.0, -1.0, -1.0) || f = 415.21356237309516
+INFO:scipy.optimize.shgo:x = (0.0, 1.0, 0.0, -1.0) || f = 415.21356237309516
+INFO:scipy.optimize.shgo:============================================================
+INFO:scipy.optimize.shgo:============================================================
+INFO:scipy.optimize.shgo:v.x = [-5.000000e-01  5.000000e-01 -5.000000e-01  5.000000e-01] is minimizer
+INFO:scipy.optimize.shgo:v.f = 1e-15 is minimizer
+INFO:scipy.optimize.shgo:==============================
+INFO:scipy.optimize.shgo:Neighbors:
+INFO:scipy.optimize.shgo:==============================
+INFO:scipy.optimize.shgo:x = (0.0, 0.0, 0.0, 1.0) || f = 0.5
+INFO:scipy.optimize.shgo:x = (0.0, 1.0, 0.0, 1.0) || f = 415.21356237309516
+INFO:scipy.optimize.shgo:x = (0.0, 0.0, -1.0, 0.0) || f = 0.5
+INFO:scipy.optimize.shgo:x = (0.0, 1.0, 0.0, 0.0) || f = 0.5
+INFO:scipy.optimize.shgo:x = (0.0, 1.0, -1.0, 0.0) || f = 415.21356237309516
+INFO:scipy.optimize.shgo:x = (0.0, 0.0, 0.0, 0.0) || f = 0.5
+INFO:scipy.optimize.shgo:x = (-1.0, 0.0, -1.0, 1.0) || f = 733.0508075688772
+INFO:scipy.optimize.shgo:x = (-1.0, 1.0, -1.0, 1.0) || f = 1001.0
+INFO:scipy.optimize.shgo:x = (-1.0, 0.0, 0.0, 1.0) || f = 415.21356237309516
+INFO:scipy.optimize.shgo:x = (-1.0, 0.0, -1.0, 0.0) || f = 415.21356237309516
+INFO:scipy.optimize.shgo:x = (-1.0, 1.0, 0.0, 1.0) || f = 733.0508075688772
+INFO:scipy.optimize.shgo:x = (-1.0, 1.0, -1.0, 0.0) || f = 733.0508075688772
+INFO:scipy.optimize.shgo:x = (0.0, 0.0, -1.0, 1.0) || f = 415.21356237309516
+INFO:scipy.optimize.shgo:x = (-1.0, 0.0, 0.0, 0.0) || f = 0.5
+INFO:scipy.optimize.shgo:x = (0.0, 1.0, -1.0, 1.0) || f = 733.0508075688772
+INFO:scipy.optimize.shgo:x = (-1.0, 1.0, 0.0, 0.0) || f = 415.21356237309516
+INFO:scipy.optimize.shgo:============================================================
+INFO:scipy.optimize.shgo:============================================================
+INFO:scipy.optimize.shgo:v.x = [ 5.000000e-01  5.000000e-01 -5.000000e-01 -5.000000e-01] is minimizer
+INFO:scipy.optimize.shgo:v.f = 1e-15 is minimizer
+INFO:scipy.optimize.shgo:==============================
+INFO:scipy.optimize.shgo:Neighbors:
+INFO:scipy.optimize.shgo:==============================
+INFO:scipy.optimize.shgo:x = (0.0, 0.0, 0.0, -1.0) || f = 0.5
+INFO:scipy.optimize.shgo:x = (0.0, 0.0, -1.0, 0.0) || f = 0.5
+INFO:scipy.optimize.shgo:x = (0.0, 1.0, 0.0, 0.0) || f = 0.5
+INFO:scipy.optimize.shgo:x = (1.0, 1.0, -1.0, 0.0) || f = 733.0508075688772
+INFO:scipy.optimize.shgo:x = (0.0, 1.0, -1.0, 0.0) || f = 415.21356237309516
+INFO:scipy.optimize.shgo:x = (1.0, 1.0, 0.0, 0.0) || f = 415.21356237309516
+INFO:scipy.optimize.shgo:x = (1.0, 0.0, -1.0, -1.0) || f = 733.0508075688772
+INFO:scipy.optimize.shgo:x = (0.0, 0.0, 0.0, 0.0) || f = 0.5
+INFO:scipy.optimize.shgo:x = (1.0, 0.0, 0.0, -1.0) || f = 415.21356237309516
+INFO:scipy.optimize.shgo:x = (1.0, 0.0, -1.0, 0.0) || f = 415.21356237309516
+INFO:scipy.optimize.shgo:x = (1.0, 1.0, 0.0, -1.0) || f = 733.0508075688772
+INFO:scipy.optimize.shgo:x = (0.0, 1.0, -1.0, -1.0) || f = 733.0508075688772
+INFO:scipy.optimize.shgo:x = (1.0, 0.0, 0.0, 0.0) || f = 0.5
+INFO:scipy.optimize.shgo:x = (0.0, 0.0, -1.0, -1.0) || f = 415.21356237309516
+INFO:scipy.optimize.shgo:x = (0.0, 1.0, 0.0, -1.0) || f = 415.21356237309516
+INFO:scipy.optimize.shgo:x = (1.0, 1.0, -1.0, -1.0) || f = 1001.0
+INFO:scipy.optimize.shgo:============================================================
+INFO:scipy.optimize.shgo:============================================================
+INFO:scipy.optimize.shgo:v.x = [ 5.000000e-01  5.000000e-01 -5.000000e-01  5.000000e-01] is minimizer
+INFO:scipy.optimize.shgo:v.f = 1e-15 is minimizer
+INFO:scipy.optimize.shgo:==============================
+INFO:scipy.optimize.shgo:Neighbors:
+INFO:scipy.optimize.shgo:==============================
+INFO:scipy.optimize.shgo:x = (0.0, 0.0, 0.0, 1.0) || f = 0.5
+INFO:scipy.optimize.shgo:x = (0.0, 1.0, 0.0, 1.0) || f = 415.21356237309516
+INFO:scipy.optimize.shgo:x = (1.0, 1.0, -1.0, 1.0) || f = 1001.0
+INFO:scipy.optimize.shgo:x = (0.0, 0.0, -1.0, 0.0) || f = 0.5
+INFO:scipy.optimize.shgo:x = (0.0, 1.0, 0.0, 0.0) || f = 0.5
+INFO:scipy.optimize.shgo:x = (1.0, 1.0, -1.0, 0.0) || f = 733.0508075688772
+INFO:scipy.optimize.shgo:x = (0.0, 1.0, -1.0, 0.0) || f = 415.21356237309516
+INFO:scipy.optimize.shgo:x = (1.0, 1.0, 0.0, 0.0) || f = 415.21356237309516
+INFO:scipy.optimize.shgo:x = (0.0, 0.0, 0.0, 0.0) || f = 0.5
+INFO:scipy.optimize.shgo:x = (1.0, 0.0, -1.0, 1.0) || f = 733.0508075688772
+INFO:scipy.optimize.shgo:x = (1.0, 0.0, 0.0, 0.0) || f = 0.5
+INFO:scipy.optimize.shgo:x = (1.0, 0.0, 0.0, 1.0) || f = 415.21356237309516
+INFO:scipy.optimize.shgo:x = (1.0, 0.0, -1.0, 0.0) || f = 415.21356237309516
+INFO:scipy.optimize.shgo:x = (1.0, 1.0, 0.0, 1.0) || f = 733.0508075688772
+INFO:scipy.optimize.shgo:x = (0.0, 0.0, -1.0, 1.0) || f = 415.21356237309516
+INFO:scipy.optimize.shgo:x = (0.0, 1.0, -1.0, 1.0) || f = 733.0508075688772
+INFO:scipy.optimize.shgo:============================================================
+INFO:scipy.optimize.shgo:Vertex minimiser maps = []
+INFO:scipy.optimize.shgo:Starting minimization at [ 5.000000e-01 -5.000000e-01 -5.000000e-01 -5.000000e-01]...
+INFO:scipy.optimize.shgo:cbounds found for v_min.x_a = [ 5.000000e-01 -5.000000e-01 -5.000000e-01 -5.000000e-01]
+INFO:scipy.optimize.shgo:cbounds = [[0.0, 1.0], [-1.0, 0.0], [-1.0, 0.0], [-1.0, 0.0]]
+INFO:scipy.optimize.shgo:[[0.0, 1.0], [-1.0, 0.0], [-1.0, 0.0], [-1.0, 0.0]]
+INFO:scipy.optimize.shgo:bounds in kwarg:
+INFO:scipy.optimize.shgo:[[0.0, 1.0], [-1.0, 0.0], [-1.0, 0.0], [-1.0, 0.0]]
+INFO:scipy.optimize.shgo:lres =   message: ABNORMAL_TERMINATION_IN_LNSRCH
+  success: False
+   status: 2
+      fun: 1.7290646692202927e-10
+        x: [ 5.000e-01 -5.000e-01 -5.000e-01 -5.000e-01]
+      nit: 0
+      jac: [ 1.000e+08  1.000e+00  1.000e+00  1.000e+00]
+     nfev: 105
+     njev: 21
+ hess_inv: <4x4 LbfgsInvHessProduct with dtype=float64>
+INFO:scipy.optimize.shgo:Function evaluations done = 87 / 50000000
+INFO:scipy.optimize.shgo:self.HC.V[x].f = 1001.000000
+INFO:scipy.optimize.shgo:self.HC.V[x].f = 0.500000
+INFO:scipy.optimize.shgo:self.HC.V[x].f = 0.000000
+INFO:scipy.optimize.shgo:Lowest function evaluation = 0.000000
+INFO:scipy.optimize.shgo:Specified minimum = 0.000000
+INFO:scipy.optimize.shgo:Vertex minimiser maps = [(0.5, -0.5, -0.5, -0.5)]
+INFO:scipy.optimize.shgo:Starting minimization at [-5.000000e-01  5.000000e-01 -5.000000e-01  5.000000e-01]...
+INFO:scipy.optimize.shgo:cbounds found for v_min.x_a = [-5.000000e-01  5.000000e-01 -5.000000e-01  5.000000e-01]
+INFO:scipy.optimize.shgo:cbounds = [[-1.0, 0.0], [0.0, 1.0], [-1.0, 0.0], [0.0, 1.0]]
+INFO:scipy.optimize.shgo:[[-1.0, 0.0], [0.0, 1.0], [-1.0, 0.0], [0.0, 1.0]]
+INFO:scipy.optimize.shgo:bounds in kwarg:
+INFO:scipy.optimize.shgo:[[-1.0, 0.0], [0.0, 1.0], [-1.0, 0.0], [0.0, 1.0]]
+INFO:scipy.optimize.shgo:lres =   message: ABNORMAL_TERMINATION_IN_LNSRCH
+  success: False
+   status: 2
+      fun: 1.000000000000444
+        x: [-5.000e-01  5.000e-01 -5.000e-01  5.000e-01]
+      nit: 0
+      jac: [ 2.000e+00  1.000e+08  2.000e+00  1.000e+08]
+     nfev: 105
+     njev: 21
+ hess_inv: <4x4 LbfgsInvHessProduct with dtype=float64>
+INFO:scipy.optimize.shgo:Function evaluations done = 87 / 50000000
+INFO:scipy.optimize.shgo:self.HC.V[x].f = 1001.000000
+INFO:scipy.optimize.shgo:self.HC.V[x].f = 0.500000
+INFO:scipy.optimize.shgo:self.HC.V[x].f = 0.000000
+INFO:scipy.optimize.shgo:Lowest function evaluation = 0.000000
+INFO:scipy.optimize.shgo:Specified minimum = 0.000000
+INFO:scipy.optimize.shgo:Vertex minimiser maps = [(0.5, -0.5, -0.5, -0.5), (-0.5, 0.5, -0.5, 0.5)]
+INFO:scipy.optimize.shgo:Starting minimization at [ 5.000000e-01  5.000000e-01 -5.000000e-01 -5.000000e-01]...
+INFO:scipy.optimize.shgo:cbounds found for v_min.x_a = [ 5.000000e-01  5.000000e-01 -5.000000e-01 -5.000000e-01]
+INFO:scipy.optimize.shgo:cbounds = [[0.0, 1.0], [0.0, 1.0], [-1.0, 0.0], [-1.0, 0.0]]
+INFO:scipy.optimize.shgo:[[0.0, 1.0], [0.0, 1.0], [-1.0, 0.0], [-1.0, 0.0]]
+INFO:scipy.optimize.shgo:bounds in kwarg:
+INFO:scipy.optimize.shgo:[[0.0, 1.0], [0.0, 1.0], [-1.0, 0.0], [-1.0, 0.0]]
+INFO:scipy.optimize.shgo:lres =   message: ABNORMAL_TERMINATION_IN_LNSRCH
+  success: False
+   status: 2
+      fun: 1e-15
+        x: [ 5.000e-01  5.000e-01 -5.000e-01 -5.000e-01]
+      nit: 0
+      jac: [ 1.000e+08  1.000e+08  0.000e+00  0.000e+00]
+     nfev: 105
+     njev: 21
+ hess_inv: <4x4 LbfgsInvHessProduct with dtype=float64>
+INFO:scipy.optimize.shgo:Function evaluations done = 87 / 50000000
+INFO:scipy.optimize.shgo:self.HC.V[x].f = 1001.000000
+INFO:scipy.optimize.shgo:self.HC.V[x].f = 0.500000
+INFO:scipy.optimize.shgo:self.HC.V[x].f = 0.000000
+INFO:scipy.optimize.shgo:Lowest function evaluation = 0.000000
+INFO:scipy.optimize.shgo:Specified minimum = 0.000000
+INFO:scipy.optimize.shgo:Vertex minimiser maps = [(0.5, -0.5, -0.5, -0.5), (-0.5, 0.5, -0.5, 0.5), (0.5, 0.5, -0.5, -0.5)]
+INFO:scipy.optimize.shgo:Starting minimization at [ 5.000000e-01 -5.000000e-01 -5.000000e-01  5.000000e-01]...
+INFO:scipy.optimize.shgo:cbounds found for v_min.x_a = [ 5.000000e-01 -5.000000e-01 -5.000000e-01  5.000000e-01]
+INFO:scipy.optimize.shgo:cbounds = [[0.0, 1.0], [-1.0, 0.0], [-1.0, 0.0], [0.0, 1.0]]
+INFO:scipy.optimize.shgo:[[0.0, 1.0], [-1.0, 0.0], [-1.0, 0.0], [0.0, 1.0]]
+INFO:scipy.optimize.shgo:bounds in kwarg:
+INFO:scipy.optimize.shgo:[[0.0, 1.0], [-1.0, 0.0], [-1.0, 0.0], [0.0, 1.0]]
+INFO:scipy.optimize.shgo:lres =   message: ABNORMAL_TERMINATION_IN_LNSRCH
+  success: False
+   status: 2
+      fun: 1e-15
+        x: [ 5.000e-01 -5.000e-01 -5.000e-01  5.000e-01]
+      nit: 0
+      jac: [ 1.000e+08  0.000e+00  0.000e+00  1.000e+08]
+     nfev: 105
+     njev: 21
+ hess_inv: <4x4 LbfgsInvHessProduct with dtype=float64>
+INFO:scipy.optimize.shgo:Function evaluations done = 87 / 50000000
+INFO:scipy.optimize.shgo:self.HC.V[x].f = 1001.000000
+INFO:scipy.optimize.shgo:self.HC.V[x].f = 0.500000
+INFO:scipy.optimize.shgo:self.HC.V[x].f = 0.000000
+INFO:scipy.optimize.shgo:Lowest function evaluation = 0.000000
+INFO:scipy.optimize.shgo:Specified minimum = 0.000000
+INFO:scipy.optimize.shgo:Vertex minimiser maps = [(0.5, -0.5, -0.5, -0.5), (-0.5, 0.5, -0.5, 0.5), (0.5, 0.5, -0.5, -0.5), (0.5, -0.5, -0.5, 0.5)]
+INFO:scipy.optimize.shgo:Starting minimization at [-5.000000e-01  5.000000e-01 -5.000000e-01 -5.000000e-01]...
+INFO:scipy.optimize.shgo:cbounds found for v_min.x_a = [-5.000000e-01  5.000000e-01 -5.000000e-01 -5.000000e-01]
+INFO:scipy.optimize.shgo:cbounds = [[-1.0, 0.0], [0.0, 1.0], [-1.0, 0.0], [-1.0, 0.0]]
+INFO:scipy.optimize.shgo:[[-1.0, 0.0], [0.0, 1.0], [-1.0, 0.0], [-1.0, 0.0]]
+INFO:scipy.optimize.shgo:bounds in kwarg:
+INFO:scipy.optimize.shgo:[[-1.0, 0.0], [0.0, 1.0], [-1.0, 0.0], [-1.0, 0.0]]
+INFO:scipy.optimize.shgo:lres =   message: ABNORMAL_TERMINATION_IN_LNSRCH
+  success: False
+   status: 2
+      fun: 1.000000000000222
+        x: [-5.000e-01  5.000e-01 -5.000e-01 -5.000e-01]
+      nit: 0
+      jac: [ 1.000e+00  1.000e+08  1.000e+00  1.000e+00]
+     nfev: 105
+     njev: 21
+ hess_inv: <4x4 LbfgsInvHessProduct with dtype=float64>
+INFO:scipy.optimize.shgo:Function evaluations done = 87 / 50000000
+INFO:scipy.optimize.shgo:self.HC.V[x].f = 1001.000000
+INFO:scipy.optimize.shgo:self.HC.V[x].f = 0.500000
+INFO:scipy.optimize.shgo:self.HC.V[x].f = 0.000000
+INFO:scipy.optimize.shgo:Lowest function evaluation = 0.000000
+INFO:scipy.optimize.shgo:Specified minimum = 0.000000
+INFO:scipy.optimize.shgo:Vertex minimiser maps = [(0.5, -0.5, -0.5, -0.5), (-0.5, 0.5, -0.5, 0.5), (0.5, 0.5, -0.5, -0.5), (0.5, -0.5, -0.5, 0.5), (-0.5, 0.5, -0.5, -0.5)]
+INFO:scipy.optimize.shgo:Starting minimization at [ 5.000000e-01  5.000000e-01 -5.000000e-01  5.000000e-01]...
+INFO:scipy.optimize.shgo:cbounds found for v_min.x_a = [ 5.000000e-01  5.000000e-01 -5.000000e-01  5.000000e-01]
+INFO:scipy.optimize.shgo:cbounds = [[0.0, 1.0], [0.0, 1.0], [-1.0, 0.0], [0.0, 1.0]]
+INFO:scipy.optimize.shgo:[[0.0, 1.0], [0.0, 1.0], [-1.0, 0.0], [0.0, 1.0]]
+INFO:scipy.optimize.shgo:bounds in kwarg:
+INFO:scipy.optimize.shgo:[[0.0, 1.0], [0.0, 1.0], [-1.0, 0.0], [0.0, 1.0]]
+INFO:scipy.optimize.shgo:lres =   message: ABNORMAL_TERMINATION_IN_LNSRCH
+  success: False
+   status: 2
+      fun: 8.181998412126745e-10
+        x: [ 5.000e-01  5.000e-01 -5.000e-01  5.000e-01]
+      nit: 0
+      jac: [ 1.000e+08  1.000e+08  1.000e+00  1.000e+08]
+     nfev: 105
+     njev: 21
+ hess_inv: <4x4 LbfgsInvHessProduct with dtype=float64>
+INFO:scipy.optimize.shgo:Function evaluations done = 87 / 50000000
+INFO:scipy.optimize.shgo:self.HC.V[x].f = 1001.000000
+INFO:scipy.optimize.shgo:self.HC.V[x].f = 0.500000
+INFO:scipy.optimize.shgo:self.HC.V[x].f = 0.000000
+INFO:scipy.optimize.shgo:Lowest function evaluation = 0.000000
+INFO:scipy.optimize.shgo:Specified minimum = 0.000000
+INFO:scipy.optimize.shgo:Minimiser pool = SHGO.X_min = []
+INFO:scipy.optimize.shgo:Successfully completed construction of complex.

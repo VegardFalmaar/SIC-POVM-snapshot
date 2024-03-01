@@ -1,0 +1,15 @@
+INFO:random-gd-1059:trial      0 / 100_000  |  f_evals       2_812 / 50_000_000  |  f_min 5.393153e-10
+INFO:random-gd-1059:trial      1 / 100_000  |  f_evals       3_458 / 50_000_000  |  f_min 1.139447e-10
+INFO:random-gd-1059:trial      2 / 100_000  |  f_evals       5_244 / 50_000_000  |  f_min 1.139447e-10
+INFO:random-gd-1059:trial      3 / 100_000  |  f_evals       6_612 / 50_000_000  |  f_min 1.139447e-10
+INFO:random-gd-1059:trial      4 / 100_000  |  f_evals      15_143 / 50_000_000  |  f_min 1.139447e-10
+INFO:random-gd-1059:trial      5 / 100_000  |  f_evals      16_397 / 50_000_000  |  f_min 1.139447e-10
+INFO:random-gd-1059:trial      6 / 100_000  |  f_evals      19_323 / 50_000_000  |  f_min 1.139447e-10
+INFO:random-gd-1059:trial      7 / 100_000  |  f_evals      22_572 / 50_000_000  |  f_min 1.139447e-10
+INFO:random-gd-1059:trial      8 / 100_000  |  f_evals      22_971 / 50_000_000  |  f_min 1.139447e-10
+INFO:random-gd-1059:trial      9 / 100_000  |  f_evals      23_484 / 50_000_000  |  f_min 1.139447e-10
+INFO:random-gd-1059:trial     10 / 100_000  |  f_evals      23_883 / 50_000_000  |  f_min 1.139447e-10
+INFO:random-gd-1059:trial     11 / 100_000  |  f_evals      26_581 / 50_000_000  |  f_min 1.139447e-10
+INFO:random-gd-1059:trial     12 / 100_000  |  f_evals      28_139 / 50_000_000  |  f_min 5.650508e-12
+INFO:random-gd-1059:Converged due to current_f_min close to 0.0.
+INFO:random-gd-1059:Elapsed time: 2.639 seconds

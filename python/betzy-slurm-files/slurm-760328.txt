@@ -1,0 +1,58 @@
+Starting job 760328 on preproc-1 on betzy at Sun Nov 26 19:37:04 CET 2023
+
+/cluster/projects/nn9284k/conda/povm/lib/python3.11/site-packages/scipy/optimize/_hessian_update_strategy.py:182: UserWarning: delta_grad == 0.0. Check if the approximated function is linear. If the function is linear better results can be obtained by defining the Hessian as zero instead of using quasi-Newton approximations.
+  warn('delta_grad == 0.0. Check if the approximated '
+/cluster/projects/nn9284k/conda/povm/lib/python3.11/site-packages/scipy/optimize/_hessian_update_strategy.py:182: UserWarning: delta_grad == 0.0. Check if the approximated function is linear. If the function is linear better results can be obtained by defining the Hessian as zero instead of using quasi-Newton approximations.
+  warn('delta_grad == 0.0. Check if the approximated '
+
+=============================================
+Modified devo in d = 21 with pop-thinning 0.7
+
+=============================================
+Modified devo in d = 22 with pop-thinning 0.7
+
+=============================================
+Modified devo in d = 23 with pop-thinning 0.7
+
+=============================================
+Modified devo in d = 24 with pop-thinning 0.7
+
+=============================================
+Modified devo in d = 25 with pop-thinning 0.7
+
+=============================================
+Modified devo in d = 26 with pop-thinning 0.7
+
+=============================================
+Modified devo in d = 27 with pop-thinning 0.7
+
+=============================================
+Modified devo in d = 28 with pop-thinning 0.7
+
+=============================================
+Modified devo in d = 29 with pop-thinning 0.7
+
+=============================================
+Modified devo in d = 30 with pop-thinning 0.7
+
+Job 760328 consumed 1211.3 billing hours from project nn9284k.
+
+Submitted 2023-11-26T19:37:02; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 24.0 hours
+Elapsed wallclock time:   18.9 hours
+
+Task and CPU statistics:
+ID            CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+760328          64            0.0 %  2023-11-26T19:37:03   18.9 h  0
+760328.batch    64      1    27.9 %  2023-11-26T19:37:03   18.9 h  0
+
+Used CPU time:   14.1 CPU days
+Unused CPU time: 36.4 CPU days
+
+Memory statistics, in GiB:
+ID             Alloc   Usage
+760328         128.0        
+760328.batch   128.0     0.2
+
+Job 760328 completed at Mon Nov 27 14:32:36 CET 2023

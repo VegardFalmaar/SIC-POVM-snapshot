@@ -1,0 +1,30 @@
+Starting job 733990 on preproc-1 on betzy at Sun Nov 5 15:57:36 CET 2023
+
+
+====================
+Gradient descent in d = 15
+trial:      0 / 100_000  |  f_evals:      11_397 / 50_000_000  |  f_min: 9.409140e-15
+Converged due to current_f_min close to 0.0.
+Elapsed time: 4.212 seconds
+
+Job 733990 consumed 0.1 billing hours from project nn9284k.
+
+Submitted 2023-11-05T15:57:36; waited 0.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 24.0 hours
+Elapsed wallclock time:   16.0 seconds
+
+Task and CPU statistics:
+ID            CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+733990          12            0.0 %  2023-11-05T15:57:36   16.0 s  0
+733990.batch    12      1     3.5 %  2023-11-05T15:57:36   16.0 s  0
+
+Used CPU time:   6.6 CPU seconds
+Unused CPU time: 3.1 CPU minutes
+
+Memory statistics, in GiB:
+ID             Alloc   Usage
+733990          72.0        
+733990.batch    72.0     0.2
+
+Job 733990 completed at Sun Nov 5 15:57:52 CET 2023

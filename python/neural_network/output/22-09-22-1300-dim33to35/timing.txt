@@ -1,0 +1,2 @@
+Dimension:  33 10901.16 s for   50000 iterations, SIC-POVM: False
+Dimension:  34 10834.32 s for   50000 iterations, SIC-POVM: False

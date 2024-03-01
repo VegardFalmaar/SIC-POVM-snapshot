@@ -1,0 +1,28 @@
+Starting job 737807 on preproc-1 on betzy at Fri Nov 10 15:58:16 CET 2023
+
+/cluster/projects/nn9284k/conda/povm/lib/python3.11/site-packages/scipy/optimize/_hessian_update_strategy.py:182: UserWarning: delta_grad == 0.0. Check if the approximated function is linear. If the function is linear better results can be obtained by defining the Hessian as zero instead of using quasi-Newton approximations.
+  warn('delta_grad == 0.0. Check if the approximated '
+/cluster/projects/nn9284k/conda/povm/lib/python3.11/site-packages/scipy/optimize/_hessian_update_strategy.py:182: UserWarning: delta_grad == 0.0. Check if the approximated function is linear. If the function is linear better results can be obtained by defining the Hessian as zero instead of using quasi-Newton approximations.
+  warn('delta_grad == 0.0. Check if the approximated '
+
+Job 737807 consumed 149.7 billing hours from project nn9284k.
+
+Submitted 2023-11-10T15:58:15; waited 0.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 24.0 hours
+Elapsed wallclock time:   9.4 hours
+
+Task and CPU statistics:
+ID            CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+737807          16            0.0 %  2023-11-10T15:58:15    9.4 h  0
+737807.batch    16      1    49.9 %  2023-11-10T15:58:15    9.4 h  0
+
+Used CPU time:   3.1 CPU days
+Unused CPU time: 3.1 CPU days
+
+Memory statistics, in GiB:
+ID             Alloc   Usage
+737807          96.0        
+737807.batch    96.0     0.8
+
+Job 737807 completed at Sat Nov 11 01:19:41 CET 2023

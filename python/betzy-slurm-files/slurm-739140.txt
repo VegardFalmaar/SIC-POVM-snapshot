@@ -1,0 +1,25 @@
+Starting job 739140 on b5201 on betzy at Tue Nov 14 09:40:02 CET 2023
+
+Parameters defined, running in parallel now
+
+Job 739140 consumed 307.0 billing hours from project nn9284k.
+
+Submitted 2023-11-14T09:40:01; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 24.0 hours
+Elapsed wallclock time:   19.2 hours
+
+Task and CPU statistics:
+ID            CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+739140          16            0.0 %  2023-11-14T09:40:02   19.2 h  0
+739140.batch    16      1    26.9 %  2023-11-14T09:40:02   19.2 h  0
+
+Used CPU time:   3.4 CPU days
+Unused CPU time: 9.3 CPU days
+
+Memory statistics, in GiB:
+ID             Alloc   Usage
+739140          96.0        
+739140.batch    96.0     0.8
+
+Job 739140 completed at Wed Nov 15 04:51:19 CET 2023

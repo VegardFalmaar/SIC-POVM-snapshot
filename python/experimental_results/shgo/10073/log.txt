@@ -1,0 +1,25 @@
+DEBUG:shgo-10073:Setting random seed 585997
+INFO:shgo-10073:Converged due to current_f_min close to 0.0.
+INFO:shgo-10073:Elapsed time: 2.435 seconds
+INFO:shgo-10073:Return value of SHGO:
+ message: Optimization terminated successfully.
+ success: True
+     fun: 1.1102230246251565e-15
+    funl: [ 1.110e-15  7.407e-03]
+       x: [-3.076e-01  2.570e-01 -1.615e-09  2.012e-01  1.064e-01
+           -7.427e-01]
+      xl: [[-3.076e-01  2.570e-01 -1.615e-09  2.012e-01  1.064e-01
+            -7.427e-01]
+           [ 1.562e-01  3.772e-01  1.010e-09  3.125e-01  1.562e-01
+             3.772e-01]]
+     nit: 4
+    nfev: 1976
+   nlfev: 1974
+   nljev: 282
+   nlhev: 0
+INFO:shgo-10073:MinimizationHistory:
+     Function evaluations: 1976
+            Minimum value: 1e-15
+                Minimum x: [-3.076345e-01  2.569833e-01  6.669524e-09  2.011886e-01  1.064459e-01 -7.426955e-01]
+           Solution found: True
+             Elapsed time: 2.43452471099954

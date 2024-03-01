@@ -1,0 +1,24 @@
+INFO:random-gd-1044:trial      0 / 100_000  |  f_evals       2_679 / 50_000_000  |  f_min 1.112488e-09
+INFO:random-gd-1044:trial      1 / 100_000  |  f_evals       3_325 / 50_000_000  |  f_min 1.099478e-10
+INFO:random-gd-1044:trial      2 / 100_000  |  f_evals       4_940 / 50_000_000  |  f_min 3.783429e-11
+INFO:random-gd-1044:trial      3 / 100_000  |  f_evals       6_403 / 50_000_000  |  f_min 3.783429e-11
+INFO:random-gd-1044:trial      4 / 100_000  |  f_evals      18_373 / 50_000_000  |  f_min 3.783429e-11
+INFO:random-gd-1044:trial      5 / 100_000  |  f_evals      19_627 / 50_000_000  |  f_min 3.783429e-11
+INFO:random-gd-1044:trial      6 / 100_000  |  f_evals      22_116 / 50_000_000  |  f_min 3.783429e-11
+INFO:random-gd-1044:trial      7 / 100_000  |  f_evals      27_094 / 50_000_000  |  f_min 3.783429e-11
+INFO:random-gd-1044:trial      8 / 100_000  |  f_evals      27_493 / 50_000_000  |  f_min 3.783429e-11
+INFO:random-gd-1044:trial      9 / 100_000  |  f_evals      28_006 / 50_000_000  |  f_min 3.783429e-11
+INFO:random-gd-1044:trial     10 / 100_000  |  f_evals      28_405 / 50_000_000  |  f_min 3.783429e-11
+INFO:random-gd-1044:trial     11 / 100_000  |  f_evals      30_666 / 50_000_000  |  f_min 3.783429e-11
+INFO:random-gd-1044:trial     12 / 100_000  |  f_evals      32_015 / 50_000_000  |  f_min 3.783429e-11
+INFO:random-gd-1044:trial     13 / 100_000  |  f_evals      32_870 / 50_000_000  |  f_min 1.712699e-11
+INFO:random-gd-1044:trial     14 / 100_000  |  f_evals      33_820 / 50_000_000  |  f_min 1.712699e-11
+INFO:random-gd-1044:trial     15 / 100_000  |  f_evals      34_219 / 50_000_000  |  f_min 1.712699e-11
+INFO:random-gd-1044:trial     16 / 100_000  |  f_evals      41_059 / 50_000_000  |  f_min 1.712699e-11
+INFO:random-gd-1044:trial     17 / 100_000  |  f_evals      42_465 / 50_000_000  |  f_min 1.712699e-11
+INFO:random-gd-1044:trial     18 / 100_000  |  f_evals      42_864 / 50_000_000  |  f_min 1.712699e-11
+INFO:random-gd-1044:trial     19 / 100_000  |  f_evals      45_391 / 50_000_000  |  f_min 1.712699e-11
+INFO:random-gd-1044:trial     20 / 100_000  |  f_evals      45_790 / 50_000_000  |  f_min 1.712699e-11
+INFO:random-gd-1044:trial     21 / 100_000  |  f_evals      46_664 / 50_000_000  |  f_min 6.923018e-12
+INFO:random-gd-1044:Converged due to current_f_min close to 0.0.
+INFO:random-gd-1044:Elapsed time: 1.807 seconds

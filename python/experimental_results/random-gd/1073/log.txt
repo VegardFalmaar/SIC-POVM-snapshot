@@ -1,0 +1,10 @@
+DEBUG:random-gd-1073:Setting random seed 585997
+INFO:random-gd-1073:trial      0 / 100_000  |  f_evals         147 / 50_000_000  |  f_min 4.440892e-16
+INFO:random-gd-1073:Converged due to current_f_min close to 0.0.
+INFO:random-gd-1073:Elapsed time: 0.979 seconds
+INFO:random-gd-1073:MinimizationHistory:
+     Function evaluations: 147
+            Minimum value: 4.440892098500626e-16
+                Minimum x: [-1.797623e-02  2.003839e-01 -5.578339e-01 -5.017457e-01  4.837695e-01  4.339844e-02]
+           Solution found: True
+             Elapsed time: 0.9793043150002632

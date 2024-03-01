@@ -1,0 +1,23 @@
+{
+  "use_cuda": false,
+  "use_mini_batch": false,
+  "print_progress": true,
+  "hidden_layers": [
+    3,
+    4,
+    3
+  ],
+  "lr": 0.01,
+  "gamma": 0.9,
+  "save_path": "output/default",
+  "dims": [
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ]
+  ]
+}

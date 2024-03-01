@@ -1,0 +1,35 @@
+Starting job 739139 on b5201 on betzy at Tue Nov 14 09:38:32 CET 2023
+
+Traceback (most recent call last):
+  File "/cluster/home/vegardfa/SIC-POVM/main_betzy.py", line 13, in <module>
+    main()
+  File "/cluster/home/vegardfa/SIC-POVM/modified_devo/main.py", line 62, in main
+    run_range_of_dimensions(30, 40)
+  File "/cluster/home/vegardfa/SIC-POVM/modified_devo/main.py", line 54, in run_range_of_dimensions
+    paths.append(catalogue_parameters('results', p))    # side effects
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/cluster/home/vegardfa/SIC-POVM/catalogue.py", line 59, in catalogue_parameters
+    os.mkdir(full_path_to_sample_dir)
+FileExistsError: [Errno 17] File exists: 'results/devo/1166'
+
+Job 739139 consumed 6.1 billing hours from project nn9284k.
+
+Submitted 2023-11-14T09:38:32; waited 0.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 24.0 hours
+Elapsed wallclock time:   22.8 minutes
+
+Task and CPU statistics:
+ID            CPUs  Tasks  CPU util                Start   Elapsed  Exit status
+739139          16            0.0 %  2023-11-14T09:38:32  1365.0 s  1
+739139.batch    16      1     0.2 %  2023-11-14T09:38:32  1365.0 s  1
+
+Used CPU time:   47.1 CPU seconds
+Unused CPU time: 6.1 CPU hours
+
+Memory statistics, in GiB:
+ID             Alloc   Usage
+739139          96.0        
+739139.batch    96.0     0.1
+
+Job 739139 completed at Tue Nov 14 10:01:18 CET 2023

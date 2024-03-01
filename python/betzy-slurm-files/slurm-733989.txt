@@ -1,0 +1,28 @@
+Starting job 733989 on preproc-1 on betzy at Sun Nov 5 15:48:58 CET 2023
+
+Traceback (most recent call last):
+  File "/cluster/home/vegardfa/SIC-POVM/gradient_descent/main.py", line 3, in <module>
+    from gradient_descent.random_BFGS import run, plot_results
+ModuleNotFoundError: No module named 'gradient_descent'
+
+Job 733989 consumed 0.1 billing hours from project nn9284k.
+
+Submitted 2023-11-05T15:48:57; waited 0.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 24.0 hours
+Elapsed wallclock time:   17.0 seconds
+
+Task and CPU statistics:
+ID            CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+733989          12            0.0 %  2023-11-05T15:48:57   17.0 s  1
+733989.batch    12      1     0.8 %  2023-11-05T15:48:57   17.0 s  1
+
+Used CPU time:   1.6 CPU seconds
+Unused CPU time: 3.4 CPU minutes
+
+Memory statistics, in GiB:
+ID             Alloc   Usage
+733989          72.0        
+733989.batch    72.0     0.0
+
+Job 733989 completed at Sun Nov 5 15:49:15 CET 2023

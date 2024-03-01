@@ -1,0 +1,17 @@
+DEBUG:shgo-10057:Setting random seed 585997
+INFO:shgo-10057:Converged due to current_f_min close to 0.0.
+INFO:shgo-10057:Return value of SHGO:
+ message: Optimization terminated successfully.
+ success: True
+     fun: 1e-15
+    funl: [ 1.000e-15]
+       x: [ 2.917e-01  2.604e-01  1.900e-01  4.343e-01  4.697e-02
+            1.648e-01 -1.445e-01  2.686e-01]
+      xl: [[ 2.917e-01  2.604e-01  1.900e-01  4.343e-01  4.697e-02
+             1.648e-01 -1.445e-01  2.686e-01]]
+     nit: 1
+    nfev: 4123
+   nlfev: 4122
+   nljev: 458
+   nlhev: 0
+INFO:shgo-10057:Elapsed time: 2.997 seconds

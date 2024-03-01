@@ -1,0 +1,27 @@
+Starting job 760130 on preproc-1 on betzy at Sun Nov 26 09:54:50 CET 2023
+
+
+=============================================
+Modified devo in d = 30 with pop-thinning 0.8
+
+Job 760130 consumed 160.8 billing hours from project nn9284k.
+
+Submitted 2023-11-26T09:54:49; waited 1.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 24.0 hours
+Elapsed wallclock time:   2.5 hours
+
+Task and CPU statistics:
+ID            CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+760130          64            0.0 %  2023-11-26T09:54:50    2.5 h  0
+760130.batch    64      1    13.0 %  2023-11-26T09:54:50    2.5 h  0
+
+Used CPU time:   20.9 CPU hours
+Unused CPU time: 5.8 CPU days
+
+Memory statistics, in GiB:
+ID             Alloc   Usage
+760130         128.0        
+760130.batch   128.0     0.2
+
+Job 760130 completed at Sun Nov 26 12:25:35 CET 2023

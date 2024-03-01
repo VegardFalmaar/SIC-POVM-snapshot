@@ -1,0 +1,8 @@
+INFO:shgo-10014:Converged due to current_f_min close to 0.0.
+INFO:shgo-10014:The OptimizeResult object says success=True
+INFO:shgo-10014:Message from OptimizeResult is
+Optimization terminated successfully.
+INFO:shgo-10014:717
+INFO:shgo-10014:630
+INFO:shgo-10014:5
+INFO:shgo-10014:Elapsed time: 4.036 seconds

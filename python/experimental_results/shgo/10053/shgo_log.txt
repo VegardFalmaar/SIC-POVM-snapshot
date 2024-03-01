@@ -1,0 +1,22 @@
+DEBUG:scipy.optimize.shgo:Splitting first generation
+DEBUG:scipy.optimize.shgo:============================================================
+DEBUG:scipy.optimize.shgo:Starting iteration # 1
+DEBUG:scipy.optimize.shgo:Constructing and refining simplicial complex graph structure
+DEBUG:scipy.optimize.shgo:Triangulation completed, evaluating all constraints and objective function values.
+DEBUG:scipy.optimize.shgo:Evaluations completed.
+DEBUG:scipy.optimize.shgo:Searching for minimizer pool...
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:v.x = [ 0.000000e+00  0.000000e+00] is minimizer
+DEBUG:scipy.optimize.shgo:v.f = 0.33333333333333337 is minimizer
+DEBUG:scipy.optimize.shgo:Neighbors:
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:Performing local minimizations.
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:Starting local minimization at [ 0.000000e+00  0.000000e+00]
+DEBUG:scipy.optimize.shgo:Vertex minimiser maps = []
+DEBUG:scipy.optimize.shgo:cbounds found for v_min.x_a = [ 0.000000e+00  0.000000e+00]
+DEBUG:scipy.optimize.shgo:cbounds = [[-1.0, 1.0], [-1.0, 1.0]]

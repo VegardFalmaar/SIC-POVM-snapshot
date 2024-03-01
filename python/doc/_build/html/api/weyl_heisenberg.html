@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>weyl_heisenberg package &mdash; SIC-POVM  documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="tomography module" href="tomography.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            SIC-POVM
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">code</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="catalogue.html">catalogue module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="formatting.html">formatting module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gradient_descent.html">gradient_descent package</a></li>
+<li class="toctree-l2"><a class="reference internal" href="log.html">log module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="main_betzy.html">main_betzy module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="minimization_history.html">minimization_history module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modified_devo.html">modified_devo package</a></li>
+<li class="toctree-l2"><a class="reference internal" href="neural_network.html">neural_network package</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plot.html">plot module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="read_results.html">read_results module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="target_functions.html">target_functions module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tests.html">tests package</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tomography.html">tomography module</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">weyl_heisenberg package</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#submodules">Submodules</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-weyl_heisenberg.loss">weyl_heisenberg.loss module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-weyl_heisenberg.operators">weyl_heisenberg.operators module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-weyl_heisenberg.povm">weyl_heisenberg.povm module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#weyl-heisenberg-study-loss-module">weyl_heisenberg.study_loss module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-weyl_heisenberg">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">SIC-POVM</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="modules.html">code</a></li>
+      <li class="breadcrumb-item active">weyl_heisenberg package</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/api/weyl_heisenberg.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="weyl-heisenberg-package">
+<h1>weyl_heisenberg package<a class="headerlink" href="#weyl-heisenberg-package" title="Permalink to this heading"></a></h1>
+<section id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this heading"></a></h2>
+</section>
+<section id="module-weyl_heisenberg.loss">
+<span id="weyl-heisenberg-loss-module"></span><h2>weyl_heisenberg.loss module<a class="headerlink" href="#module-weyl_heisenberg.loss" title="Permalink to this heading"></a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="weyl_heisenberg.loss.loss">
+<span class="sig-prename descclassname"><span class="pre">weyl_heisenberg.loss.</span></span><span class="sig-name descname"><span class="pre">loss</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">a</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">ndarray</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#weyl_heisenberg.loss.loss" title="Permalink to this definition"></a></dt>
+<dd><p>Calculate the G-matrix loss of the input vector.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>a</strong> (<em>np.ndarray of complex numbers</em>) – the candidate vector for which the loss should be calculated</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>the loss</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>(float)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="weyl_heisenberg.loss.real_to_complex">
+<span class="sig-prename descclassname"><span class="pre">weyl_heisenberg.loss.</span></span><span class="sig-name descname"><span class="pre">real_to_complex</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">a</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">ndarray</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">ndarray</span></span></span><a class="headerlink" href="#weyl_heisenberg.loss.real_to_complex" title="Permalink to this definition"></a></dt>
+<dd><p>Cast array of 2N real parameters to array of N + 1 complex parameters.</p>
+<p>First element of result array is set to have zero complex phase and modulus
+such that the result array is normalized.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="weyl_heisenberg.loss.time_loss">
+<span class="sig-prename descclassname"><span class="pre">weyl_heisenberg.loss.</span></span><span class="sig-name descname"><span class="pre">time_loss</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#weyl_heisenberg.loss.time_loss" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</section>
+<section id="module-weyl_heisenberg.operators">
+<span id="weyl-heisenberg-operators-module"></span><h2>weyl_heisenberg.operators module<a class="headerlink" href="#module-weyl_heisenberg.operators" title="Permalink to this heading"></a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="weyl_heisenberg.operators.phase">
+<span class="sig-prename descclassname"><span class="pre">weyl_heisenberg.operators.</span></span><span class="sig-name descname"><span class="pre">phase</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">v</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">ndarray</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">ndarray</span></span></span><a class="headerlink" href="#weyl_heisenberg.operators.phase" title="Permalink to this definition"></a></dt>
+<dd><p>Implementation of the linear phase operator Z.</p>
+<p>It is defined as
+Z ket{j} = omega^j ket{j},
+where
+omega = exp(2 pi i / d).</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="weyl_heisenberg.operators.shift">
+<span class="sig-prename descclassname"><span class="pre">weyl_heisenberg.operators.</span></span><span class="sig-name descname"><span class="pre">shift</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">a</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">ndarray</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">ndarray</span></span></span><a class="headerlink" href="#weyl_heisenberg.operators.shift" title="Permalink to this definition"></a></dt>
+<dd><p>Implementation of the linear shift operator X.</p>
+<p>It is defined as
+X ket{j} = ket{j + 1 (mod d)}</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="weyl_heisenberg.operators.weyl_heisenberg">
+<span class="sig-prename descclassname"><span class="pre">weyl_heisenberg.operators.</span></span><span class="sig-name descname"><span class="pre">weyl_heisenberg</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">a</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">ndarray</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">k</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">l</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">ndarray</span></span></span><a class="headerlink" href="#weyl_heisenberg.operators.weyl_heisenberg" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</section>
+<section id="module-weyl_heisenberg.povm">
+<span id="weyl-heisenberg-povm-module"></span><h2>weyl_heisenberg.povm module<a class="headerlink" href="#module-weyl_heisenberg.povm" title="Permalink to this heading"></a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="weyl_heisenberg.povm.generate_povm_from_fiducial">
+<span class="sig-prename descclassname"><span class="pre">weyl_heisenberg.povm.</span></span><span class="sig-name descname"><span class="pre">generate_povm_from_fiducial</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">a</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">ndarray</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">ndarray</span></span></span><a class="headerlink" href="#weyl_heisenberg.povm.generate_povm_from_fiducial" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="weyl_heisenberg.povm.inner_product_sq">
+<span class="sig-prename descclassname"><span class="pre">weyl_heisenberg.povm.</span></span><span class="sig-name descname"><span class="pre">inner_product_sq</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">a</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">ndarray</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">b</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">ndarray</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#weyl_heisenberg.povm.inner_product_sq" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="weyl_heisenberg.povm.load_povm_from_file">
+<span class="sig-prename descclassname"><span class="pre">weyl_heisenberg.povm.</span></span><span class="sig-name descname"><span class="pre">load_povm_from_file</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">fname</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dim</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">ndarray</span></span></span><a class="headerlink" href="#weyl_heisenberg.povm.load_povm_from_file" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="weyl_heisenberg.povm.main">
+<span class="sig-prename descclassname"><span class="pre">weyl_heisenberg.povm.</span></span><span class="sig-name descname"><span class="pre">main</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#weyl_heisenberg.povm.main" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="weyl_heisenberg.povm.save_povm_to_file">
+<span class="sig-prename descclassname"><span class="pre">weyl_heisenberg.povm.</span></span><span class="sig-name descname"><span class="pre">save_povm_to_file</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">a</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">ndarray</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fid_path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'../data/fiducial'</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#weyl_heisenberg.povm.save_povm_to_file" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="weyl_heisenberg.povm.verify_povm">
+<span class="sig-prename descclassname"><span class="pre">weyl_heisenberg.povm.</span></span><span class="sig-name descname"><span class="pre">verify_povm</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">a</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">ndarray</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rel_tol</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1e-15</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#weyl_heisenberg.povm.verify_povm" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</section>
+<section id="weyl-heisenberg-study-loss-module">
+<h2>weyl_heisenberg.study_loss module<a class="headerlink" href="#weyl-heisenberg-study-loss-module" title="Permalink to this heading"></a></h2>
+</section>
+<section id="module-weyl_heisenberg">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-weyl_heisenberg" title="Permalink to this heading"></a></h2>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="tomography.html" class="btn btn-neutral float-left" title="tomography module" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, Vegard Falmår.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

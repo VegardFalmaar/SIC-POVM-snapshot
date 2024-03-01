@@ -1,0 +1,21 @@
+INFO:random-gd-1046:trial      0 / 100_000  |  f_evals      15_180 / 50_000_000  |  f_min 1.264991e-02
+INFO:random-gd-1046:trial      1 / 100_000  |  f_evals      15_801 / 50_000_000  |  f_min 3.532502e-11
+INFO:random-gd-1046:trial      2 / 100_000  |  f_evals      17_043 / 50_000_000  |  f_min 3.532502e-11
+INFO:random-gd-1046:trial      3 / 100_000  |  f_evals      18_124 / 50_000_000  |  f_min 3.532502e-11
+INFO:random-gd-1046:trial      4 / 100_000  |  f_evals      18_607 / 50_000_000  |  f_min 3.532502e-11
+INFO:random-gd-1046:trial      5 / 100_000  |  f_evals      19_343 / 50_000_000  |  f_min 3.532502e-11
+INFO:random-gd-1046:trial      6 / 100_000  |  f_evals      24_242 / 50_000_000  |  f_min 3.532502e-11
+INFO:random-gd-1046:trial      7 / 100_000  |  f_evals      25_783 / 50_000_000  |  f_min 3.532502e-11
+INFO:random-gd-1046:trial      8 / 100_000  |  f_evals      26_266 / 50_000_000  |  f_min 3.532502e-11
+INFO:random-gd-1046:trial      9 / 100_000  |  f_evals      27_462 / 50_000_000  |  f_min 3.532502e-11
+INFO:random-gd-1046:trial     10 / 100_000  |  f_evals      28_382 / 50_000_000  |  f_min 3.532502e-11
+INFO:random-gd-1046:trial     11 / 100_000  |  f_evals      30_429 / 50_000_000  |  f_min 3.532502e-11
+INFO:random-gd-1046:trial     12 / 100_000  |  f_evals      31_280 / 50_000_000  |  f_min 3.532502e-11
+INFO:random-gd-1046:trial     13 / 100_000  |  f_evals      32_154 / 50_000_000  |  f_min 3.532502e-11
+INFO:random-gd-1046:trial     14 / 100_000  |  f_evals      45_011 / 50_000_000  |  f_min 3.532502e-11
+INFO:random-gd-1046:trial     15 / 100_000  |  f_evals      53_153 / 50_000_000  |  f_min 3.532502e-11
+INFO:random-gd-1046:trial     16 / 100_000  |  f_evals      65_366 / 50_000_000  |  f_min 3.532502e-11
+INFO:random-gd-1046:trial     17 / 100_000  |  f_evals      66_286 / 50_000_000  |  f_min 3.532502e-11
+INFO:random-gd-1046:trial     18 / 100_000  |  f_evals      66_930 / 50_000_000  |  f_min 9.590245e-12
+INFO:random-gd-1046:Converged due to current_f_min close to 0.0.
+INFO:random-gd-1046:Elapsed time: 1.424 seconds

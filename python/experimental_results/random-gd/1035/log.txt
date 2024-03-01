@@ -1,0 +1,5 @@
+INFO:random-gd-1035:trial:      0 / 100_000  |  f_evals:       8_950 / 50_000_000  |  f_min: 4.265483e-03
+INFO:random-gd-1035:trial:      1 / 100_000  |  f_evals:      18_150 / 50_000_000  |  f_min: 4.265483e-03
+INFO:random-gd-1035:trial:      2 / 100_000  |  f_evals:      22_275 / 50_000_000  |  f_min: 4.718448e-16
+INFO:random-gd-1035:Converged due to current_f_min close to 0.0.
+INFO:random-gd-1035:Elapsed time: 1.714 seconds

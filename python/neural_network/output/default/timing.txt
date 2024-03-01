@@ -1,0 +1,4 @@
+Dimension:   2    0.08 s for          1 starting vectors, SIC-POVM: True
+Dimension:   3   37.50 s for max no. of starting vectors, SIC-POVM: False
+Dimension:   4    0.48 s for          1 starting vectors, SIC-POVM: True
+Dimension:   5    0.89 s for          1 starting vectors, SIC-POVM: True

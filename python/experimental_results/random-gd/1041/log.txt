@@ -1,0 +1,6 @@
+INFO:random-gd-1041:trial:      0 / 100_000  |  f_evals:       5_750 / 50_000_000  |  f_min: 6.165572e-03
+INFO:random-gd-1041:trial:      1 / 100_000  |  f_evals:       6_900 / 50_000_000  |  f_min: 1.645085e-10
+INFO:random-gd-1041:trial:      2 / 100_000  |  f_evals:       7_975 / 50_000_000  |  f_min: 1.645085e-10
+INFO:random-gd-1041:trial:      3 / 100_000  |  f_evals:       9_275 / 50_000_000  |  f_min: 3.574085e-12
+INFO:random-gd-1041:Converged due to current_f_min close to 0.0.
+INFO:random-gd-1041:Elapsed time: 0.234 seconds

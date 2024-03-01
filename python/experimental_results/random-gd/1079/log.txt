@@ -1,0 +1,65 @@
+DEBUG:random-gd-1079:Setting random seed 585997
+INFO:random-gd-1079:trial      0 / 100_000  |  f_evals       3_014 / 50_000_000  |  f_min 7.647590e-03
+DEBUG:random-gd-1079:Result of minimization 0:
+  message: CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH
+  success: True
+   status: 0
+      fun: 0.0076475903075926
+        x: [ 1.919e-01 -1.234e-02 -1.099e-01 -3.738e-01  3.477e-01
+             3.580e-01  1.469e-03  3.738e-01 -5.396e-01 -3.456e-01]
+      nit: 84
+      jac: [-9.992e-08  6.106e-08 -3.886e-08  4.774e-07 -3.109e-07
+            -1.221e-07 -9.437e-08 -1.221e-07  4.052e-07  3.442e-07]
+     nfev: 3014
+     njev: 274
+ hess_inv: <10x10 LbfgsInvHessProduct with dtype=float64>
+INFO:random-gd-1079:trial      1 / 100_000  |  f_evals       3_256 / 50_000_000  |  f_min 7.647590e-03
+DEBUG:random-gd-1079:Result of minimization 1:
+  message: CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH
+  success: True
+   status: 0
+      fun: 0.007647590307527041
+        x: [ 3.473e-01  1.659e-01  3.283e-01 -3.440e-01  2.406e-01
+            -2.930e-01  1.912e-01  1.067e-01 -1.034e-01  2.880e-02]
+      nit: 20
+      jac: [ 2.220e-08 -2.220e-08 -1.110e-08 -2.776e-08  1.110e-08
+            -2.776e-08  5.551e-09 -3.886e-08 -1.110e-08 -1.665e-08]
+     nfev: 242
+     njev: 22
+ hess_inv: <10x10 LbfgsInvHessProduct with dtype=float64>
+INFO:random-gd-1079:trial      2 / 100_000  |  f_evals       3_586 / 50_000_000  |  f_min 7.647590e-03
+DEBUG:random-gd-1079:Result of minimization 2:
+  message: CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH
+  success: True
+   status: 0
+      fun: 0.007647590307527263
+        x: [-4.641e-01 -2.873e-01  2.520e-01  2.382e-01  4.398e-01
+             4.295e-01 -7.686e-02 -9.911e-02 -1.353e-01  5.002e-02]
+      nit: 26
+      jac: [-1.110e-08 -2.220e-08  1.110e-08  2.776e-08  0.000e+00
+             2.220e-08 -5.551e-09  2.220e-08  5.551e-09 -1.665e-08]
+     nfev: 330
+     njev: 30
+ hess_inv: <10x10 LbfgsInvHessProduct with dtype=float64>
+INFO:random-gd-1079:trial      3 / 100_000  |  f_evals       3_949 / 50_000_000  |  f_min 2.720046e-15
+DEBUG:random-gd-1079:Result of minimization 3:
+  message: CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH
+  success: True
+   status: 0
+      fun: 2.9976021664879227e-15
+        x: [ 1.018e-01  1.324e-01 -4.836e-01  8.984e-02  6.425e-03
+            -8.958e-02  1.851e-01 -1.730e-01  4.428e-01  2.810e-01]
+      nit: 27
+      jac: [ 0.000e+00  3.886e-08 -5.551e-09 -2.776e-08  2.776e-08
+            -1.110e-08  2.220e-08  2.220e-08 -5.551e-09 -5.551e-09]
+     nfev: 363
+     njev: 33
+ hess_inv: <10x10 LbfgsInvHessProduct with dtype=float64>
+INFO:random-gd-1079:Converged due to current_f_min close to 0.0.
+INFO:random-gd-1079:Elapsed time: 1.991 seconds
+INFO:random-gd-1079:MinimizationHistory:
+     Function evaluations: 3943
+            Minimum value: 2.7200464103316335e-15
+                Minimum x: [ 1.018153e-01  1.324448e-01 -4.836187e-01  8.984127e-02  6.424839e-03 -8.957661e-02  1.851365e-01 -1.729809e-01  4.427963e-01  2.810265e-01]
+           Solution found: True
+             Elapsed time: 1.9905128010000226

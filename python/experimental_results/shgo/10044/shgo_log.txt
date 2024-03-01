@@ -1,0 +1,2 @@
+INFO:scipy.optimize.shgo:Splitting first generation
+INFO:scipy.optimize.shgo:Constructing and refining simplicial complex graph structure

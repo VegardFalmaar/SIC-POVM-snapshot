@@ -1,0 +1,4 @@
+DEBUG:random-gd-1071:Setting random seed 585997
+INFO:random-gd-1071:trial      0 / 100_000  |  f_evals         147 / 50_000_000  |  f_min 4.440892e-16
+INFO:random-gd-1071:Converged due to current_f_min close to 0.0.
+INFO:random-gd-1071:Elapsed time: 1.004 seconds

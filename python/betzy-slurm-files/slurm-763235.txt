@@ -1,0 +1,56 @@
+Starting job 763235 on b5201 on betzy at Tue Nov 28 09:24:56 CET 2023
+
+/cluster/projects/nn9284k/conda/povm/lib/python3.11/site-packages/scipy/optimize/_hessian_update_strategy.py:182: UserWarning: delta_grad == 0.0. Check if the approximated function is linear. If the function is linear better results can be obtained by defining the Hessian as zero instead of using quasi-Newton approximations.
+  warn('delta_grad == 0.0. Check if the approximated '
+
+=============================================
+Modified devo in d = 21 with pop-thinning 0.6
+
+=============================================
+Modified devo in d = 22 with pop-thinning 0.6
+
+=============================================
+Modified devo in d = 23 with pop-thinning 0.6
+
+=============================================
+Modified devo in d = 24 with pop-thinning 0.6
+
+=============================================
+Modified devo in d = 25 with pop-thinning 0.6
+
+=============================================
+Modified devo in d = 26 with pop-thinning 0.6
+
+=============================================
+Modified devo in d = 27 with pop-thinning 0.6
+
+=============================================
+Modified devo in d = 28 with pop-thinning 0.6
+
+=============================================
+Modified devo in d = 29 with pop-thinning 0.6
+
+=============================================
+Modified devo in d = 30 with pop-thinning 0.6
+
+Job 763235 consumed 848.7 billing hours from project nn9284k.
+
+Submitted 2023-11-28T09:24:55; waited 0.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 24.0 hours
+Elapsed wallclock time:   13.3 hours
+
+Task and CPU statistics:
+ID            CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+763235          64            0.0 %  2023-11-28T09:24:55   13.3 h  0
+763235.batch    64      1    67.3 %  2023-11-28T09:24:55   13.3 h  0
+
+Used CPU time:   23.8 CPU days
+Unused CPU time: 11.6 CPU days
+
+Memory statistics, in GiB:
+ID             Alloc   Usage
+763235         128.0        
+763235.batch   128.0     0.2
+
+Job 763235 completed at Tue Nov 28 22:40:32 CET 2023

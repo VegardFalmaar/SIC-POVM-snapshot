@@ -1,0 +1,4 @@
+INFO:random-gd-1032:trial:      0 / 100_000  |  f_evals:       4_256 / 50_000_000  |  f_min: 6.474656e-03
+INFO:random-gd-1032:trial:      1 / 100_000  |  f_evals:       8_170 / 50_000_000  |  f_min: 1.387779e-15
+INFO:random-gd-1032:Converged due to current_f_min close to 0.0.
+INFO:random-gd-1032:Elapsed time: 1.656 seconds

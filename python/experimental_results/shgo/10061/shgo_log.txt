@@ -1,0 +1,546 @@
+DEBUG:scipy.optimize.shgo:Splitting first generation
+DEBUG:scipy.optimize.shgo:============================================================
+DEBUG:scipy.optimize.shgo:Starting iteration # 1
+DEBUG:scipy.optimize.shgo:Generating sampling points
+DEBUG:scipy.optimize.shgo:self.n = 100
+DEBUG:scipy.optimize.shgo:self.nc = 100
+DEBUG:scipy.optimize.shgo:Constructing and refining simplicial complex graph structure from sampling points.
+DEBUG:scipy.optimize.shgo:Triangulation completed, evaluating all constraints and objective function values.
+DEBUG:scipy.optimize.shgo:Evaluations completed.
+DEBUG:scipy.optimize.shgo:Searching for minimizer pool...
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:v.x = [ 2.919936e-01  8.609139e-01] is minimizer
+DEBUG:scipy.optimize.shgo:v.f = 0.058315423512397935 is minimizer
+DEBUG:scipy.optimize.shgo:Neighbors:
+DEBUG:scipy.optimize.shgo:x = (0.8388685597687504, 0.9349880175344398) || f = inf
+DEBUG:scipy.optimize.shgo:x = (0.01074355976875041, 0.9596793755591311) || f = 0.1271294851207615
+DEBUG:scipy.optimize.shgo:x = (0.2451185597687504, 0.8197616800858802) || f = 0.11792419128629839
+DEBUG:scipy.optimize.shgo:x = (0.4013685597687504, 0.6716135319377319) || f = 0.1106617848699053
+DEBUG:scipy.optimize.shgo:x = (0.6044935597687504, 0.8362225854356744) || f = inf
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:v.x = [-8.486314e-01  2.683214e-01] is minimizer
+DEBUG:scipy.optimize.shgo:v.f = 0.07263658456351074 is minimizer
+DEBUG:scipy.optimize.shgo:Neighbors:
+DEBUG:scipy.optimize.shgo:x = (-0.7705064402312496, 0.021407770620859745) || f = 0.29842461863540215
+DEBUG:scipy.optimize.shgo:x = (-0.8955064402312496, 0.6140003632134521) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-0.6455064402312496, 0.16955591876900789) || f = 0.26261551613055056
+DEBUG:scipy.optimize.shgo:x = (-0.9267564402312496, 0.2189386348183906) || f = 0.1038514498246399
+DEBUG:scipy.optimize.shgo:x = (-0.7861314402312496, 0.34239542494184727) || f = 0.07972064200005424
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:v.x = [-3.017564e-01 -2.255058e-01] is minimizer
+DEBUG:scipy.optimize.shgo:v.f = 0.02894764355662305 is minimizer
+DEBUG:scipy.optimize.shgo:Neighbors:
+DEBUG:scipy.optimize.shgo:x = (-0.1767564402312496, -0.07735766147790579) || f = 0.20774917594357478
+DEBUG:scipy.optimize.shgo:x = (-0.4111314402312496, -0.17612309357667122) || f = 0.04928230249018517
+DEBUG:scipy.optimize.shgo:x = (-0.02050644023124959, -0.27488852567543665) || f = 0.13092927858909498
+DEBUG:scipy.optimize.shgo:x = (-0.3955064402312496, -0.49711074789765886) || f = 0.07746966984955994
+DEBUG:scipy.optimize.shgo:x = (-0.1611314402312496, -0.39834531579889343) || f = 0.049955382815931704
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:v.x = [ 8.857436e-01  7.079049e-02] is minimizer
+DEBUG:scipy.optimize.shgo:v.f = 0.10765252754573551 is minimizer
+DEBUG:scipy.optimize.shgo:Neighbors:
+DEBUG:scipy.optimize.shgo:x = (0.7294935597687504, 0.24362999284308184) || f = 0.2166262760786205
+DEBUG:scipy.optimize.shgo:x = (0.8544935597687504, -0.1267403775272885) || f = 0.1375528802365925
+DEBUG:scipy.optimize.shgo:x = (0.9638685597687504, 0.12017320271962517) || f = 0.16485198017775116
+DEBUG:scipy.optimize.shgo:x = (0.7763685597687504, -0.0691272088030086) || f = 0.2821256106632498
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:v.x = [ 5.888686e-01 -6.205675e-01] is minimizer
+DEBUG:scipy.optimize.shgo:v.f = 0.01091495335604209 is minimizer
+DEBUG:scipy.optimize.shgo:Neighbors:
+DEBUG:scipy.optimize.shgo:x = (0.6982435597687504, -0.6699502540704982) || f = 0.13764839468543533
+DEBUG:scipy.optimize.shgo:x = (0.5107435597687504, -0.8674811182680291) || f = inf
+DEBUG:scipy.optimize.shgo:x = (0.3544935597687504, -0.793407044193955) || f = 0.06485454739034169
+DEBUG:scipy.optimize.shgo:x = (0.4638685597687504, -0.5464934639470415) || f = 0.08954019494310228
+DEBUG:scipy.optimize.shgo:x = (0.8232435597687504, -0.5218021059223501) || f = 0.17207080361046845
+DEBUG:scipy.optimize.shgo:x = (0.6669935597687504, -0.3489625997495107) || f = 0.15310233767073422
+DEBUG:scipy.optimize.shgo:x = (0.3857435597687504, -0.5958761799964242) || f = 0.1251953871399224
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:v.x = [ 4.169936e-01  3.177041e-01] is minimizer
+DEBUG:scipy.optimize.shgo:v.f = 0.02396807625707864 is minimizer
+DEBUG:scipy.optimize.shgo:Neighbors:
+DEBUG:scipy.optimize.shgo:x = (0.7294935597687504, 0.24362999284308184) || f = 0.2166262760786205
+DEBUG:scipy.optimize.shgo:x = (0.4794935597687504, 0.39177814099123) || f = 0.06724411161066024
+DEBUG:scipy.optimize.shgo:x = (0.5263685597687504, 0.3753172356414356) || f = 0.09554636532311578
+DEBUG:scipy.optimize.shgo:x = (0.5419935597687504, -0.02797494542852308) || f = 0.19115916977188185
+DEBUG:scipy.optimize.shgo:x = (0.4482435597687504, -0.0032835874038317225) || f = 0.10354224948481516
+DEBUG:scipy.optimize.shgo:x = (0.1357435597687504, 0.14486456074431664) || f = 0.19912194648012005
+DEBUG:scipy.optimize.shgo:x = (0.1982435597687504, 0.4411608570406129) || f = 0.05851937531155993
+DEBUG:scipy.optimize.shgo:x = (0.3388685597687504, 0.04609912864555099) || f = 0.08783819002500504
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:v.x = [ 7.138686e-01  5.646176e-01] is minimizer
+DEBUG:scipy.optimize.shgo:v.f = 0.011499903491729802 is minimizer
+DEBUG:scipy.optimize.shgo:Neighbors:
+DEBUG:scipy.optimize.shgo:x = (0.7607435597687504, 0.688074437287526) || f = inf
+DEBUG:scipy.optimize.shgo:x = (0.6044935597687504, 0.8362225854356744) || f = inf
+DEBUG:scipy.optimize.shgo:x = (0.9169935597687504, 0.41646949901592145) || f = inf
+DEBUG:scipy.optimize.shgo:x = (0.6357435597687504, 0.5152349311146869) || f = 0.04411587265475425
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:v.x = [-5.517564e-01  6.633831e-01] is minimizer
+DEBUG:scipy.optimize.shgo:v.f = 0.011457413538080607 is minimizer
+DEBUG:scipy.optimize.shgo:Neighbors:
+DEBUG:scipy.optimize.shgo:x = (-0.5830064402312496, 0.9843707335838225) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-0.7392564402312496, 0.46585221506530416) || f = 0.026599509320786363
+DEBUG:scipy.optimize.shgo:x = (-0.6611314402312496, 0.7127657953122175) || f = 0.15822908735064367
+DEBUG:scipy.optimize.shgo:x = (-0.4580064402312496, 0.6386917212381433) || f = 0.0808868329475847
+DEBUG:scipy.optimize.shgo:x = (-0.4267564402312496, 0.3670867829665385) || f = 0.03394653460227792
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:v.x = [-5.986314e-01 -6.617198e-01] is minimizer
+DEBUG:scipy.optimize.shgo:v.f = 0.0012845390964567605 is minimizer
+DEBUG:scipy.optimize.shgo:Neighbors:
+DEBUG:scipy.optimize.shgo:x = (-0.5205064402312496, -0.9415551923421032) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-0.7548814402312496, -0.513571653247453) || f = 0.01975564136125063
+DEBUG:scipy.optimize.shgo:x = (-0.3642564402312496, -0.8180984022186464) || f = 0.045908311675941005
+DEBUG:scipy.optimize.shgo:x = (-0.3955064402312496, -0.49711074789765886) || f = 0.07746966984955994
+DEBUG:scipy.optimize.shgo:x = (-0.7080064402312496, -0.4724193898729675) || f = 0.03651885357565543
+DEBUG:scipy.optimize.shgo:x = (-0.6767564402312496, -0.7440243281445723) || f = inf
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:v.x = [ 2.138686e-01 -3.242712e-01] is minimizer
+DEBUG:scipy.optimize.shgo:v.f = 0.028006788684990735 is minimizer
+DEBUG:scipy.optimize.shgo:Neighbors:
+DEBUG:scipy.optimize.shgo:x = (0.5732435597687504, -0.299579883700128) || f = 0.14774292100195197
+DEBUG:scipy.optimize.shgo:x = (0.2294935597687504, -0.4230366738235848) || f = 0.03920179864511242
+DEBUG:scipy.optimize.shgo:x = (-0.02050644023124959, -0.27488852567543665) || f = 0.13092927858909498
+DEBUG:scipy.optimize.shgo:x = (-0.05175644023124959, -0.44772803184827614) || f = 0.09963235419781913
+DEBUG:scipy.optimize.shgo:x = (0.2607435597687504, -0.20081445160136258) || f = 0.06137605380857125
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:Performing local minimizations.
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:Starting local minimization at [ 2.919936e-01  8.609139e-01]
+DEBUG:scipy.optimize.shgo:Vertex minimiser maps = []
+DEBUG:scipy.optimize.shgo:Return value of local minimization:
+           message: `gtol` termination condition is satisfied.
+           success: True
+            status: 1
+               fun: 1.6653345369377348e-15
+                 x: [ 6.280e-01  6.280e-01]
+               nit: 32
+              nfev: 69
+              njev: 23
+              nhev: 0
+          cg_niter: 33
+      cg_stop_cond: 1
+              grad: [-4.465e-08 -4.465e-08]
+   lagrangian_grad: [ 1.448e-10  1.448e-10]
+            constr: [array([ 8.881e-01])]
+               jac: [array([[ 7.071e-01,  7.071e-01]])]
+       constr_nfev: [69]
+       constr_njev: [0]
+       constr_nhev: [0]
+                 v: [array([ 6.335e-08])]
+            method: tr_interior_point
+        optimality: 1.4482698235523177e-10
+  constr_violation: 0.0
+    execution_time: 0.027850866317749023
+         tr_radius: 52637025.093588375
+    constr_penalty: 1.0
+ barrier_parameter: 1.0240000000000006e-08
+ barrier_tolerance: 1.0240000000000006e-08
+             niter: 32
+DEBUG:scipy.optimize.shgo:Function evaluations done = 79 / 50000000
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.01074355976875041, 0.9596793755591311)].f = 0.127129
+DEBUG:scipy.optimize.shgo:self.HC.V[(-0.9267564402312496, 0.2189386348183906)].f = 0.103851
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.2919935597687504, 0.8609139434603656)].f = 0.058315
+DEBUG:scipy.optimize.shgo:self.HC.V[(-0.7548814402312496, -0.513571653247453)].f = 0.019756
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.5888685597687504, -0.6205675380211155)].f = 0.010915
+DEBUG:scipy.optimize.shgo:self.HC.V[(-0.5986314402312496, -0.6617198013956012)].f = 0.001285
+DEBUG:scipy.optimize.shgo:Lowest function evaluation = 0.000000
+DEBUG:scipy.optimize.shgo:Specified minimum = 0.000000
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:Starting local minimization at [-5.986314e-01 -6.617198e-01]
+DEBUG:scipy.optimize.shgo:Vertex minimiser maps = [(0.2919935597687504, 0.8609139434603656)]
+DEBUG:scipy.optimize.shgo:Return value of local minimization:
+           message: `gtol` termination condition is satisfied.
+           success: True
+            status: 1
+               fun: 6.328271240363392e-15
+                 x: [-6.280e-01 -6.280e-01]
+               nit: 25
+              nfev: 54
+              njev: 18
+              nhev: 0
+          cg_niter: 26
+      cg_stop_cond: 1
+              grad: [ 2.906e-07  3.055e-07]
+   lagrangian_grad: [-7.264e-09  7.637e-09]
+            constr: [array([ 8.881e-01])]
+               jac: [array([[-7.071e-01, -7.071e-01]])]
+       constr_nfev: [54]
+       constr_njev: [0]
+       constr_nhev: [0]
+                 v: [array([ 4.212e-07])]
+            method: tr_interior_point
+        optimality: 7.637304380349552e-09
+  constr_violation: 0.0
+    execution_time: 0.01781439781188965
+         tr_radius: 961757.0907156521
+    constr_penalty: 1.0
+ barrier_parameter: 5.120000000000003e-08
+ barrier_tolerance: 5.120000000000003e-08
+             niter: 25
+DEBUG:scipy.optimize.shgo:Function evaluations done = 79 / 50000000
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.01074355976875041, 0.9596793755591311)].f = 0.127129
+DEBUG:scipy.optimize.shgo:self.HC.V[(-0.9267564402312496, 0.2189386348183906)].f = 0.103851
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.2919935597687504, 0.8609139434603656)].f = 0.058315
+DEBUG:scipy.optimize.shgo:self.HC.V[(-0.7548814402312496, -0.513571653247453)].f = 0.019756
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.5888685597687504, -0.6205675380211155)].f = 0.010915
+DEBUG:scipy.optimize.shgo:self.HC.V[(-0.5986314402312496, -0.6617198013956012)].f = 0.001285
+DEBUG:scipy.optimize.shgo:Lowest function evaluation = 0.000000
+DEBUG:scipy.optimize.shgo:Specified minimum = 0.000000
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:Starting local minimization at [ 7.138686e-01  5.646176e-01]
+DEBUG:scipy.optimize.shgo:Vertex minimiser maps = [(0.2919935597687504, 0.8609139434603656), (-0.5986314402312496, -0.6617198013956012)]
+DEBUG:scipy.optimize.shgo:Return value of local minimization:
+           message: `gtol` termination condition is satisfied.
+           success: True
+            status: 1
+               fun: 1e-15
+                 x: [ 3.251e-01  3.251e-01]
+               nit: 24
+              nfev: 48
+              njev: 16
+              nhev: 0
+          cg_niter: 23
+      cg_stop_cond: 1
+              grad: [ 0.000e+00  0.000e+00]
+   lagrangian_grad: [-1.283e-09 -1.283e-09]
+            constr: [array([ 4.597e-01])]
+               jac: [array([[ 7.071e-01,  7.071e-01]])]
+       constr_nfev: [48]
+       constr_njev: [0]
+       constr_nhev: [0]
+                 v: [array([-1.814e-09])]
+            method: tr_interior_point
+        optimality: 1.2828894303840875e-09
+  constr_violation: 0.0
+    execution_time: 0.01705169677734375
+         tr_radius: 3045029.522794959
+    constr_penalty: 1.0
+ barrier_parameter: 5.120000000000003e-08
+ barrier_tolerance: 5.120000000000003e-08
+             niter: 24
+DEBUG:scipy.optimize.shgo:Function evaluations done = 79 / 50000000
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.01074355976875041, 0.9596793755591311)].f = 0.127129
+DEBUG:scipy.optimize.shgo:self.HC.V[(-0.9267564402312496, 0.2189386348183906)].f = 0.103851
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.2919935597687504, 0.8609139434603656)].f = 0.058315
+DEBUG:scipy.optimize.shgo:self.HC.V[(-0.7548814402312496, -0.513571653247453)].f = 0.019756
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.5888685597687504, -0.6205675380211155)].f = 0.010915
+DEBUG:scipy.optimize.shgo:self.HC.V[(-0.5986314402312496, -0.6617198013956012)].f = 0.001285
+DEBUG:scipy.optimize.shgo:Lowest function evaluation = 0.000000
+DEBUG:scipy.optimize.shgo:Specified minimum = 0.000000
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:Starting local minimization at [-8.486314e-01  2.683214e-01]
+DEBUG:scipy.optimize.shgo:Vertex minimiser maps = [(0.2919935597687504, 0.8609139434603656), (-0.5986314402312496, -0.6617198013956012), (0.7138685597687504, 0.5646176471640694)]
+DEBUG:scipy.optimize.shgo:Return value of local minimization:
+           message: The maximum number of function evaluations is exceeded.
+           success: False
+            status: 0
+               fun: 0.2553585385370868
+                 x: [-6.656e-01  2.018e-01]
+               nit: 1000
+              nfev: 3000
+              njev: 1000
+              nhev: 0
+          cg_niter: 1002
+      cg_stop_cond: 4
+              grad: [-3.378e-01 -5.899e-01]
+   lagrangian_grad: [-2.155e-01 -6.270e-01]
+            constr: [array([ 6.956e-01])]
+               jac: [array([[-9.570e-01,  2.901e-01]])]
+       constr_nfev: [3000]
+       constr_njev: [0]
+       constr_nhev: [0]
+                 v: [array([-1.278e-01])]
+            method: tr_interior_point
+        optimality: 0.6270020961540101
+  constr_violation: 0.0
+    execution_time: 0.8104908466339111
+         tr_radius: 4.159442987652343
+    constr_penalty: 3.531918703039268
+ barrier_parameter: 0.1
+ barrier_tolerance: 0.1
+             niter: 1000
+DEBUG:scipy.optimize.shgo:Function evaluations done = 79 / 50000000
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.01074355976875041, 0.9596793755591311)].f = 0.127129
+DEBUG:scipy.optimize.shgo:self.HC.V[(-0.9267564402312496, 0.2189386348183906)].f = 0.103851
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.2919935597687504, 0.8609139434603656)].f = 0.058315
+DEBUG:scipy.optimize.shgo:self.HC.V[(-0.7548814402312496, -0.513571653247453)].f = 0.019756
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.5888685597687504, -0.6205675380211155)].f = 0.010915
+DEBUG:scipy.optimize.shgo:self.HC.V[(-0.5986314402312496, -0.6617198013956012)].f = 0.001285
+DEBUG:scipy.optimize.shgo:Lowest function evaluation = 0.000000
+DEBUG:scipy.optimize.shgo:Specified minimum = 0.000000
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:Starting local minimization at [ 8.857436e-01  7.079049e-02]
+DEBUG:scipy.optimize.shgo:Vertex minimiser maps = [(0.2919935597687504, 0.8609139434603656), (-0.5986314402312496, -0.6617198013956012), (0.7138685597687504, 0.5646176471640694), (-0.8486314402312496, 0.2683213508677733)]
+DEBUG:scipy.optimize.shgo:Return value of local minimization:
+           message: `gtol` termination condition is satisfied.
+           success: True
+            status: 1
+               fun: 4.3298697960381105e-15
+                 x: [ 6.280e-01  6.280e-01]
+               nit: 103
+              nfev: 285
+              njev: 95
+              nhev: 0
+          cg_niter: 107
+      cg_stop_cond: 1
+              grad: [-2.235e-07 -2.235e-07]
+   lagrangian_grad: [ 7.215e-10  7.215e-10]
+            constr: [array([ 8.881e-01])]
+               jac: [array([[ 7.071e-01,  7.071e-01]])]
+       constr_nfev: [285]
+       constr_njev: [0]
+       constr_nhev: [0]
+                 v: [array([ 3.170e-07])]
+            method: tr_interior_point
+        optimality: 7.215211115845017e-10
+  constr_violation: 0.0
+    execution_time: 0.0800931453704834
+         tr_radius: 10503633.971178744
+    constr_penalty: 1.0
+ barrier_parameter: 5.120000000000003e-08
+ barrier_tolerance: 5.120000000000003e-08
+             niter: 103
+DEBUG:scipy.optimize.shgo:Function evaluations done = 79 / 50000000
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.01074355976875041, 0.9596793755591311)].f = 0.127129
+DEBUG:scipy.optimize.shgo:self.HC.V[(-0.9267564402312496, 0.2189386348183906)].f = 0.103851
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.2919935597687504, 0.8609139434603656)].f = 0.058315
+DEBUG:scipy.optimize.shgo:self.HC.V[(-0.7548814402312496, -0.513571653247453)].f = 0.019756
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.5888685597687504, -0.6205675380211155)].f = 0.010915
+DEBUG:scipy.optimize.shgo:self.HC.V[(-0.5986314402312496, -0.6617198013956012)].f = 0.001285
+DEBUG:scipy.optimize.shgo:Lowest function evaluation = 0.000000
+DEBUG:scipy.optimize.shgo:Specified minimum = 0.000000
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:Starting local minimization at [-3.017564e-01 -2.255058e-01]
+DEBUG:scipy.optimize.shgo:Vertex minimiser maps = [(0.2919935597687504, 0.8609139434603656), (-0.5986314402312496, -0.6617198013956012), (0.7138685597687504, 0.5646176471640694), (-0.8486314402312496, 0.2683213508677733), (0.8857435597687504, 0.07079048667024224)]
+DEBUG:scipy.optimize.shgo:Return value of local minimization:
+           message: `gtol` termination condition is satisfied.
+           success: True
+            status: 1
+               fun: 1e-15
+                 x: [-3.251e-01 -3.251e-01]
+               nit: 22
+              nfev: 36
+              njev: 12
+              nhev: 0
+          cg_niter: 20
+      cg_stop_cond: 1
+              grad: [-0.000e+00 -0.000e+00]
+   lagrangian_grad: [ 2.566e-10  2.566e-10]
+            constr: [array([ 4.597e-01])]
+               jac: [array([[-7.071e-01, -7.071e-01]])]
+       constr_nfev: [36]
+       constr_njev: [0]
+       constr_nhev: [0]
+                 v: [array([-3.629e-10])]
+            method: tr_interior_point
+        optimality: 2.565778848016436e-10
+  constr_violation: 0.0
+    execution_time: 0.013986825942993164
+         tr_radius: 18957379.00122731
+    constr_penalty: 1.0
+ barrier_parameter: 1.0240000000000006e-08
+ barrier_tolerance: 1.0240000000000006e-08
+             niter: 22
+DEBUG:scipy.optimize.shgo:Function evaluations done = 79 / 50000000
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.01074355976875041, 0.9596793755591311)].f = 0.127129
+DEBUG:scipy.optimize.shgo:self.HC.V[(-0.9267564402312496, 0.2189386348183906)].f = 0.103851
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.2919935597687504, 0.8609139434603656)].f = 0.058315
+DEBUG:scipy.optimize.shgo:self.HC.V[(-0.7548814402312496, -0.513571653247453)].f = 0.019756
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.5888685597687504, -0.6205675380211155)].f = 0.010915
+DEBUG:scipy.optimize.shgo:self.HC.V[(-0.5986314402312496, -0.6617198013956012)].f = 0.001285
+DEBUG:scipy.optimize.shgo:Lowest function evaluation = 0.000000
+DEBUG:scipy.optimize.shgo:Specified minimum = 0.000000
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:Starting local minimization at [-5.517564e-01  6.633831e-01]
+DEBUG:scipy.optimize.shgo:Vertex minimiser maps = [(0.2919935597687504, 0.8609139434603656), (-0.5986314402312496, -0.6617198013956012), (0.7138685597687504, 0.5646176471640694), (-0.8486314402312496, 0.2683213508677733), (0.8857435597687504, 0.07079048667024224), (-0.3017564402312496, -0.22550580962605393)]
+DEBUG:scipy.optimize.shgo:Return value of local minimization:
+           message: `gtol` termination condition is satisfied.
+           success: True
+            status: 1
+               fun: 9.692247004977617e-14
+                 x: [-6.280e-01  6.280e-01]
+               nit: 23
+              nfev: 48
+              njev: 16
+              nhev: 0
+          cg_niter: 21
+      cg_stop_cond: 1
+              grad: [ 1.490e-06 -1.483e-06]
+   lagrangian_grad: [ 4.614e-09  2.837e-09]
+            constr: [array([ 8.881e-01])]
+               jac: [array([[-7.071e-01,  7.071e-01]])]
+       constr_nfev: [48]
+       constr_njev: [0]
+       constr_nhev: [0]
+                 v: [array([ 2.101e-06])]
+            method: tr_interior_point
+        optimality: 4.613510441195123e-09
+  constr_violation: 0.0
+    execution_time: 0.016414642333984375
+         tr_radius: 2240802.4588759504
+    constr_penalty: 1.0
+ barrier_parameter: 2.560000000000001e-07
+ barrier_tolerance: 2.560000000000001e-07
+             niter: 23
+DEBUG:scipy.optimize.shgo:Function evaluations done = 79 / 50000000
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.01074355976875041, 0.9596793755591311)].f = 0.127129
+DEBUG:scipy.optimize.shgo:self.HC.V[(-0.9267564402312496, 0.2189386348183906)].f = 0.103851
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.2919935597687504, 0.8609139434603656)].f = 0.058315
+DEBUG:scipy.optimize.shgo:self.HC.V[(-0.7548814402312496, -0.513571653247453)].f = 0.019756
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.5888685597687504, -0.6205675380211155)].f = 0.010915
+DEBUG:scipy.optimize.shgo:self.HC.V[(-0.5986314402312496, -0.6617198013956012)].f = 0.001285
+DEBUG:scipy.optimize.shgo:Lowest function evaluation = 0.000000
+DEBUG:scipy.optimize.shgo:Specified minimum = 0.000000
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:Starting local minimization at [ 5.888686e-01 -6.205675e-01]
+DEBUG:scipy.optimize.shgo:Vertex minimiser maps = [(0.2919935597687504, 0.8609139434603656), (-0.5986314402312496, -0.6617198013956012), (0.7138685597687504, 0.5646176471640694), (-0.8486314402312496, 0.2683213508677733), (0.8857435597687504, 0.07079048667024224), (-0.3017564402312496, -0.22550580962605393), (-0.5517564402312496, 0.6633830792628348)]
+DEBUG:scipy.optimize.shgo:Return value of local minimization:
+           message: `gtol` termination condition is satisfied.
+           success: True
+            status: 1
+               fun: 1e-15
+                 x: [ 3.251e-01 -3.251e-01]
+               nit: 27
+              nfev: 54
+              njev: 18
+              nhev: 0
+          cg_niter: 26
+      cg_stop_cond: 1
+              grad: [ 0.000e+00 -0.000e+00]
+   lagrangian_grad: [-1.283e-09  1.283e-09]
+            constr: [array([ 4.597e-01])]
+               jac: [array([[ 7.071e-01, -7.071e-01]])]
+       constr_nfev: [54]
+       constr_njev: [0]
+       constr_nhev: [0]
+                 v: [array([-1.814e-09])]
+            method: tr_interior_point
+        optimality: 1.2828895280593996e-09
+  constr_violation: 0.0
+    execution_time: 0.018413543701171875
+         tr_radius: 8470802.274095133
+    constr_penalty: 1.0
+ barrier_parameter: 5.120000000000003e-08
+ barrier_tolerance: 5.120000000000003e-08
+             niter: 27
+DEBUG:scipy.optimize.shgo:Function evaluations done = 79 / 50000000
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.01074355976875041, 0.9596793755591311)].f = 0.127129
+DEBUG:scipy.optimize.shgo:self.HC.V[(-0.9267564402312496, 0.2189386348183906)].f = 0.103851
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.2919935597687504, 0.8609139434603656)].f = 0.058315
+DEBUG:scipy.optimize.shgo:self.HC.V[(-0.7548814402312496, -0.513571653247453)].f = 0.019756
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.5888685597687504, -0.6205675380211155)].f = 0.010915
+DEBUG:scipy.optimize.shgo:self.HC.V[(-0.5986314402312496, -0.6617198013956012)].f = 0.001285
+DEBUG:scipy.optimize.shgo:Lowest function evaluation = 0.000000
+DEBUG:scipy.optimize.shgo:Specified minimum = 0.000000
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:Starting local minimization at [ 4.169936e-01  3.177041e-01]
+DEBUG:scipy.optimize.shgo:Vertex minimiser maps = [(0.2919935597687504, 0.8609139434603656), (-0.5986314402312496, -0.6617198013956012), (0.7138685597687504, 0.5646176471640694), (-0.8486314402312496, 0.2683213508677733), (0.8857435597687504, 0.07079048667024224), (-0.3017564402312496, -0.22550580962605393), (-0.5517564402312496, 0.6633830792628348), (0.5888685597687504, -0.6205675380211155)]
+DEBUG:scipy.optimize.shgo:Return value of local minimization:
+           message: `gtol` termination condition is satisfied.
+           success: True
+            status: 1
+               fun: 1e-15
+                 x: [ 3.251e-01  3.251e-01]
+               nit: 20
+              nfev: 30
+              njev: 10
+              nhev: 0
+          cg_niter: 16
+      cg_stop_cond: 1
+              grad: [ 0.000e+00  0.000e+00]
+   lagrangian_grad: [-2.566e-10 -2.566e-10]
+            constr: [array([ 4.597e-01])]
+               jac: [array([[ 7.071e-01,  7.071e-01]])]
+       constr_nfev: [30]
+       constr_njev: [0]
+       constr_nhev: [0]
+                 v: [array([-3.629e-10])]
+            method: tr_interior_point
+        optimality: 2.565779070098067e-10
+  constr_violation: 0.0
+    execution_time: 0.012209415435791016
+         tr_radius: 18420182.6921909
+    constr_penalty: 1.0
+ barrier_parameter: 1.0240000000000006e-08
+ barrier_tolerance: 1.0240000000000006e-08
+             niter: 20
+DEBUG:scipy.optimize.shgo:Function evaluations done = 79 / 50000000
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.01074355976875041, 0.9596793755591311)].f = 0.127129
+DEBUG:scipy.optimize.shgo:self.HC.V[(-0.9267564402312496, 0.2189386348183906)].f = 0.103851
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.2919935597687504, 0.8609139434603656)].f = 0.058315
+DEBUG:scipy.optimize.shgo:self.HC.V[(-0.7548814402312496, -0.513571653247453)].f = 0.019756
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.5888685597687504, -0.6205675380211155)].f = 0.010915
+DEBUG:scipy.optimize.shgo:self.HC.V[(-0.5986314402312496, -0.6617198013956012)].f = 0.001285
+DEBUG:scipy.optimize.shgo:Lowest function evaluation = 0.000000
+DEBUG:scipy.optimize.shgo:Specified minimum = 0.000000
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:Starting local minimization at [ 2.138686e-01 -3.242712e-01]
+DEBUG:scipy.optimize.shgo:Vertex minimiser maps = [(0.2919935597687504, 0.8609139434603656), (-0.5986314402312496, -0.6617198013956012), (0.7138685597687504, 0.5646176471640694), (-0.8486314402312496, 0.2683213508677733), (0.8857435597687504, 0.07079048667024224), (-0.3017564402312496, -0.22550580962605393), (-0.5517564402312496, 0.6633830792628348), (0.5888685597687504, -0.6205675380211155), (0.4169935597687504, 0.317704066917156)]
+DEBUG:scipy.optimize.shgo:Return value of local minimization:
+           message: `gtol` termination condition is satisfied.
+           success: True
+            status: 1
+               fun: 1e-15
+                 x: [ 3.251e-01 -3.251e-01]
+               nit: 21
+              nfev: 33
+              njev: 11
+              nhev: 0
+          cg_niter: 15
+      cg_stop_cond: 4
+              grad: [ 0.000e+00 -0.000e+00]
+   lagrangian_grad: [-2.566e-10  2.566e-10]
+            constr: [array([ 4.597e-01])]
+               jac: [array([[ 7.071e-01, -7.071e-01]])]
+       constr_nfev: [33]
+       constr_njev: [0]
+       constr_nhev: [0]
+                 v: [array([-3.629e-10])]
+            method: tr_interior_point
+        optimality: 2.565778800727496e-10
+  constr_violation: 0.0
+    execution_time: 0.012572765350341797
+         tr_radius: 47301486.64636551
+    constr_penalty: 1.0
+ barrier_parameter: 1.0240000000000006e-08
+ barrier_tolerance: 1.0240000000000006e-08
+             niter: 21
+DEBUG:scipy.optimize.shgo:Function evaluations done = 79 / 50000000
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.01074355976875041, 0.9596793755591311)].f = 0.127129
+DEBUG:scipy.optimize.shgo:self.HC.V[(-0.9267564402312496, 0.2189386348183906)].f = 0.103851
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.2919935597687504, 0.8609139434603656)].f = 0.058315
+DEBUG:scipy.optimize.shgo:self.HC.V[(-0.7548814402312496, -0.513571653247453)].f = 0.019756
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.5888685597687504, -0.6205675380211155)].f = 0.010915
+DEBUG:scipy.optimize.shgo:self.HC.V[(-0.5986314402312496, -0.6617198013956012)].f = 0.001285
+DEBUG:scipy.optimize.shgo:Lowest function evaluation = 0.000000
+DEBUG:scipy.optimize.shgo:Specified minimum = 0.000000
+DEBUG:scipy.optimize.shgo:Minimiser pool = SHGO.X_min = []
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:Iteration # 1 done
+DEBUG:scipy.optimize.shgo:Function evaluations done = 79 / 50000000
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.01074355976875041, 0.9596793755591311)].f = 0.127129
+DEBUG:scipy.optimize.shgo:self.HC.V[(-0.9267564402312496, 0.2189386348183906)].f = 0.103851
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.2919935597687504, 0.8609139434603656)].f = 0.058315
+DEBUG:scipy.optimize.shgo:self.HC.V[(-0.7548814402312496, -0.513571653247453)].f = 0.019756
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.5888685597687504, -0.6205675380211155)].f = 0.010915
+DEBUG:scipy.optimize.shgo:self.HC.V[(-0.5986314402312496, -0.6617198013956012)].f = 0.001285
+DEBUG:scipy.optimize.shgo:Lowest function evaluation = 0.000000
+DEBUG:scipy.optimize.shgo:Specified minimum = 0.000000
+INFO:scipy.optimize.shgo:Successfully completed construction of complex.
+INFO:scipy.optimize.shgo:Return value from optimization:
+ message: Optimization terminated successfully.
+ success: True
+     fun: 1e-15
+    funl: [ 1.000e-15  1.000e-15  1.000e-15  1.000e-15  1.000e-15
+            1.665e-15  4.330e-15  6.328e-15  9.692e-14  2.554e-01]
+       x: [ 3.251e-01  3.251e-01]
+      xl: [[ 3.251e-01  3.251e-01]
+           [-3.251e-01 -3.251e-01]
+           ...
+           [-6.280e-01  6.280e-01]
+           [-6.656e-01  2.018e-01]]
+     nit: 1
+    nfev: 3736
+   nlfev: 3657
+   nljev: 1219
+   nlhev: 0

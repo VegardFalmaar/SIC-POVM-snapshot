@@ -1,0 +1,4 @@
+INFO:random-gd-1063:trial      0 / 100_000  |  f_evals       3_002 / 50_000_000  |  f_min 2.846057e-13
+INFO:random-gd-1063:trial      1 / 100_000  |  f_evals       3_705 / 50_000_000  |  f_min 8.132384e-15
+INFO:random-gd-1063:Converged due to current_f_min close to 0.0.
+INFO:random-gd-1063:Elapsed time: 1.696 seconds

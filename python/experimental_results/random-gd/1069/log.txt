@@ -1,0 +1,19 @@
+INFO:random-gd-1069:trial      0 / 100_000  |  f_evals       2_574 / 50_000_000  |  f_min 5.459734e-03
+INFO:random-gd-1069:trial      1 / 100_000  |  f_evals      17_589 / 50_000_000  |  f_min 5.459734e-03
+INFO:random-gd-1069:trial      2 / 100_000  |  f_evals      30_771 / 50_000_000  |  f_min 5.459734e-03
+INFO:random-gd-1069:trial      3 / 100_000  |  f_evals      33_384 / 50_000_000  |  f_min 5.459734e-03
+INFO:random-gd-1069:trial      4 / 100_000  |  f_evals      36_387 / 50_000_000  |  f_min 5.459734e-03
+INFO:random-gd-1069:trial      5 / 100_000  |  f_evals      37_206 / 50_000_000  |  f_min 5.459734e-03
+INFO:random-gd-1069:trial      6 / 100_000  |  f_evals      52_806 / 50_000_000  |  f_min 5.459734e-03
+INFO:random-gd-1069:trial      7 / 100_000  |  f_evals      53_625 / 50_000_000  |  f_min 5.459734e-03
+INFO:random-gd-1069:trial      8 / 100_000  |  f_evals      54_444 / 50_000_000  |  f_min 5.459734e-03
+INFO:random-gd-1069:trial      9 / 100_000  |  f_evals      55_263 / 50_000_000  |  f_min 5.459734e-03
+INFO:random-gd-1069:trial     10 / 100_000  |  f_evals      70_434 / 50_000_000  |  f_min 5.459734e-03
+INFO:random-gd-1069:trial     11 / 100_000  |  f_evals      82_368 / 50_000_000  |  f_min 5.025098e-03
+INFO:random-gd-1069:trial     12 / 100_000  |  f_evals      88_023 / 50_000_000  |  f_min 5.025098e-03
+INFO:random-gd-1069:trial     13 / 100_000  |  f_evals      88_842 / 50_000_000  |  f_min 5.025098e-03
+INFO:random-gd-1069:trial     14 / 100_000  |  f_evals      92_430 / 50_000_000  |  f_min 5.025098e-03
+INFO:random-gd-1069:trial     15 / 100_000  |  f_evals      94_419 / 50_000_000  |  f_min 5.025098e-03
+INFO:random-gd-1069:trial     16 / 100_000  |  f_evals      98_436 / 50_000_000  |  f_min 6.800116e-15
+INFO:random-gd-1069:Converged due to current_f_min close to 0.0.
+INFO:random-gd-1069:Elapsed time: 4.328 seconds

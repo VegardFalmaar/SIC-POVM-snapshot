@@ -1,0 +1,13 @@
+{
+  "device": "cpu",
+  "max_iter": 50000,
+  "lr": 0.01,
+  "gamma": 0.9,
+  "save_path": "output/22-09-22-1300-dim26to30",
+  "dims": [
+    26,
+    27,
+    28,
+    29
+  ]
+}

@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>modified_devo package &mdash; SIC-POVM  documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="neural_network package" href="neural_network.html" />
+    <link rel="prev" title="minimization_history module" href="minimization_history.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            SIC-POVM
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">code</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="catalogue.html">catalogue module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="formatting.html">formatting module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gradient_descent.html">gradient_descent package</a></li>
+<li class="toctree-l2"><a class="reference internal" href="log.html">log module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="main_betzy.html">main_betzy module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="minimization_history.html">minimization_history module</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">modified_devo package</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#submodules">Submodules</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-modified_devo.devo_BFGS">modified_devo.devo_BFGS module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-modified_devo.main">modified_devo.main module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-modified_devo.my_scipy_diffevo">modified_devo.my_scipy_diffevo module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-modified_devo.parameters">modified_devo.parameters module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-modified_devo">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="neural_network.html">neural_network package</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plot.html">plot module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="read_results.html">read_results module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="target_functions.html">target_functions module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tests.html">tests package</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tomography.html">tomography module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="weyl_heisenberg.html">weyl_heisenberg package</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">SIC-POVM</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="modules.html">code</a></li>
+      <li class="breadcrumb-item active">modified_devo package</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/api/modified_devo.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="modified-devo-package">
+<h1>modified_devo package<a class="headerlink" href="#modified-devo-package" title="Permalink to this heading"></a></h1>
+<section id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this heading"></a></h2>
+</section>
+<section id="module-modified_devo.devo_BFGS">
+<span id="modified-devo-devo-bfgs-module"></span><h2>modified_devo.devo_BFGS module<a class="headerlink" href="#module-modified_devo.devo_BFGS" title="Permalink to this heading"></a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="modified_devo.devo_BFGS.info_line">
+<span class="sig-prename descclassname"><span class="pre">modified_devo.devo_BFGS.</span></span><span class="sig-name descname"><span class="pre">info_line</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">trial_i</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">target</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="minimization_history.html#minimization_history.TargetWrapper" title="minimization_history.TargetWrapper"><span class="pre">TargetWrapper</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">p</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#modified_devo.parameters.DEVOParameters" title="modified_devo.parameters.DEVOParameters"><span class="pre">DEVOParameters</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">d</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="headerlink" href="#modified_devo.devo_BFGS.info_line" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="modified_devo.devo_BFGS.label">
+<span class="sig-prename descclassname"><span class="pre">modified_devo.devo_BFGS.</span></span><span class="sig-name descname"><span class="pre">label</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">use_minimizer</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">use_pop_thinning</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#modified_devo.devo_BFGS.label" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="modified_devo.devo_BFGS.main">
+<span class="sig-prename descclassname"><span class="pre">modified_devo.devo_BFGS.</span></span><span class="sig-name descname"><span class="pre">main</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modified_devo.devo_BFGS.main" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="modified_devo.devo_BFGS.max_relative_distance">
+<span class="sig-prename descclassname"><span class="pre">modified_devo.devo_BFGS.</span></span><span class="sig-name descname"><span class="pre">max_relative_distance</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">pop</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">x_best</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">x_min</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">x_max</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#modified_devo.devo_BFGS.max_relative_distance" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="modified_devo.devo_BFGS.plot_results">
+<span class="sig-prename descclassname"><span class="pre">modified_devo.devo_BFGS.</span></span><span class="sig-name descname"><span class="pre">plot_results</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">parameters</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#modified_devo.parameters.DEVOParameters" title="modified_devo.parameters.DEVOParameters"><span class="pre">DEVOParameters</span></a><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Path</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">run_results</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="minimization_history.html#minimization_history.MinimizationHistory" title="minimization_history.MinimizationHistory"><span class="pre">MinimizationHistory</span></a><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#modified_devo.devo_BFGS.plot_results" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="modified_devo.devo_BFGS.plot_title">
+<span class="sig-prename descclassname"><span class="pre">modified_devo.devo_BFGS.</span></span><span class="sig-name descname"><span class="pre">plot_title</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">p</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#modified_devo.parameters.DEVOParameters" title="modified_devo.parameters.DEVOParameters"><span class="pre">DEVOParameters</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="headerlink" href="#modified_devo.devo_BFGS.plot_title" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="modified_devo.devo_BFGS.run">
+<span class="sig-prename descclassname"><span class="pre">modified_devo.devo_BFGS.</span></span><span class="sig-name descname"><span class="pre">run</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">function</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Callable</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">bounds</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parameters</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#modified_devo.parameters.DEVOParameters" title="modified_devo.parameters.DEVOParameters"><span class="pre">DEVOParameters</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Path</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="minimization_history.html#minimization_history.MinimizationHistory" title="minimization_history.MinimizationHistory"><span class="pre">MinimizationHistory</span></a></span></span><a class="headerlink" href="#modified_devo.devo_BFGS.run" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="modified_devo.devo_BFGS.run_in_parallel">
+<span class="sig-prename descclassname"><span class="pre">modified_devo.devo_BFGS.</span></span><span class="sig-name descname"><span class="pre">run_in_parallel</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">f</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Callable</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">b</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">params</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#modified_devo.parameters.DEVOParameters" title="modified_devo.parameters.DEVOParameters"><span class="pre">DEVOParameters</span></a><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">paths</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">Path</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="minimization_history.html#minimization_history.MinimizationHistory" title="minimization_history.MinimizationHistory"><span class="pre">MinimizationHistory</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#modified_devo.devo_BFGS.run_in_parallel" title="Permalink to this definition"></a></dt>
+<dd><p>Run a set of simulations in parallel using the multiprocessing module.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>f</strong> (<em>Callable</em>) – the function to minimize</p></li>
+<li><p><strong>b</strong> (<em>Tuple</em><em>[</em><em>float</em><em>, </em><em>float</em><em>]</em>) – the bounds of the function</p></li>
+<li><p><strong>params</strong> (<em>List</em><em>[</em><a class="reference internal" href="#modified_devo.parameters.DEVOParameters" title="modified_devo.parameters.DEVOParameters"><em>DEVOParameters</em></a><em>]</em>) – a list of the parameters for each
+simulation to be run in parallel, the number of simulations is
+<cite>len(params)</cite></p></li>
+<li><p><strong>paths</strong> (<em>List</em><em>[</em><em>Path</em><em>]</em>) – a list of paths to the directories in which the
+logs for each run will be saved, should be of the same length as
+<cite>params</cite></p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>a list of the results of each simulation</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>(List[<a class="reference internal" href="minimization_history.html#minimization_history.MinimizationHistory" title="minimization_history.MinimizationHistory">MinimizationHistory</a>])</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="modified_devo.devo_BFGS.run_one_dimension">
+<span class="sig-prename descclassname"><span class="pre">modified_devo.devo_BFGS.</span></span><span class="sig-name descname"><span class="pre">run_one_dimension</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">d</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#modified_devo.devo_BFGS.run_one_dimension" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="modified_devo.devo_BFGS.sorted_results">
+<span class="sig-prename descclassname"><span class="pre">modified_devo.devo_BFGS.</span></span><span class="sig-name descname"><span class="pre">sorted_results</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">de_solver</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">x_min</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">x_max</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#modified_devo.devo_BFGS.sorted_results" title="Permalink to this definition"></a></dt>
+<dd><p>Sort the population according to f vals, best point first.</p>
+</dd></dl>
+
+</section>
+<section id="module-modified_devo.main">
+<span id="modified-devo-main-module"></span><h2>modified_devo.main module<a class="headerlink" href="#module-modified_devo.main" title="Permalink to this heading"></a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="modified_devo.main.main">
+<span class="sig-prename descclassname"><span class="pre">modified_devo.main.</span></span><span class="sig-name descname"><span class="pre">main</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modified_devo.main.main" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="modified_devo.main.run_one_dimension">
+<span class="sig-prename descclassname"><span class="pre">modified_devo.main.</span></span><span class="sig-name descname"><span class="pre">run_one_dimension</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">complex_dimension</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#modified_devo.main.run_one_dimension" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="modified_devo.main.run_range_of_dimensions">
+<span class="sig-prename descclassname"><span class="pre">modified_devo.main.</span></span><span class="sig-name descname"><span class="pre">run_range_of_dimensions</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">start</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">stop</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#modified_devo.main.run_range_of_dimensions" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="modified_devo.main.target_function">
+<span class="sig-prename descclassname"><span class="pre">modified_devo.main.</span></span><span class="sig-name descname"><span class="pre">target_function</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#modified_devo.main.target_function" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</section>
+<section id="module-modified_devo.my_scipy_diffevo">
+<span id="modified-devo-my-scipy-diffevo-module"></span><h2>modified_devo.my_scipy_diffevo module<a class="headerlink" href="#module-modified_devo.my_scipy_diffevo" title="Permalink to this heading"></a></h2>
+<p>differential_evolution: The differential evolution global optimization algorithm
+Added by Andrew Nelson 2014</p>
+<p>Modified slightly for this, the SIC-POVM project, by Anders Kvellestad 2023.</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="modified_devo.my_scipy_diffevo.differential_evolution">
+<span class="sig-prename descclassname"><span class="pre">modified_devo.my_scipy_diffevo.</span></span><span class="sig-name descname"><span class="pre">differential_evolution</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">func</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">bounds</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">args</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">()</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">strategy</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'best1bin'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">maxiter</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1000</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">popsize</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">15</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tol</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.01</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mutation</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">(0.5,</span> <span class="pre">1)</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">recombination</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.7</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">seed</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">callback</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">disp</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">polish</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">init</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'latinhypercube'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">atol</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">updating</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'immediate'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">workers</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">constraints</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">()</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">x0</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">integrality</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">vectorized</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#modified_devo.my_scipy_diffevo.differential_evolution" title="Permalink to this definition"></a></dt>
+<dd><p>Finds the global minimum of a multivariate function.</p>
+<p>The differential evolution method <a class="footnote-reference brackets" href="#id9" id="id1" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a> is stochastic in nature. It does
+not use gradient methods to find the minimum, and can search large areas
+of candidate space, but often requires larger numbers of function
+evaluations than conventional gradient-based techniques.</p>
+<p>The algorithm is due to Storn and Price <a class="footnote-reference brackets" href="#id10" id="id2" role="doc-noteref"><span class="fn-bracket">[</span>2<span class="fn-bracket">]</span></a>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>func</strong> (<em>callable</em>) – The objective function to be minimized. Must be in the form
+<code class="docutils literal notranslate"><span class="pre">f(x,</span> <span class="pre">*args)</span></code>, where <code class="docutils literal notranslate"><span class="pre">x</span></code> is the argument in the form of a 1-D array
+and <code class="docutils literal notranslate"><span class="pre">args</span></code> is a tuple of any additional fixed parameters needed to
+completely specify the function. The number of parameters, N, is equal
+to <code class="docutils literal notranslate"><span class="pre">len(x)</span></code>.</p></li>
+<li><p><strong>bounds</strong> (sequence or <cite>Bounds</cite>) – Bounds for variables. There are two ways to specify the bounds:
+1. Instance of <cite>Bounds</cite> class.
+2. <code class="docutils literal notranslate"><span class="pre">(min,</span> <span class="pre">max)</span></code> pairs for each element in <code class="docutils literal notranslate"><span class="pre">x</span></code>, defining the finite
+lower and upper bounds for the optimizing argument of <cite>func</cite>.
+The total number of bounds is used to determine the number of
+parameters, N.</p></li>
+<li><p><strong>args</strong> (<em>tuple</em><em>, </em><em>optional</em>) – Any additional fixed parameters needed to
+completely specify the objective function.</p></li>
+<li><p><strong>strategy</strong> (<em>str</em><em>, </em><em>optional</em>) – <p>The differential evolution strategy to use. Should be one of:</p>
+<blockquote>
+<div><ul>
+<li><p>’best1bin’</p></li>
+<li><p>’best1exp’</p></li>
+<li><p>’rand1exp’</p></li>
+<li><p>’randtobest1exp’</p></li>
+<li><p>’currenttobest1exp’</p></li>
+<li><p>’best2exp’</p></li>
+<li><p>’rand2exp’</p></li>
+<li><p>’randtobest1bin’</p></li>
+<li><p>’currenttobest1bin’</p></li>
+<li><p>’best2bin’</p></li>
+<li><p>’rand2bin’</p></li>
+<li><p>’rand1bin’</p></li>
+</ul>
+</div></blockquote>
+<p>The default is ‘best1bin’.</p>
+</p></li>
+<li><p><strong>maxiter</strong> (<em>int</em><em>, </em><em>optional</em>) – The maximum number of generations over which the entire population is
+evolved. The maximum number of function evaluations (with no polishing)
+is: <code class="docutils literal notranslate"><span class="pre">(maxiter</span> <span class="pre">+</span> <span class="pre">1)</span> <span class="pre">*</span> <span class="pre">popsize</span> <span class="pre">*</span> <span class="pre">N</span></code></p></li>
+<li><p><strong>popsize</strong> (<em>int</em><em>, </em><em>optional</em>) – A multiplier for setting the total population size. The population has
+<code class="docutils literal notranslate"><span class="pre">popsize</span> <span class="pre">*</span> <span class="pre">N</span></code> individuals. This keyword is overridden if an
+initial population is supplied via the <cite>init</cite> keyword. When using
+<code class="docutils literal notranslate"><span class="pre">init='sobol'</span></code> the population size is calculated as the next power
+of 2 after <code class="docutils literal notranslate"><span class="pre">popsize</span> <span class="pre">*</span> <span class="pre">N</span></code>.</p></li>
+<li><p><strong>tol</strong> (<em>float</em><em>, </em><em>optional</em>) – Relative tolerance for convergence, the solving stops when
+<code class="docutils literal notranslate"><span class="pre">np.std(pop)</span> <span class="pre">&lt;=</span> <span class="pre">atol</span> <span class="pre">+</span> <span class="pre">tol</span> <span class="pre">*</span> <span class="pre">np.abs(np.mean(population_energies))</span></code>,
+where and <cite>atol</cite> and <cite>tol</cite> are the absolute and relative tolerance
+respectively.</p></li>
+<li><p><strong>mutation</strong> (<em>float</em><em> or </em><em>tuple</em><em>(</em><em>float</em><em>, </em><em>float</em><em>)</em><em>, </em><em>optional</em>) – The mutation constant. In the literature this is also known as
+differential weight, being denoted by F.
+If specified as a float it should be in the range [0, 2].
+If specified as a tuple <code class="docutils literal notranslate"><span class="pre">(min,</span> <span class="pre">max)</span></code> dithering is employed. Dithering
+randomly changes the mutation constant on a generation by generation
+basis. The mutation constant for that generation is taken from
+<code class="docutils literal notranslate"><span class="pre">U[min,</span> <span class="pre">max)</span></code>. Dithering can help speed convergence significantly.
+Increasing the mutation constant increases the search radius, but will
+slow down convergence.</p></li>
+<li><p><strong>recombination</strong> (<em>float</em><em>, </em><em>optional</em>) – The recombination constant, should be in the range [0, 1]. In the
+literature this is also known as the crossover probability, being
+denoted by CR. Increasing this value allows a larger number of mutants
+to progress into the next generation, but at the risk of population
+stability.</p></li>
+<li><p><strong>seed</strong> ({None, int, <cite>numpy.random.Generator</cite>, <cite>numpy.random.RandomState</cite>}, optional) – If <cite>seed</cite> is None (or <cite>np.random</cite>), the <cite>numpy.random.RandomState</cite>
+singleton is used.
+If <cite>seed</cite> is an int, a new <code class="docutils literal notranslate"><span class="pre">RandomState</span></code> instance is used,
+seeded with <cite>seed</cite>.
+If <cite>seed</cite> is already a <code class="docutils literal notranslate"><span class="pre">Generator</span></code> or <code class="docutils literal notranslate"><span class="pre">RandomState</span></code> instance then
+that instance is used.
+Specify <cite>seed</cite> for repeatable minimizations.</p></li>
+<li><p><strong>disp</strong> (<em>bool</em><em>, </em><em>optional</em>) – Prints the evaluated <cite>func</cite> at every iteration.</p></li>
+<li><p><strong>callback</strong> (callable, <cite>callback(xk, convergence=val)</cite>, optional) – A function to follow the progress of the minimization. <code class="docutils literal notranslate"><span class="pre">xk</span></code> is
+the best solution found so far. <code class="docutils literal notranslate"><span class="pre">val</span></code> represents the fractional
+value of the population convergence.  When <code class="docutils literal notranslate"><span class="pre">val</span></code> is greater than one
+the function halts. If callback returns <cite>True</cite>, then the minimization
+is halted (any polishing is still carried out).</p></li>
+<li><p><strong>polish</strong> (<em>bool</em><em>, </em><em>optional</em>) – If True (default), then <cite>scipy.optimize.minimize</cite> with the <cite>L-BFGS-B</cite>
+method is used to polish the best population member at the end, which
+can improve the minimization slightly. If a constrained problem is
+being studied then the <cite>trust-constr</cite> method is used instead. For large
+problems with many constraints, polishing can take a long time due to
+the Jacobian computations.</p></li>
+<li><p><strong>init</strong> (<em>str</em><em> or </em><em>array-like</em><em>, </em><em>optional</em>) – <p>Specify which type of population initialization is performed. Should be
+one of:</p>
+<blockquote>
+<div><ul>
+<li><p>’latinhypercube’</p></li>
+<li><p>’sobol’</p></li>
+<li><p>’halton’</p></li>
+<li><p>’random’</p></li>
+<li><p>array specifying the initial population. The array should have
+shape <code class="docutils literal notranslate"><span class="pre">(S,</span> <span class="pre">N)</span></code>, where S is the total population size and N is
+the number of parameters.
+<cite>init</cite> is clipped to <cite>bounds</cite> before use.</p></li>
+</ul>
+</div></blockquote>
+<p>The default is ‘latinhypercube’. Latin Hypercube sampling tries to
+maximize coverage of the available parameter space.</p>
+<p>’sobol’ and ‘halton’ are superior alternatives and maximize even more
+the parameter space. ‘sobol’ will enforce an initial population
+size which is calculated as the next power of 2 after
+<code class="docutils literal notranslate"><span class="pre">popsize</span> <span class="pre">*</span> <span class="pre">N</span></code>. ‘halton’ has no requirements but is a bit less
+efficient. See <cite>scipy.stats.qmc</cite> for more details.</p>
+<p>’random’ initializes the population randomly - this has the drawback
+that clustering can occur, preventing the whole of parameter space
+being covered. Use of an array to specify a population could be used,
+for example, to create a tight bunch of initial guesses in an location
+where the solution is known to exist, thereby reducing time for
+convergence.</p>
+</p></li>
+<li><p><strong>atol</strong> (<em>float</em><em>, </em><em>optional</em>) – Absolute tolerance for convergence, the solving stops when
+<code class="docutils literal notranslate"><span class="pre">np.std(pop)</span> <span class="pre">&lt;=</span> <span class="pre">atol</span> <span class="pre">+</span> <span class="pre">tol</span> <span class="pre">*</span> <span class="pre">np.abs(np.mean(population_energies))</span></code>,
+where and <cite>atol</cite> and <cite>tol</cite> are the absolute and relative tolerance
+respectively.</p></li>
+<li><p><strong>updating</strong> (<em>{'immediate'</em><em>, </em><em>'deferred'}</em><em>, </em><em>optional</em>) – <p>If <code class="docutils literal notranslate"><span class="pre">'immediate'</span></code>, the best solution vector is continuously updated
+within a single generation <a class="footnote-reference brackets" href="#id12" id="id3" role="doc-noteref"><span class="fn-bracket">[</span>4<span class="fn-bracket">]</span></a>. This can lead to faster convergence as
+trial vectors can take advantage of continuous improvements in the best
+solution.
+With <code class="docutils literal notranslate"><span class="pre">'deferred'</span></code>, the best solution vector is updated once per
+generation. Only <code class="docutils literal notranslate"><span class="pre">'deferred'</span></code> is compatible with parallelization or
+vectorization, and the <cite>workers</cite> and <cite>vectorized</cite> keywords can
+over-ride this option.</p>
+<div class="versionadded">
+<p><span class="versionmodified added">New in version 1.2.0.</span></p>
+</div>
+</p></li>
+<li><p><strong>workers</strong> (<em>int</em><em> or </em><em>map-like callable</em><em>, </em><em>optional</em>) – <p>If <cite>workers</cite> is an int the population is subdivided into <cite>workers</cite>
+sections and evaluated in parallel
+(uses <cite>multiprocessing.Pool &lt;multiprocessing&gt;</cite>).
+Supply -1 to use all available CPU cores.
+Alternatively supply a map-like callable, such as
+<cite>multiprocessing.Pool.map</cite> for evaluating the population in parallel.
+This evaluation is carried out as <code class="docutils literal notranslate"><span class="pre">workers(func,</span> <span class="pre">iterable)</span></code>.
+This option will override the <cite>updating</cite> keyword to
+<code class="docutils literal notranslate"><span class="pre">updating='deferred'</span></code> if <code class="docutils literal notranslate"><span class="pre">workers</span> <span class="pre">!=</span> <span class="pre">1</span></code>.
+This option overrides the <cite>vectorized</cite> keyword if <code class="docutils literal notranslate"><span class="pre">workers</span> <span class="pre">!=</span> <span class="pre">1</span></code>.
+Requires that <cite>func</cite> be pickleable.</p>
+<div class="versionadded">
+<p><span class="versionmodified added">New in version 1.2.0.</span></p>
+</div>
+</p></li>
+<li><p><strong>constraints</strong> (<em>{NonLinearConstraint</em><em>, </em><em>LinearConstraint</em><em>, </em><em>Bounds}</em>) – <p>Constraints on the solver, over and above those applied by the <cite>bounds</cite>
+kwd. Uses the approach by Lampinen <a class="footnote-reference brackets" href="#id13" id="id4" role="doc-noteref"><span class="fn-bracket">[</span>5<span class="fn-bracket">]</span></a>.</p>
+<div class="versionadded">
+<p><span class="versionmodified added">New in version 1.4.0.</span></p>
+</div>
+</p></li>
+<li><p><strong>x0</strong> (<em>None</em><em> or </em><em>array-like</em><em>, </em><em>optional</em>) – <p>Provides an initial guess to the minimization. Once the population has
+been initialized this vector replaces the first (best) member. This
+replacement is done even if <cite>init</cite> is given an initial population.
+<code class="docutils literal notranslate"><span class="pre">x0.shape</span> <span class="pre">==</span> <span class="pre">(N,)</span></code>.</p>
+<div class="versionadded">
+<p><span class="versionmodified added">New in version 1.7.0.</span></p>
+</div>
+</p></li>
+<li><p><strong>integrality</strong> (<em>1-D array</em><em>, </em><em>optional</em>) – <p>For each decision variable, a boolean value indicating whether the
+decision variable is constrained to integer values. The array is
+broadcast to <code class="docutils literal notranslate"><span class="pre">(N,)</span></code>.
+If any decision variables are constrained to be integral, they will not
+be changed during polishing.
+Only integer values lying between the lower and upper bounds are used.
+If there are no integer values lying between the bounds then a
+<cite>ValueError</cite> is raised.</p>
+<div class="versionadded">
+<p><span class="versionmodified added">New in version 1.9.0.</span></p>
+</div>
+</p></li>
+<li><p><strong>vectorized</strong> (<em>bool</em><em>, </em><em>optional</em>) – <p>If <code class="docutils literal notranslate"><span class="pre">vectorized</span> <span class="pre">is</span> <span class="pre">True</span></code>, <cite>func</cite> is sent an <cite>x</cite> array with
+<code class="docutils literal notranslate"><span class="pre">x.shape</span> <span class="pre">==</span> <span class="pre">(N,</span> <span class="pre">S)</span></code>, and is expected to return an array of shape
+<code class="docutils literal notranslate"><span class="pre">(S,)</span></code>, where <cite>S</cite> is the number of solution vectors to be calculated.
+If constraints are applied, each of the functions used to construct
+a <cite>Constraint</cite> object should accept an <cite>x</cite> array with
+<code class="docutils literal notranslate"><span class="pre">x.shape</span> <span class="pre">==</span> <span class="pre">(N,</span> <span class="pre">S)</span></code>, and return an array of shape <code class="docutils literal notranslate"><span class="pre">(M,</span> <span class="pre">S)</span></code>, where
+<cite>M</cite> is the number of constraint components.
+This option is an alternative to the parallelization offered by
+<cite>workers</cite>, and may help in optimization speed by reducing interpreter
+overhead from multiple function calls. This keyword is ignored if
+<code class="docutils literal notranslate"><span class="pre">workers</span> <span class="pre">!=</span> <span class="pre">1</span></code>.
+This option will override the <cite>updating</cite> keyword to
+<code class="docutils literal notranslate"><span class="pre">updating='deferred'</span></code>.
+See the notes section for further discussion on when to use
+<code class="docutils literal notranslate"><span class="pre">'vectorized'</span></code>, and when to use <code class="docutils literal notranslate"><span class="pre">'workers'</span></code>.</p>
+<div class="versionadded">
+<p><span class="versionmodified added">New in version 1.9.0.</span></p>
+</div>
+</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p><strong>res</strong> – The optimization result represented as a <cite>OptimizeResult</cite> object.
+Important attributes are: <code class="docutils literal notranslate"><span class="pre">x</span></code> the solution array, <code class="docutils literal notranslate"><span class="pre">success</span></code> a
+Boolean flag indicating if the optimizer exited successfully and
+<code class="docutils literal notranslate"><span class="pre">message</span></code> which describes the cause of the termination. See
+<cite>OptimizeResult</cite> for a description of other attributes. If <cite>polish</cite>
+was employed, and a lower minimum was obtained by the polishing, then
+OptimizeResult also contains the <code class="docutils literal notranslate"><span class="pre">jac</span></code> attribute.
+If the eventual solution does not satisfy the applied constraints
+<code class="docutils literal notranslate"><span class="pre">success</span></code> will be <cite>False</cite>.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>OptimizeResult</p>
+</dd>
+</dl>
+<p class="rubric">Notes</p>
+<p>Differential evolution is a stochastic population based method that is
+useful for global optimization problems. At each pass through the
+population the algorithm mutates each candidate solution by mixing with
+other candidate solutions to create a trial candidate. There are several
+strategies <a class="footnote-reference brackets" href="#id11" id="id5" role="doc-noteref"><span class="fn-bracket">[</span>3<span class="fn-bracket">]</span></a> for creating trial candidates, which suit some problems
+more than others. The ‘best1bin’ strategy is a good starting point for
+many systems. In this strategy two members of the population are randomly
+chosen. Their difference is used to mutate the best member (the ‘best’ in
+‘best1bin’), <span class="math notranslate nohighlight">\(b_0\)</span>, so far:</p>
+<div class="math notranslate nohighlight">
+\[b' = b_0 + mutation * (population[rand0] - population[rand1])\]</div>
+<p>A trial vector is then constructed. Starting with a randomly chosen ith
+parameter the trial is sequentially filled (in modulo) with parameters
+from <code class="docutils literal notranslate"><span class="pre">b'</span></code> or the original candidate. The choice of whether to use <code class="docutils literal notranslate"><span class="pre">b'</span></code>
+or the original candidate is made with a binomial distribution (the ‘bin’
+in ‘best1bin’) - a random number in [0, 1) is generated. If this number is
+less than the <cite>recombination</cite> constant then the parameter is loaded from
+<code class="docutils literal notranslate"><span class="pre">b'</span></code>, otherwise it is loaded from the original candidate. The final
+parameter is always loaded from <code class="docutils literal notranslate"><span class="pre">b'</span></code>. Once the trial candidate is built
+its fitness is assessed. If the trial is better than the original candidate
+then it takes its place. If it is also better than the best overall
+candidate it also replaces that.
+To improve your chances of finding a global minimum use higher <cite>popsize</cite>
+values, with higher <cite>mutation</cite> and (dithering), but lower <cite>recombination</cite>
+values. This has the effect of widening the search radius, but slowing
+convergence.
+By default the best solution vector is updated continuously within a single
+iteration (<code class="docutils literal notranslate"><span class="pre">updating='immediate'</span></code>). This is a modification <a class="footnote-reference brackets" href="#id12" id="id6" role="doc-noteref"><span class="fn-bracket">[</span>4<span class="fn-bracket">]</span></a> of the
+original differential evolution algorithm which can lead to faster
+convergence as trial vectors can immediately benefit from improved
+solutions. To use the original Storn and Price behaviour, updating the best
+solution once per iteration, set <code class="docutils literal notranslate"><span class="pre">updating='deferred'</span></code>.
+The <code class="docutils literal notranslate"><span class="pre">'deferred'</span></code> approach is compatible with both parallelization and
+vectorization (<code class="docutils literal notranslate"><span class="pre">'workers'</span></code> and <code class="docutils literal notranslate"><span class="pre">'vectorized'</span></code> keywords). These may
+improve minimization speed by using computer resources more efficiently.
+The <code class="docutils literal notranslate"><span class="pre">'workers'</span></code> distribute calculations over multiple processors. By
+default the Python <cite>multiprocessing</cite> module is used, but other approaches
+are also possible, such as the Message Passing Interface (MPI) used on
+clusters <a class="footnote-reference brackets" href="#id14" id="id7" role="doc-noteref"><span class="fn-bracket">[</span>6<span class="fn-bracket">]</span></a> <a class="footnote-reference brackets" href="#id15" id="id8" role="doc-noteref"><span class="fn-bracket">[</span>7<span class="fn-bracket">]</span></a>. The overhead from these approaches (creating new
+Processes, etc) may be significant, meaning that computational speed
+doesn’t necessarily scale with the number of processors used.
+Parallelization is best suited to computationally expensive objective
+functions. If the objective function is less expensive, then
+<code class="docutils literal notranslate"><span class="pre">'vectorized'</span></code> may aid by only calling the objective function once per
+iteration, rather than multiple times for all the population members; the
+interpreter overhead is reduced.</p>
+<div class="versionadded">
+<p><span class="versionmodified added">New in version 0.15.0.</span></p>
+</div>
+<p class="rubric">References</p>
+<aside class="footnote brackets" id="id9" role="note">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">1</a><span class="fn-bracket">]</span></span>
+<p>Differential evolution, Wikipedia,
+<a class="reference external" href="http://en.wikipedia.org/wiki/Differential_evolution">http://en.wikipedia.org/wiki/Differential_evolution</a></p>
+</aside>
+<aside class="footnote brackets" id="id10" role="note">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id2">2</a><span class="fn-bracket">]</span></span>
+<p>Storn, R and Price, K, Differential Evolution - a Simple and
+Efficient Heuristic for Global Optimization over Continuous Spaces,
+Journal of Global Optimization, 1997, 11, 341 - 359.</p>
+</aside>
+<aside class="footnote brackets" id="id11" role="note">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id5">3</a><span class="fn-bracket">]</span></span>
+<p><a class="reference external" href="http://www1.icsi.berkeley.edu/~storn/code.html">http://www1.icsi.berkeley.edu/~storn/code.html</a></p>
+</aside>
+<aside class="footnote brackets" id="id12" role="note">
+<span class="label"><span class="fn-bracket">[</span>4<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id3">1</a>,<a role="doc-backlink" href="#id6">2</a>)</span>
+<p>Wormington, M., Panaccione, C., Matney, K. M., Bowen, D. K., -
+Characterization of structures from X-ray scattering data using
+genetic algorithms, Phil. Trans. R. Soc. Lond. A, 1999, 357,
+2827-2848</p>
+</aside>
+<aside class="footnote brackets" id="id13" role="note">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id4">5</a><span class="fn-bracket">]</span></span>
+<p>Lampinen, J., A constraint handling approach for the differential
+evolution algorithm. Proceedings of the 2002 Congress on
+Evolutionary Computation. CEC’02 (Cat. No. 02TH8600). Vol. 2. IEEE,
+2002.</p>
+</aside>
+<aside class="footnote brackets" id="id14" role="note">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id7">6</a><span class="fn-bracket">]</span></span>
+<p><a class="reference external" href="https://mpi4py.readthedocs.io/en/stable/">https://mpi4py.readthedocs.io/en/stable/</a></p>
+</aside>
+<aside class="footnote brackets" id="id15" role="note">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id8">7</a><span class="fn-bracket">]</span></span>
+<p><a class="reference external" href="https://schwimmbad.readthedocs.io/en/latest/">https://schwimmbad.readthedocs.io/en/latest/</a></p>
+</aside>
+<p class="rubric">Examples</p>
+<p>Let us consider the problem of minimizing the Rosenbrock function. This
+function is implemented in <cite>rosen</cite> in <cite>scipy.optimize</cite>.</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">scipy.optimize</span> <span class="kn">import</span> <span class="n">rosen</span><span class="p">,</span> <span class="n">differential_evolution</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bounds</span> <span class="o">=</span> <span class="p">[(</span><span class="mi">0</span><span class="p">,</span><span class="mi">2</span><span class="p">),</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">),</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">),</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">),</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">)]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">result</span> <span class="o">=</span> <span class="n">differential_evolution</span><span class="p">(</span><span class="n">rosen</span><span class="p">,</span> <span class="n">bounds</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">result</span><span class="o">.</span><span class="n">x</span><span class="p">,</span> <span class="n">result</span><span class="o">.</span><span class="n">fun</span>
+<span class="go">(array([1., 1., 1., 1., 1.]), 1.9216496320061384e-19)</span>
+</pre></div>
+</div>
+<p>Now repeat, but with parallelization.</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">result</span> <span class="o">=</span> <span class="n">differential_evolution</span><span class="p">(</span><span class="n">rosen</span><span class="p">,</span> <span class="n">bounds</span><span class="p">,</span> <span class="n">updating</span><span class="o">=</span><span class="s1">&#39;deferred&#39;</span><span class="p">,</span>
+<span class="gp">... </span>                                <span class="n">workers</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">result</span><span class="o">.</span><span class="n">x</span><span class="p">,</span> <span class="n">result</span><span class="o">.</span><span class="n">fun</span>
+<span class="go">(array([1., 1., 1., 1., 1.]), 1.9216496320061384e-19)</span>
+</pre></div>
+</div>
+<p>Let’s do a constrained minimization.</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">scipy.optimize</span> <span class="kn">import</span> <span class="n">LinearConstraint</span><span class="p">,</span> <span class="n">Bounds</span>
+</pre></div>
+</div>
+<p>We add the constraint that the sum of <code class="docutils literal notranslate"><span class="pre">x[0]</span></code> and <code class="docutils literal notranslate"><span class="pre">x[1]</span></code> must be less
+than or equal to 1.9.  This is a linear constraint, which may be written
+<code class="docutils literal notranslate"><span class="pre">A</span> <span class="pre">&#64;</span> <span class="pre">x</span> <span class="pre">&lt;=</span> <span class="pre">1.9</span></code>, where <code class="docutils literal notranslate"><span class="pre">A</span> <span class="pre">=</span> <span class="pre">array([[1,</span> <span class="pre">1]])</span></code>.  This can be encoded as
+a <cite>LinearConstraint</cite> instance:</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">lc</span> <span class="o">=</span> <span class="n">LinearConstraint</span><span class="p">([[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">]],</span> <span class="o">-</span><span class="n">np</span><span class="o">.</span><span class="n">inf</span><span class="p">,</span> <span class="mf">1.9</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Specify limits using a <cite>Bounds</cite> object.</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">bounds</span> <span class="o">=</span> <span class="n">Bounds</span><span class="p">([</span><span class="mf">0.</span><span class="p">,</span> <span class="mf">0.</span><span class="p">],</span> <span class="p">[</span><span class="mf">2.</span><span class="p">,</span> <span class="mf">2.</span><span class="p">])</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">result</span> <span class="o">=</span> <span class="n">differential_evolution</span><span class="p">(</span><span class="n">rosen</span><span class="p">,</span> <span class="n">bounds</span><span class="p">,</span> <span class="n">constraints</span><span class="o">=</span><span class="n">lc</span><span class="p">,</span>
+<span class="gp">... </span>                                <span class="n">seed</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">result</span><span class="o">.</span><span class="n">x</span><span class="p">,</span> <span class="n">result</span><span class="o">.</span><span class="n">fun</span>
+<span class="go">(array([0.96632622, 0.93367155]), 0.0011352416852625719)</span>
+</pre></div>
+</div>
+<p>Next find the minimum of the Ackley function
+(<a class="reference external" href="https://en.wikipedia.org/wiki/Test_functions_for_optimization">https://en.wikipedia.org/wiki/Test_functions_for_optimization</a>).</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="k">def</span> <span class="nf">ackley</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+<span class="gp">... </span>    <span class="n">arg1</span> <span class="o">=</span> <span class="o">-</span><span class="mf">0.2</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mf">0.5</span> <span class="o">*</span> <span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">**</span> <span class="mi">2</span> <span class="o">+</span> <span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">**</span> <span class="mi">2</span><span class="p">))</span>
+<span class="gp">... </span>    <span class="n">arg2</span> <span class="o">=</span> <span class="mf">0.5</span> <span class="o">*</span> <span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">cos</span><span class="p">(</span><span class="mf">2.</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">pi</span> <span class="o">*</span> <span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="o">+</span> <span class="n">np</span><span class="o">.</span><span class="n">cos</span><span class="p">(</span><span class="mf">2.</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">pi</span> <span class="o">*</span> <span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">]))</span>
+<span class="gp">... </span>    <span class="k">return</span> <span class="o">-</span><span class="mf">20.</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="n">arg1</span><span class="p">)</span> <span class="o">-</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="n">arg2</span><span class="p">)</span> <span class="o">+</span> <span class="mf">20.</span> <span class="o">+</span> <span class="n">np</span><span class="o">.</span><span class="n">e</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bounds</span> <span class="o">=</span> <span class="p">[(</span><span class="o">-</span><span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="p">),</span> <span class="p">(</span><span class="o">-</span><span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="p">)]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">result</span> <span class="o">=</span> <span class="n">differential_evolution</span><span class="p">(</span><span class="n">ackley</span><span class="p">,</span> <span class="n">bounds</span><span class="p">,</span> <span class="n">seed</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">result</span><span class="o">.</span><span class="n">x</span><span class="p">,</span> <span class="n">result</span><span class="o">.</span><span class="n">fun</span>
+<span class="go">(array([0., 0.]), 4.440892098500626e-16)</span>
+</pre></div>
+</div>
+<p>The Ackley function is written in a vectorized manner, so the
+<code class="docutils literal notranslate"><span class="pre">'vectorized'</span></code> keyword can be employed. Note the reduced number of
+function evaluations.</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">result</span> <span class="o">=</span> <span class="n">differential_evolution</span><span class="p">(</span>
+<span class="gp">... </span>    <span class="n">ackley</span><span class="p">,</span> <span class="n">bounds</span><span class="p">,</span> <span class="n">vectorized</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">updating</span><span class="o">=</span><span class="s1">&#39;deferred&#39;</span><span class="p">,</span> <span class="n">seed</span><span class="o">=</span><span class="mi">1</span>
+<span class="gp">... </span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">result</span><span class="o">.</span><span class="n">x</span><span class="p">,</span> <span class="n">result</span><span class="o">.</span><span class="n">fun</span>
+<span class="go">(array([0., 0.]), 4.440892098500626e-16)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</section>
+<section id="module-modified_devo.parameters">
+<span id="modified-devo-parameters-module"></span><h2>modified_devo.parameters module<a class="headerlink" href="#module-modified_devo.parameters" title="Permalink to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="modified_devo.parameters.DEVOParameters">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">modified_devo.parameters.</span></span><span class="sig-name descname"><span class="pre">DEVOParameters</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">target_name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">n_dims</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">use_minimizer</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">use_pop_thinning</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#modified_devo.parameters.DEVOParameters" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="gradient_descent.html#gradient_descent.parameters.Base" title="gradient_descent.parameters.Base"><code class="xref py py-class docutils literal notranslate"><span class="pre">Base</span></code></a></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="modified_devo.parameters.DEVOParameters.__init__">
+<span class="sig-name descname"><span class="pre">__init__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">target_name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">n_dims</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">use_minimizer</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">use_pop_thinning</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#modified_devo.parameters.DEVOParameters.__init__" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="modified_devo.parameters.DEVOParameters.__str__">
+<span class="sig-name descname"><span class="pre">__str__</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#modified_devo.parameters.DEVOParameters.__str__" title="Permalink to this definition"></a></dt>
+<dd><p>Defines the name of the type of simulation.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>the desired name of the type of simulation you are running.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>(str)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="modified_devo.parameters.DEVOParameters.de_maxiter">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">de_maxiter</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#modified_devo.parameters.DEVOParameters.de_maxiter" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="modified_devo.parameters.DEVOParameters.de_n_pop">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">de_n_pop</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#modified_devo.parameters.DEVOParameters.de_n_pop" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="modified_devo.parameters.DEVOParameters.de_strategy">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">de_strategy</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></em><a class="headerlink" href="#modified_devo.parameters.DEVOParameters.de_strategy" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="modified_devo.parameters.DEVOParameters.max_rel_dist_threshold">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">max_rel_dist_threshold</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">float</span></em><a class="headerlink" href="#modified_devo.parameters.DEVOParameters.max_rel_dist_threshold" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="modified_devo.parameters.DEVOParameters.n_trials">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">n_trials</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#modified_devo.parameters.DEVOParameters.n_trials" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="modified_devo.parameters.DEVOParameters.pop_thinning_factor">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">pop_thinning_factor</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">float</span></em><a class="headerlink" href="#modified_devo.parameters.DEVOParameters.pop_thinning_factor" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="modified_devo.parameters.DEVOParameters.use_minimizer">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">use_minimizer</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">bool</span></em><a class="headerlink" href="#modified_devo.parameters.DEVOParameters.use_minimizer" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="modified_devo.parameters.DEVOParameters.use_pop_thinning">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">use_pop_thinning</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">bool</span></em><a class="headerlink" href="#modified_devo.parameters.DEVOParameters.use_pop_thinning" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="modified_devo.parameters.DEVOParameters.use_x0_insertion">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">use_x0_insertion</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">bool</span></em><a class="headerlink" href="#modified_devo.parameters.DEVOParameters.use_x0_insertion" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-modified_devo">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-modified_devo" title="Permalink to this heading"></a></h2>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="minimization_history.html" class="btn btn-neutral float-left" title="minimization_history module" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="neural_network.html" class="btn btn-neutral float-right" title="neural_network package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, Vegard Falmår.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

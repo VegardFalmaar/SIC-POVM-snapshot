@@ -1,0 +1,547 @@
+DEBUG:scipy.optimize.shgo:Splitting first generation
+DEBUG:scipy.optimize.shgo:============================================================
+DEBUG:scipy.optimize.shgo:Starting iteration # 1
+DEBUG:scipy.optimize.shgo:Constructing and refining simplicial complex graph structure
+DEBUG:scipy.optimize.shgo:Triangulation completed, evaluating all constraints and objective function values.
+DEBUG:scipy.optimize.shgo:Evaluations completed.
+DEBUG:scipy.optimize.shgo:Searching for minimizer pool...
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:v.x = [ 0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00] is minimizer
+DEBUG:scipy.optimize.shgo:v.f = 0.6 is minimizer
+DEBUG:scipy.optimize.shgo:Neighbors:
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 1.0, 1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 1.0, 1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, -1.0, -1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, -1.0, -1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 1.0, 1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, -1.0, 1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, -1.0, 1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 1.0, -1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 1.0, -1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 1.0, -1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 1.0, -1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 1.0, -1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 1.0, -1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 1.0, -1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 1.0, -1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, -1.0, -1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, -1.0, 1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, -1.0, -1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, -1.0, 1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, -1.0, 1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, -1.0, 1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 1.0, 1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, -1.0, -1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 1.0, 1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, -1.0, -1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 1.0, 1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, -1.0, -1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, -1.0, -1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 1.0, 1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 1.0, -1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 1.0, -1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 1.0, 1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, -1.0, -1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 1.0, 1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, -1.0, -1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 1.0, 1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, -1.0, 1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 1.0, 1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, -1.0, 1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 1.0, -1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 1.0, -1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, -1.0, 1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, -1.0, -1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, -1.0, 1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 1.0, -1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, -1.0, 1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, -1.0, -1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, -1.0, 1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, -1.0, 1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 1.0, -1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 1.0, -1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 1.0, -1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, -1.0, 1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, -1.0, -1.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, -1.0, -1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, -1.0, -1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 1.0, 1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, -1.0, 1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, -1.0, -1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 1.0, 1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, -1.0, 1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 1.0, 1.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 1.0, 1.0, 1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 1.0, 1.0, -1.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:Performing local minimizations.
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:Starting local minimization at [ 0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00]
+DEBUG:scipy.optimize.shgo:Vertex minimiser maps = []
+DEBUG:scipy.optimize.shgo:cbounds found for v_min.x_a = [ 0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00]
+DEBUG:scipy.optimize.shgo:cbounds = [[-1.0, 1.0], [-1.0, 1.0], [-1.0, 1.0], [-1.0, 1.0], [-1.0, 1.0], [-1.0, 1.0]]
+DEBUG:scipy.optimize.shgo:Return value of local minimization:
+           message: `xtol` termination condition is satisfied.
+           success: True
+            status: 2
+               fun: 0.007407407407408195
+                 x: [ 1.562e-01  3.772e-01  1.010e-09  3.125e-01  1.562e-01
+                      3.772e-01]
+               nit: 69
+              nfev: 623
+              njev: 89
+              nhev: 0
+          cg_niter: 186
+      cg_stop_cond: 4
+              grad: [ 1.863e-08 -1.863e-08  3.353e-08  3.725e-09  1.490e-08
+                     -2.235e-08]
+   lagrangian_grad: [ 2.169e-08 -1.124e-08  3.353e-08  9.848e-09  1.796e-08
+                     -1.496e-08]
+            constr: [array([ 6.565e-01])]
+               jac: [array([[ 2.380e-01,  5.745e-01,  7.451e-09,
+                             4.760e-01,  2.380e-01,  5.745e-01]])]
+       constr_nfev: [623]
+       constr_njev: [0]
+       constr_nhev: [0]
+                 v: [array([ 1.286e-08])]
+            method: tr_interior_point
+        optimality: 3.352761278199509e-08
+  constr_violation: 0.0
+    execution_time: 0.17959952354431152
+         tr_radius: 2.0423033583235625e-09
+    constr_penalty: 1.0
+ barrier_parameter: 2.048000000000001e-09
+ barrier_tolerance: 2.048000000000001e-09
+             niter: 69
+DEBUG:scipy.optimize.shgo:Function evaluations done = 1 / 50000000
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.0, 0.0, 0.0, 0.0, 0.0, 0.0)].f = 0.600000
+DEBUG:scipy.optimize.shgo:Lowest function evaluation = 0.007407
+DEBUG:scipy.optimize.shgo:Specified minimum = 0.000000
+DEBUG:scipy.optimize.shgo:Minimiser pool = SHGO.X_min = []
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:Iteration # 1 done
+DEBUG:scipy.optimize.shgo:Function evaluations done = 1 / 50000000
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.0, 0.0, 0.0, 0.0, 0.0, 0.0)].f = 0.600000
+DEBUG:scipy.optimize.shgo:Lowest function evaluation = 0.007407
+DEBUG:scipy.optimize.shgo:Specified minimum = 0.000000
+DEBUG:scipy.optimize.shgo:============================================================
+DEBUG:scipy.optimize.shgo:Starting iteration # 2
+DEBUG:scipy.optimize.shgo:Constructing and refining simplicial complex graph structure
+DEBUG:scipy.optimize.shgo:Triangulation completed, evaluating all constraints and objective function values.
+DEBUG:scipy.optimize.shgo:Evaluations completed.
+DEBUG:scipy.optimize.shgo:Searching for minimizer pool...
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.0, 0.0, 0.0, 0.0, 0.0, 0.0)].f = 0.600000
+DEBUG:scipy.optimize.shgo:Minimiser pool = SHGO.X_min = []
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:Iteration # 2 done
+DEBUG:scipy.optimize.shgo:Function evaluations done = 1 / 50000000
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.0, 0.0, 0.0, 0.0, 0.0, 0.0)].f = 0.600000
+DEBUG:scipy.optimize.shgo:Lowest function evaluation = 0.007407
+DEBUG:scipy.optimize.shgo:Specified minimum = 0.000000
+DEBUG:scipy.optimize.shgo:============================================================
+DEBUG:scipy.optimize.shgo:Starting iteration # 3
+DEBUG:scipy.optimize.shgo:Constructing and refining simplicial complex graph structure
+DEBUG:scipy.optimize.shgo:Triangulation completed, evaluating all constraints and objective function values.
+DEBUG:scipy.optimize.shgo:Evaluations completed.
+DEBUG:scipy.optimize.shgo:Searching for minimizer pool...
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.0, 0.0, 0.0, 0.0, 0.0, 0.0)].f = 0.600000
+DEBUG:scipy.optimize.shgo:Minimiser pool = SHGO.X_min = []
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:Iteration # 3 done
+DEBUG:scipy.optimize.shgo:Function evaluations done = 1 / 50000000
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.0, 0.0, 0.0, 0.0, 0.0, 0.0)].f = 0.600000
+DEBUG:scipy.optimize.shgo:Lowest function evaluation = 0.007407
+DEBUG:scipy.optimize.shgo:Specified minimum = 0.000000
+DEBUG:scipy.optimize.shgo:============================================================
+DEBUG:scipy.optimize.shgo:Starting iteration # 4
+DEBUG:scipy.optimize.shgo:Constructing and refining simplicial complex graph structure
+DEBUG:scipy.optimize.shgo:Triangulation completed, evaluating all constraints and objective function values.
+DEBUG:scipy.optimize.shgo:Evaluations completed.
+DEBUG:scipy.optimize.shgo:Searching for minimizer pool...
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:v.x = [ 0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00 -1.000000e+00] is minimizer
+DEBUG:scipy.optimize.shgo:v.f = 0.6 is minimizer
+DEBUG:scipy.optimize.shgo:Neighbors:
+DEBUG:scipy.optimize.shgo:x = (0.0, 0.0, 0.0, 0.0, 1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 0.0, 0.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 0.0, 0.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 0.0, 0.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 0.0, 0.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (0.0, 0.0, 0.0, 0.0, -1.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:Performing local minimizations.
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:Starting local minimization at [ 0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00 -1.000000e+00]
+DEBUG:scipy.optimize.shgo:Vertex minimiser maps = [(0.0, 0.0, 0.0, 0.0, 0.0, 0.0)]
+DEBUG:scipy.optimize.shgo:cbounds found for v_min.x_a = [ 0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00 -1.000000e+00]
+DEBUG:scipy.optimize.shgo:cbounds = [[-1.0, 1.0], [-1.0, 1.0], [-1.0, 1.0], [-1.0, 1.0], [-1.0, 1.0], [-1.0, 1.0]]
+DEBUG:scipy.optimize.shgo:Return value of local minimization:
+           message: `gtol` termination condition is satisfied.
+           success: True
+            status: 1
+               fun: 0.10000000002920484
+                 x: [ 1.025e-10  1.052e-10  1.023e-10  1.022e-10  7.555e-10
+                     -7.081e-01]
+               nit: 466
+              nfev: 3192
+              njev: 456
+              nhev: 0
+          cg_niter: 1929
+      cg_stop_cond: 1
+              grad: [ 7.451e-09 -7.451e-09  7.451e-09  7.451e-09  7.451e-09
+                     -1.267e-07]
+   lagrangian_grad: [ 7.451e-09 -7.451e-09  7.451e-09  7.451e-09  7.451e-09
+                     -9.999e-09]
+            constr: [array([ 7.081e-01])]
+               jac: [array([[ 7.451e-09,  7.451e-09,  7.451e-09,
+                             7.451e-09,  7.451e-09, -1.000e+00]])]
+       constr_nfev: [3192]
+       constr_njev: [0]
+       constr_nhev: [0]
+                 v: [array([-1.167e-07])]
+            method: tr_interior_point
+        optimality: 9.99878146355577e-09
+  constr_violation: 0.0
+    execution_time: 1.2494263648986816
+         tr_radius: 107448434.9266186
+    constr_penalty: 1.0
+ barrier_parameter: 1.0240000000000006e-08
+ barrier_tolerance: 1.0240000000000006e-08
+             niter: 466
+DEBUG:scipy.optimize.shgo:Function evaluations done = 2 / 50000000
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.0, 0.0, 0.0, 0.0, 0.0, 0.0)].f = 0.600000
+DEBUG:scipy.optimize.shgo:Lowest function evaluation = 0.007407
+DEBUG:scipy.optimize.shgo:Specified minimum = 0.000000
+DEBUG:scipy.optimize.shgo:Minimiser pool = SHGO.X_min = []
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:Iteration # 4 done
+DEBUG:scipy.optimize.shgo:Function evaluations done = 2 / 50000000
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.0, 0.0, 0.0, 0.0, 0.0, 0.0)].f = 0.600000
+DEBUG:scipy.optimize.shgo:Lowest function evaluation = 0.007407
+DEBUG:scipy.optimize.shgo:Specified minimum = 0.000000
+DEBUG:scipy.optimize.shgo:============================================================
+DEBUG:scipy.optimize.shgo:Starting iteration # 5
+DEBUG:scipy.optimize.shgo:Constructing and refining simplicial complex graph structure
+DEBUG:scipy.optimize.shgo:Triangulation completed, evaluating all constraints and objective function values.
+DEBUG:scipy.optimize.shgo:Evaluations completed.
+DEBUG:scipy.optimize.shgo:Searching for minimizer pool...
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.0, 0.0, 0.0, 0.0, 0.0, 0.0)].f = 0.600000
+DEBUG:scipy.optimize.shgo:Minimiser pool = SHGO.X_min = []
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:Iteration # 5 done
+DEBUG:scipy.optimize.shgo:Function evaluations done = 2 / 50000000
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.0, 0.0, 0.0, 0.0, 0.0, 0.0)].f = 0.600000
+DEBUG:scipy.optimize.shgo:Lowest function evaluation = 0.007407
+DEBUG:scipy.optimize.shgo:Specified minimum = 0.000000
+DEBUG:scipy.optimize.shgo:============================================================
+DEBUG:scipy.optimize.shgo:Starting iteration # 6
+DEBUG:scipy.optimize.shgo:Constructing and refining simplicial complex graph structure
+DEBUG:scipy.optimize.shgo:Triangulation completed, evaluating all constraints and objective function values.
+DEBUG:scipy.optimize.shgo:Evaluations completed.
+DEBUG:scipy.optimize.shgo:Searching for minimizer pool...
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.0, 0.0, 0.0, 0.0, 0.0, 0.0)].f = 0.600000
+DEBUG:scipy.optimize.shgo:Minimiser pool = SHGO.X_min = []
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:Iteration # 6 done
+DEBUG:scipy.optimize.shgo:Function evaluations done = 2 / 50000000
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.0, 0.0, 0.0, 0.0, 0.0, 0.0)].f = 0.600000
+DEBUG:scipy.optimize.shgo:Lowest function evaluation = 0.007407
+DEBUG:scipy.optimize.shgo:Specified minimum = 0.000000
+DEBUG:scipy.optimize.shgo:============================================================
+DEBUG:scipy.optimize.shgo:Starting iteration # 7
+DEBUG:scipy.optimize.shgo:Constructing and refining simplicial complex graph structure
+DEBUG:scipy.optimize.shgo:Triangulation completed, evaluating all constraints and objective function values.
+DEBUG:scipy.optimize.shgo:Evaluations completed.
+DEBUG:scipy.optimize.shgo:Searching for minimizer pool...
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.0, 0.0, 0.0, 0.0, 0.0, 0.0)].f = 0.600000
+DEBUG:scipy.optimize.shgo:Minimiser pool = SHGO.X_min = []
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:Iteration # 7 done
+DEBUG:scipy.optimize.shgo:Function evaluations done = 3 / 50000000
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.0, 0.0, 0.0, 0.0, 0.0, 0.0)].f = 0.600000
+DEBUG:scipy.optimize.shgo:Lowest function evaluation = 0.007407
+DEBUG:scipy.optimize.shgo:Specified minimum = 0.000000
+DEBUG:scipy.optimize.shgo:============================================================
+DEBUG:scipy.optimize.shgo:Starting iteration # 8
+DEBUG:scipy.optimize.shgo:Constructing and refining simplicial complex graph structure
+DEBUG:scipy.optimize.shgo:Triangulation completed, evaluating all constraints and objective function values.
+DEBUG:scipy.optimize.shgo:Evaluations completed.
+DEBUG:scipy.optimize.shgo:Searching for minimizer pool...
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.0, 0.0, 0.0, 0.0, 0.0, 0.0)].f = 0.600000
+DEBUG:scipy.optimize.shgo:Minimiser pool = SHGO.X_min = []
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:Iteration # 8 done
+DEBUG:scipy.optimize.shgo:Function evaluations done = 4 / 50000000
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.0, 0.0, 0.0, 0.0, 0.0, 0.0)].f = 0.600000
+DEBUG:scipy.optimize.shgo:Lowest function evaluation = 0.007407
+DEBUG:scipy.optimize.shgo:Specified minimum = 0.000000
+DEBUG:scipy.optimize.shgo:============================================================
+DEBUG:scipy.optimize.shgo:Starting iteration # 9
+DEBUG:scipy.optimize.shgo:Constructing and refining simplicial complex graph structure
+DEBUG:scipy.optimize.shgo:Triangulation completed, evaluating all constraints and objective function values.
+DEBUG:scipy.optimize.shgo:Evaluations completed.
+DEBUG:scipy.optimize.shgo:Searching for minimizer pool...
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.0, 0.0, 0.0, 0.0, 0.0, 0.0)].f = 0.600000
+DEBUG:scipy.optimize.shgo:Minimiser pool = SHGO.X_min = []
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:Iteration # 9 done
+DEBUG:scipy.optimize.shgo:Function evaluations done = 5 / 50000000
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.0, 0.0, 0.0, 0.0, 0.0, 0.0)].f = 0.600000
+DEBUG:scipy.optimize.shgo:Lowest function evaluation = 0.007407
+DEBUG:scipy.optimize.shgo:Specified minimum = 0.000000
+DEBUG:scipy.optimize.shgo:============================================================
+DEBUG:scipy.optimize.shgo:Starting iteration # 10
+DEBUG:scipy.optimize.shgo:Constructing and refining simplicial complex graph structure
+DEBUG:scipy.optimize.shgo:Triangulation completed, evaluating all constraints and objective function values.
+DEBUG:scipy.optimize.shgo:Evaluations completed.
+DEBUG:scipy.optimize.shgo:Searching for minimizer pool...
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.0, 0.0, 0.0, 0.0, 0.0, 0.0)].f = 0.600000
+DEBUG:scipy.optimize.shgo:Minimiser pool = SHGO.X_min = []
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:Iteration # 10 done
+DEBUG:scipy.optimize.shgo:Function evaluations done = 6 / 50000000
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.0, 0.0, 0.0, 0.0, 0.0, 0.0)].f = 0.600000
+DEBUG:scipy.optimize.shgo:Lowest function evaluation = 0.007407
+DEBUG:scipy.optimize.shgo:Specified minimum = 0.000000
+DEBUG:scipy.optimize.shgo:============================================================
+DEBUG:scipy.optimize.shgo:Starting iteration # 11
+DEBUG:scipy.optimize.shgo:Constructing and refining simplicial complex graph structure
+DEBUG:scipy.optimize.shgo:Triangulation completed, evaluating all constraints and objective function values.
+DEBUG:scipy.optimize.shgo:Evaluations completed.
+DEBUG:scipy.optimize.shgo:Searching for minimizer pool...
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:v.x = [ 0.000000e+00 -1.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00] is minimizer
+DEBUG:scipy.optimize.shgo:v.f = 0.6 is minimizer
+DEBUG:scipy.optimize.shgo:Neighbors:
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 0.0, 0.0, 0.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 0.0, 0.0, 0.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 0.0, 0.0, 0.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 0.0, 0.0, 0.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:v.x = [-1.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00] is minimizer
+DEBUG:scipy.optimize.shgo:v.f = 0.6 is minimizer
+DEBUG:scipy.optimize.shgo:Neighbors:
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 0.0, 0.0, 0.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 0.0, 0.0, 0.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, -1.0, 0.0, 0.0, 0.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 0.0, 0.0, 0.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:v.x = [ 1.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00] is minimizer
+DEBUG:scipy.optimize.shgo:v.f = 0.6 is minimizer
+DEBUG:scipy.optimize.shgo:Neighbors:
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 0.0, 0.0, 0.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 0.0, 0.0, 0.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 0.0, 0.0, 0.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, -1.0, 0.0, 0.0, 0.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:v.x = [ 0.000000e+00  1.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00] is minimizer
+DEBUG:scipy.optimize.shgo:v.f = 0.6 is minimizer
+DEBUG:scipy.optimize.shgo:Neighbors:
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 0.0, 0.0, 0.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (1.0, 1.0, 0.0, 0.0, 0.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 0.0, 0.0, 0.0, 1.0) || f = inf
+DEBUG:scipy.optimize.shgo:x = (-1.0, 1.0, 0.0, 0.0, 0.0, -1.0) || f = inf
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:Performing local minimizations.
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:Starting local minimization at [ 0.000000e+00 -1.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00]
+DEBUG:scipy.optimize.shgo:Vertex minimiser maps = [(0.0, 0.0, 0.0, 0.0, 0.0, 0.0), (0.0, 0.0, 0.0, 0.0, 0.0, -1.0)]
+DEBUG:scipy.optimize.shgo:cbounds found for v_min.x_a = [ 0.000000e+00 -1.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00]
+DEBUG:scipy.optimize.shgo:cbounds = [[-1.0, 1.0], [-1.0, 1.0], [-1.0, 1.0], [-1.0, 1.0], [-1.0, 1.0], [-1.0, 1.0]]
+DEBUG:scipy.optimize.shgo:Return value of local minimization:
+           message: `gtol` termination condition is satisfied.
+           success: True
+            status: 1
+               fun: 1e-15
+                 x: [ 6.891e-02 -4.808e-01 -2.980e-01  2.681e-01 -1.992e-01
+                     -2.854e-02]
+               nit: 111
+              nfev: 805
+              njev: 115
+              nhev: 0
+          cg_niter: 271
+      cg_stop_cond: 4
+              grad: [ 0.000e+00 -0.000e+00 -0.000e+00  0.000e+00 -0.000e+00
+                     -0.000e+00]
+   lagrangian_grad: [ 1.280e-10 -8.929e-10 -5.535e-10  4.978e-10 -3.699e-10
+                     -5.301e-11]
+            constr: [array([ 6.611e-01])]
+               jac: [array([[ 1.042e-01, -7.273e-01, -4.508e-01,
+                             4.055e-01, -3.012e-01, -4.317e-02]])]
+       constr_nfev: [805]
+       constr_njev: [0]
+       constr_nhev: [0]
+                 v: [array([ 1.228e-09])]
+            method: tr_interior_point
+        optimality: 8.929046414364569e-10
+  constr_violation: 0.0
+    execution_time: 0.27437257766723633
+         tr_radius: 625.0
+    constr_penalty: 1.0
+ barrier_parameter: 1.0240000000000006e-08
+ barrier_tolerance: 1.0240000000000006e-08
+             niter: 111
+DEBUG:scipy.optimize.shgo:Function evaluations done = 13 / 50000000
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.0, 0.0, 0.0, 0.0, 0.0, 0.0)].f = 0.600000
+DEBUG:scipy.optimize.shgo:Lowest function evaluation = 0.000000
+DEBUG:scipy.optimize.shgo:Specified minimum = 0.000000
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:Starting local minimization at [ 0.000000e+00  1.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00]
+DEBUG:scipy.optimize.shgo:Vertex minimiser maps = [(0.0, 0.0, 0.0, 0.0, 0.0, 0.0), (0.0, 0.0, 0.0, 0.0, 0.0, -1.0), (0.0, -1.0, 0.0, 0.0, 0.0, 0.0)]
+DEBUG:scipy.optimize.shgo:cbounds found for v_min.x_a = [ 0.000000e+00  1.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00]
+DEBUG:scipy.optimize.shgo:cbounds = [[-1.0, 1.0], [-1.0, 1.0], [-1.0, 1.0], [-1.0, 1.0], [-1.0, 1.0], [-1.0, 1.0]]
+DEBUG:scipy.optimize.shgo:Return value of local minimization:
+           message: `gtol` termination condition is satisfied.
+           success: True
+            status: 1
+               fun: 1e-15
+                 x: [-6.891e-02  4.808e-01  2.980e-01 -2.681e-01 -1.992e-01
+                     -2.854e-02]
+               nit: 143
+              nfev: 1106
+              njev: 158
+              nhev: 0
+          cg_niter: 343
+      cg_stop_cond: 4
+              grad: [-0.000e+00  0.000e+00  0.000e+00 -0.000e+00 -0.000e+00
+                     -0.000e+00]
+   lagrangian_grad: [-1.280e-10  8.929e-10  5.535e-10 -4.978e-10 -3.699e-10
+                     -5.301e-11]
+            constr: [array([ 6.611e-01])]
+               jac: [array([[-1.042e-01,  7.273e-01,  4.508e-01,
+                            -4.055e-01, -3.012e-01, -4.317e-02]])]
+       constr_nfev: [1106]
+       constr_njev: [0]
+       constr_nhev: [0]
+                 v: [array([ 1.228e-09])]
+            method: tr_interior_point
+        optimality: 8.929046731929854e-10
+  constr_violation: 0.0
+    execution_time: 0.35198116302490234
+         tr_radius: 625.0
+    constr_penalty: 1.0
+ barrier_parameter: 1.0240000000000006e-08
+ barrier_tolerance: 1.0240000000000006e-08
+             niter: 143
+DEBUG:scipy.optimize.shgo:Function evaluations done = 13 / 50000000
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.0, 0.0, 0.0, 0.0, 0.0, 0.0)].f = 0.600000
+DEBUG:scipy.optimize.shgo:Lowest function evaluation = 0.000000
+DEBUG:scipy.optimize.shgo:Specified minimum = 0.000000
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:Starting local minimization at [ 1.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00]
+DEBUG:scipy.optimize.shgo:Vertex minimiser maps = [(0.0, 0.0, 0.0, 0.0, 0.0, 0.0), (0.0, 0.0, 0.0, 0.0, 0.0, -1.0), (0.0, -1.0, 0.0, 0.0, 0.0, 0.0), (0.0, 1.0, 0.0, 0.0, 0.0, 0.0)]
+DEBUG:scipy.optimize.shgo:cbounds found for v_min.x_a = [ 1.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00]
+DEBUG:scipy.optimize.shgo:cbounds = [[-1.0, 1.0], [-1.0, 1.0], [-1.0, 1.0], [-1.0, 1.0], [-1.0, 1.0], [-1.0, 1.0]]
+DEBUG:scipy.optimize.shgo:Return value of local minimization:
+           message: `gtol` termination condition is satisfied.
+           success: True
+            status: 1
+               fun: 1e-15
+                 x: [ 4.808e-01 -6.891e-02  2.980e-01  2.681e-01 -2.854e-02
+                     -1.992e-01]
+               nit: 258
+              nfev: 1876
+              njev: 268
+              nhev: 0
+          cg_niter: 737
+      cg_stop_cond: 4
+              grad: [ 0.000e+00 -0.000e+00  0.000e+00  0.000e+00 -0.000e+00
+                     -0.000e+00]
+   lagrangian_grad: [ 8.929e-10 -1.280e-10  5.535e-10  4.978e-10 -5.301e-11
+                     -3.699e-10]
+            constr: [array([ 6.611e-01])]
+               jac: [array([[ 7.273e-01, -1.042e-01,  4.508e-01,
+                             4.055e-01, -4.317e-02, -3.012e-01]])]
+       constr_nfev: [1876]
+       constr_njev: [0]
+       constr_nhev: [0]
+                 v: [array([ 1.228e-09])]
+            method: tr_interior_point
+        optimality: 8.929046626270387e-10
+  constr_violation: 0.0
+    execution_time: 0.6523077487945557
+         tr_radius: 5.0
+    constr_penalty: 1.0
+ barrier_parameter: 1.0240000000000006e-08
+ barrier_tolerance: 1.0240000000000006e-08
+             niter: 258
+DEBUG:scipy.optimize.shgo:Function evaluations done = 13 / 50000000
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.0, 0.0, 0.0, 0.0, 0.0, 0.0)].f = 0.600000
+DEBUG:scipy.optimize.shgo:Lowest function evaluation = 0.000000
+DEBUG:scipy.optimize.shgo:Specified minimum = 0.000000
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:Starting local minimization at [-1.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00]
+DEBUG:scipy.optimize.shgo:Vertex minimiser maps = [(0.0, 0.0, 0.0, 0.0, 0.0, 0.0), (0.0, 0.0, 0.0, 0.0, 0.0, -1.0), (0.0, -1.0, 0.0, 0.0, 0.0, 0.0), (0.0, 1.0, 0.0, 0.0, 0.0, 0.0), (1.0, 0.0, 0.0, 0.0, 0.0, 0.0)]
+DEBUG:scipy.optimize.shgo:cbounds found for v_min.x_a = [-1.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00]
+DEBUG:scipy.optimize.shgo:cbounds = [[-1.0, 1.0], [-1.0, 1.0], [-1.0, 1.0], [-1.0, 1.0], [-1.0, 1.0], [-1.0, 1.0]]
+DEBUG:scipy.optimize.shgo:Return value of local minimization:
+           message: The maximum number of function evaluations is exceeded.
+           success: False
+            status: 0
+               fun: 0.10000001521692281
+                 x: [-7.160e-01  6.645e-05 -2.093e-04 -2.093e-04 -2.218e-04
+                     -2.218e-04]
+               nit: 1000
+              nfev: 6965
+              njev: 995
+              nhev: 0
+          cg_niter: 1991
+      cg_stop_cond: 4
+              grad: [-9.156e-05 -7.451e-09  4.156e-04  4.154e-04  4.480e-04
+                      4.482e-04]
+   lagrangian_grad: [-1.088e-05 -1.494e-08  4.156e-04  4.155e-04  4.481e-04
+                      4.482e-04]
+            constr: [array([ 7.160e-01])]
+               jac: [array([[-1.000e+00,  9.283e-05, -2.924e-04,
+                            -2.923e-04, -3.098e-04, -3.098e-04]])]
+       constr_nfev: [6965]
+       constr_njev: [0]
+       constr_nhev: [0]
+                 v: [array([-8.068e-05])]
+            method: tr_interior_point
+        optimality: 0.0004481923219423101
+  constr_violation: 0.0
+    execution_time: 2.3237874507904053
+         tr_radius: 34350.35460006611
+    constr_penalty: 1.0
+ barrier_parameter: 3.200000000000001e-05
+ barrier_tolerance: 3.200000000000001e-05
+             niter: 1000
+DEBUG:scipy.optimize.shgo:Function evaluations done = 13 / 50000000
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.0, 0.0, 0.0, 0.0, 0.0, 0.0)].f = 0.600000
+DEBUG:scipy.optimize.shgo:Lowest function evaluation = 0.000000
+DEBUG:scipy.optimize.shgo:Specified minimum = 0.000000
+DEBUG:scipy.optimize.shgo:Minimiser pool = SHGO.X_min = []
+DEBUG:scipy.optimize.shgo:==============================
+DEBUG:scipy.optimize.shgo:Iteration # 11 done
+DEBUG:scipy.optimize.shgo:Function evaluations done = 13 / 50000000
+DEBUG:scipy.optimize.shgo:self.HC.V[(0.0, 0.0, 0.0, 0.0, 0.0, 0.0)].f = 0.600000
+DEBUG:scipy.optimize.shgo:Lowest function evaluation = 0.000000
+DEBUG:scipy.optimize.shgo:Specified minimum = 0.000000
+INFO:scipy.optimize.shgo:Successfully completed construction of complex.
+INFO:scipy.optimize.shgo:Return value from optimization:
+ message: Optimization terminated successfully.
+ success: True
+     fun: 1e-15
+    funl: [ 1.000e-15  1.000e-15  1.000e-15  7.407e-03  1.000e-01
+            1.000e-01]
+       x: [ 6.891e-02 -4.808e-01 -2.980e-01  2.681e-01 -1.992e-01
+           -2.854e-02]
+      xl: [[ 6.891e-02 -4.808e-01 ... -1.992e-01 -2.854e-02]
+           [-6.891e-02  4.808e-01 ... -1.992e-01 -2.854e-02]
+           ...
+           [ 1.025e-10  1.052e-10 ...  7.555e-10 -7.081e-01]
+           [-7.160e-01  6.645e-05 ... -2.218e-04 -2.218e-04]]
+     nit: 11
+    nfev: 14580
+   nlfev: 14567
+   nljev: 2081
+   nlhev: 0

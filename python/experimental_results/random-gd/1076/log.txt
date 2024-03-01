@@ -1,0 +1,23 @@
+DEBUG:random-gd-1076:Setting random seed 585997
+INFO:random-gd-1076:trial      0 / 100_000  |  f_evals         147 / 50_000_000  |  f_min 4.440892e-16
+DEBUG:random-gd-1076:Result of minimization 0:
+  message: CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH
+  success: True
+   status: 0
+      fun: 9.992007221626409e-16
+        x: [-1.798e-02  2.004e-01 -5.578e-01 -5.017e-01  4.838e-01
+             4.340e-02]
+      nit: 19
+      jac: [-4.441e-08 -5.551e-09 -2.776e-08 -1.110e-08  1.110e-08
+            -5.551e-08]
+     nfev: 147
+     njev: 21
+ hess_inv: <6x6 LbfgsInvHessProduct with dtype=float64>
+INFO:random-gd-1076:Converged due to current_f_min close to 0.0.
+INFO:random-gd-1076:Elapsed time: 1.556 seconds
+INFO:random-gd-1076:MinimizationHistory:
+     Function evaluations: 147
+            Minimum value: 4.440892098500626e-16
+                Minimum x: [-1.797623e-02  2.003839e-01 -5.578339e-01 -5.017457e-01  4.837695e-01  4.339844e-02]
+           Solution found: True
+             Elapsed time: 1.5561021020002954
