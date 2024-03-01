@@ -1,0 +1,56 @@
+\hypertarget{classSICPOVMResult}{}\doxysection{S\+I\+C\+P\+O\+V\+M\+Result Class Reference}
+\label{classSICPOVMResult}\index{SICPOVMResult@{SICPOVMResult}}
+
+
+Container to hold a \mbox{\hyperlink{classFiducialVector}{Fiducial\+Vector}} and other information about the solution and computation, along with functionality for saving the result to file.  
+
+
+
+
+{\ttfamily \#include $<$utils.\+hpp$>$}
+
+
+
+Collaboration diagram for S\+I\+C\+P\+O\+V\+M\+Result\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=172pt]{classSICPOVMResult__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classSICPOVMResult_a20ef25f916b8d74b8039b8721276f7ee}\label{classSICPOVMResult_a20ef25f916b8d74b8039b8721276f7ee}} 
+{\bfseries S\+I\+C\+P\+O\+V\+M\+Result} (\mbox{\hyperlink{classFiducialVector}{Fiducial\+Vector}} v, unsigned int random\+\_\+seed, unsigned int vector\+\_\+idx)
+\item 
+\mbox{\Hypertarget{classSICPOVMResult_a681ec34f9bf03601289b12470f9d9606}\label{classSICPOVMResult_a681ec34f9bf03601289b12470f9d9606}} 
+unsigned int {\bfseries dim} () const
+\item 
+\mbox{\Hypertarget{classSICPOVMResult_a7a58cf366c9db842253db51db1d433bf}\label{classSICPOVMResult_a7a58cf366c9db842253db51db1d433bf}} 
+void {\bfseries append\+\_\+loss} (const double l)
+\item 
+\mbox{\Hypertarget{classSICPOVMResult_ac4b43f03400e0589f680c5965046d712}\label{classSICPOVMResult_ac4b43f03400e0589f680c5965046d712}} 
+void {\bfseries save\+\_\+vector\+\_\+to\+\_\+file} () const
+\item 
+\mbox{\Hypertarget{classSICPOVMResult_a45185011a11b8a300550d6c840cb13ae}\label{classSICPOVMResult_a45185011a11b8a300550d6c840cb13ae}} 
+void {\bfseries save\+\_\+loss\+\_\+to\+\_\+file} () const
+\item 
+\mbox{\Hypertarget{classSICPOVMResult_a080bbd6cfe2f486e454e1e38563c105d}\label{classSICPOVMResult_a080bbd6cfe2f486e454e1e38563c105d}} 
+bool {\bfseries is\+\_\+fiducial} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classSICPOVMResult_a0dca913bf7f9d8ef8b7df9a415438e8d}\label{classSICPOVMResult_a0dca913bf7f9d8ef8b7df9a415438e8d}} 
+\mbox{\hyperlink{classFiducialVector}{Fiducial\+Vector}} {\bfseries vector}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Container to hold a \mbox{\hyperlink{classFiducialVector}{Fiducial\+Vector}} and other information about the solution and computation, along with functionality for saving the result to file. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{utils_8hpp}{utils.\+hpp}}\item 
+src/utils.\+cpp\end{DoxyCompactItemize}

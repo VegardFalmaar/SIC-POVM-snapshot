@@ -1,0 +1,77 @@
+\hypertarget{gradient__descent_8cpp}{}\doxysection{main/gradient\+\_\+descent.cpp File Reference}
+\label{gradient__descent_8cpp}\index{main/gradient\_descent.cpp@{main/gradient\_descent.cpp}}
+{\ttfamily \#include $<$chrono$>$}\newline
+{\ttfamily \#include $<$omp.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}../src/utils.\+hpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../src/vectors.\+hpp\char`\"{}}\newline
+Include dependency graph for gradient\+\_\+descent.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gradient__descent_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{gradient__descent_8cpp_a92a52958538f69e73e567d07ff292759}\label{gradient__descent_8cpp_a92a52958538f69e73e567d07ff292759}} 
+bool {\bfseries save\+\_\+loss\+\_\+to\+\_\+file} (const unsigned int batch)
+\item 
+\mbox{\Hypertarget{gradient__descent_8cpp_a7086f4cbc322aa518c8bc389449b117c}\label{gradient__descent_8cpp_a7086f4cbc322aa518c8bc389449b117c}} 
+void \mbox{\hyperlink{gradient__descent_8cpp_a7086f4cbc322aa518c8bc389449b117c}{find\+\_\+fiducial\+\_\+vector}} (const unsigned int dim)
+\begin{DoxyCompactList}\small\item\em Loop through vector batch seeds and vector batches to find a fiducial vector in a given dimension. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{gradient__descent_8cpp_afdf100fd542bd9bffced2c721af21ca6}\label{gradient__descent_8cpp_afdf100fd542bd9bffced2c721af21ca6}} 
+bool \mbox{\hyperlink{gradient__descent_8cpp_afdf100fd542bd9bffced2c721af21ca6}{find\+\_\+fiducial\+\_\+specific\+\_\+seed}} (const unsigned int dim, const unsigned int seed)
+\begin{DoxyCompactList}\small\item\em Loop through vector batches to find a fiducial vector given a specific random seed. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{gradient__descent_8cpp_a645ceb9a6da711baf2b7442e6e878ca9}\label{gradient__descent_8cpp_a645ceb9a6da711baf2b7442e6e878ca9}} 
+bool {\bfseries find\+\_\+fiducial\+\_\+specific\+\_\+seed\+\_\+small\+\_\+dim} (const unsigned int dim, const unsigned int seed)
+\item 
+\mbox{\Hypertarget{gradient__descent_8cpp_a24450cbb7e932b193602f30a4739e1ce}\label{gradient__descent_8cpp_a24450cbb7e932b193602f30a4739e1ce}} 
+bool {\bfseries find\+\_\+fiducial\+\_\+specific\+\_\+seed\+\_\+large\+\_\+dim} (const unsigned int dim, const unsigned int seed)
+\item 
+bool \mbox{\hyperlink{gradient__descent_8cpp_ab621be4bf2ae371fd4a2158a7d9b39a8}{find\+\_\+fiducial\+\_\+specific\+\_\+batch}} (const unsigned int dim, const unsigned int seed, const unsigned int batch, const \mbox{\hyperlink{classLatinSquares}{Latin\+Squares}} \&random\+\_\+vector\+\_\+gen)
+\begin{DoxyCompactList}\small\item\em Loop through initial vectors in a given batch. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{gradient__descent_8cpp_af34ef6d013985e01af91ca7d53b45440}{minimize\+\_\+initial\+\_\+vector}} (const unsigned int dim, const unsigned int seed, const unsigned int vector\+\_\+index, \mbox{\hyperlink{classFiducialVector}{Fiducial\+Vector}} v, const bool save\+\_\+loss)
+\begin{DoxyCompactList}\small\item\em Use GD to transform a given initial vector to the one which minimizes the G matrix loss. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{gradient__descent_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{gradient__descent_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+int {\bfseries main} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{gradient__descent_8cpp_a2a76572e1399be257ed40b448d7d85d5}\label{gradient__descent_8cpp_a2a76572e1399be257ed40b448d7d85d5}} 
+constexpr unsigned int {\bfseries D\+E\+S\+I\+R\+E\+D\+\_\+\+N\+U\+M\+\_\+\+T\+H\+R\+E\+A\+DS} = 17
+\item 
+\mbox{\Hypertarget{gradient__descent_8cpp_a45cafe0d7266747a73f471e91719bb27}\label{gradient__descent_8cpp_a45cafe0d7266747a73f471e91719bb27}} 
+constexpr unsigned int {\bfseries M\+A\+X\+\_\+\+N\+U\+M\+\_\+\+S\+E\+E\+DS} = 100
+\item 
+\mbox{\Hypertarget{gradient__descent_8cpp_a1ff1087da0468d6171b297ef906aef53}\label{gradient__descent_8cpp_a1ff1087da0468d6171b297ef906aef53}} 
+constexpr unsigned int {\bfseries I\+N\+I\+T\+\_\+\+S\+E\+ED} = 0
+\item 
+\mbox{\Hypertarget{gradient__descent_8cpp_a4bc89d5a855ad55f81683cd16bc6c0c0}\label{gradient__descent_8cpp_a4bc89d5a855ad55f81683cd16bc6c0c0}} 
+constexpr unsigned int {\bfseries M\+A\+X\+\_\+\+I\+T\+ER} = 1e5
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{gradient__descent_8cpp_ab621be4bf2ae371fd4a2158a7d9b39a8}\label{gradient__descent_8cpp_ab621be4bf2ae371fd4a2158a7d9b39a8}} 
+\index{gradient\_descent.cpp@{gradient\_descent.cpp}!find\_fiducial\_specific\_batch@{find\_fiducial\_specific\_batch}}
+\index{find\_fiducial\_specific\_batch@{find\_fiducial\_specific\_batch}!gradient\_descent.cpp@{gradient\_descent.cpp}}
+\doxysubsubsection{\texorpdfstring{find\_fiducial\_specific\_batch()}{find\_fiducial\_specific\_batch()}}
+{\footnotesize\ttfamily bool find\+\_\+fiducial\+\_\+specific\+\_\+batch (\begin{DoxyParamCaption}\item[{const unsigned int}]{dim,  }\item[{const unsigned int}]{seed,  }\item[{const unsigned int}]{batch,  }\item[{const \mbox{\hyperlink{classLatinSquares}{Latin\+Squares}} \&}]{random\+\_\+vector\+\_\+gen }\end{DoxyParamCaption})}
+
+
+
+Loop through initial vectors in a given batch. 
+
+This function is called by all Open\+MP threads in parallel. \mbox{\Hypertarget{gradient__descent_8cpp_af34ef6d013985e01af91ca7d53b45440}\label{gradient__descent_8cpp_af34ef6d013985e01af91ca7d53b45440}} 
+\index{gradient\_descent.cpp@{gradient\_descent.cpp}!minimize\_initial\_vector@{minimize\_initial\_vector}}
+\index{minimize\_initial\_vector@{minimize\_initial\_vector}!gradient\_descent.cpp@{gradient\_descent.cpp}}
+\doxysubsubsection{\texorpdfstring{minimize\_initial\_vector()}{minimize\_initial\_vector()}}
+{\footnotesize\ttfamily bool minimize\+\_\+initial\+\_\+vector (\begin{DoxyParamCaption}\item[{const unsigned int}]{dim,  }\item[{const unsigned int}]{seed,  }\item[{const unsigned int}]{vector\+\_\+index,  }\item[{\mbox{\hyperlink{classFiducialVector}{Fiducial\+Vector}}}]{v,  }\item[{const bool}]{save\+\_\+loss }\end{DoxyParamCaption})}
+
+
+
+Use GD to transform a given initial vector to the one which minimizes the G matrix loss. 
+
+This function is called by all Open\+MP threads in parallel. 

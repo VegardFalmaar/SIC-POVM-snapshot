@@ -1,0 +1,11 @@
+Initial seed:
+3
+
+Number of threads:
+6
+
+Duration (ms):
+193288
+
+Result:
+Solution found

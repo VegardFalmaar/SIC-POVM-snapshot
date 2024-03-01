@@ -1,0 +1,33 @@
+\hypertarget{md_notes_autotoc_md0}{}\doxysection{T\+O-\/\+DO}\label{md_notes_autotoc_md0}
+
+\begin{DoxyItemize}
+\item Parallelize starting vectors, M\+PI
+\item Add tests for \mbox{\hyperlink{classFiducialVector}{Fiducial\+Vector}}
+\begin{DoxyItemize}
+\item Indexing
+\item Indexing exceptions
+\item Remove complex phase
+\end{DoxyItemize}
+\item Add tests for the public interface to G\+\_\+matrix
+\item Code for reading result files, and verify their correctness.
+\item Possibilities to add {\ttfamily constexpr} here and there to evaluate certain things at compile-\/time?
+\end{DoxyItemize}\hypertarget{md_notes_autotoc_md1}{}\doxysection{D\+O\+NE}\label{md_notes_autotoc_md1}
+
+\begin{DoxyItemize}
+\item Save loss, fiducial, time to file
+\item Parallelize starting vectors instead of loss, Open\+MP
+\item Better generation of start vectors
+\item (Failed, gone back) Try {\ttfamily long double} for higher precision
+\item Precompute all d(d+1)/2 distinct values of G-\/matrix in analytic gradient function. Use a class such the same array may be used throughout the minimization of one vector?
+\item Simplify the loop over vector batches, better to loop seed by seed.
+\item Simplify \mbox{\hyperlink{classG__Matrix}{G\+\_\+\+Matrix}} class and loss function code
+\item Add functions to doxygen
+\item Rewrite \mbox{\hyperlink{classLatinSquares}{Latin\+Squares}}
+\begin{DoxyItemize}
+\item Stop generating a new array of indices to shuffle every time a new vector is generated? Can shuffle in-\/place instead.
+\end{DoxyItemize}
+\item Add alternative gradient descent code (for higher dimensions) for specific seed which distributes all 100 vectors among threads instead of looping over batches.
+\item Stop calculating norms, stop the inner GD loop when diff in loss is small.
+\item Review the handling of data/variables between the functions in {\ttfamily gradient\+\_\+descent}.
+\item Improve system for keeping track of results. 
+\end{DoxyItemize}

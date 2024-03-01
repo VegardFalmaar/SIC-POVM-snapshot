@@ -1,0 +1,53 @@
+\hypertarget{src_2wh__sic__povm_8cpp}{}\doxysection{src/wh\+\_\+sic\+\_\+povm.cpp File Reference}
+\label{src_2wh__sic__povm_8cpp}\index{src/wh\_sic\_povm.cpp@{src/wh\_sic\_povm.cpp}}
+{\ttfamily \#include \char`\"{}wh\+\_\+sic\+\_\+povm.\+hpp\char`\"{}}\newline
+Include dependency graph for wh\+\_\+sic\+\_\+povm.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{src_2wh__sic__povm_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+double \mbox{\hyperlink{src_2wh__sic__povm_8cpp_a5f3832ac67e44db4978890de2151997f}{loss}} (const \mbox{\hyperlink{classG__Matrix}{G\+\_\+\+Matrix}} \&g)
+\begin{DoxyCompactList}\small\item\em Compute the loss associated with the given instance of \mbox{\hyperlink{classG__Matrix}{G\+\_\+\+Matrix}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{src_2wh__sic__povm_8cpp_ad3280dc5be65ae20128c327ad03e61f2}{numerical\+\_\+gradient}} (const \mbox{\hyperlink{classFiducialVector}{Fiducial\+Vector}} \&v, \mbox{\hyperlink{classFiducialVector}{Fiducial\+Vector}} \&grad\+\_\+v)
+\begin{DoxyCompactList}\small\item\em Compute a numerical approximation of the gradient of the \mbox{\hyperlink{classG__Matrix}{G\+\_\+\+Matrix}} loss. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{src_2wh__sic__povm_8cpp_ab72f3c19c51a8ec5d1ad1375c3591b7c}{gradient}} (const \mbox{\hyperlink{classFiducialVector}{Fiducial\+Vector}} \&v, \mbox{\hyperlink{classFiducialVector}{Fiducial\+Vector}} \&grad\+\_\+v)
+\begin{DoxyCompactList}\small\item\em Copmute the gradient of the \mbox{\hyperlink{classG__Matrix}{G\+\_\+\+Matrix}} loss using an exact expression. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{src_2wh__sic__povm_8cpp_ab72f3c19c51a8ec5d1ad1375c3591b7c}\label{src_2wh__sic__povm_8cpp_ab72f3c19c51a8ec5d1ad1375c3591b7c}} 
+\index{wh\_sic\_povm.cpp@{wh\_sic\_povm.cpp}!gradient@{gradient}}
+\index{gradient@{gradient}!wh\_sic\_povm.cpp@{wh\_sic\_povm.cpp}}
+\doxysubsubsection{\texorpdfstring{gradient()}{gradient()}}
+{\footnotesize\ttfamily void gradient (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classFiducialVector}{Fiducial\+Vector}} \&}]{v,  }\item[{\mbox{\hyperlink{classFiducialVector}{Fiducial\+Vector}} \&}]{grad\+\_\+v }\end{DoxyParamCaption})}
+
+
+
+Copmute the gradient of the \mbox{\hyperlink{classG__Matrix}{G\+\_\+\+Matrix}} loss using an exact expression. 
+
+\mbox{\Hypertarget{src_2wh__sic__povm_8cpp_a5f3832ac67e44db4978890de2151997f}\label{src_2wh__sic__povm_8cpp_a5f3832ac67e44db4978890de2151997f}} 
+\index{wh\_sic\_povm.cpp@{wh\_sic\_povm.cpp}!loss@{loss}}
+\index{loss@{loss}!wh\_sic\_povm.cpp@{wh\_sic\_povm.cpp}}
+\doxysubsubsection{\texorpdfstring{loss()}{loss()}}
+{\footnotesize\ttfamily double loss (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classG__Matrix}{G\+\_\+\+Matrix}} \&}]{g }\end{DoxyParamCaption})}
+
+
+
+Compute the loss associated with the given instance of \mbox{\hyperlink{classG__Matrix}{G\+\_\+\+Matrix}}. 
+
+Given by the sum of the absolute value of all elements squared. \mbox{\Hypertarget{src_2wh__sic__povm_8cpp_ad3280dc5be65ae20128c327ad03e61f2}\label{src_2wh__sic__povm_8cpp_ad3280dc5be65ae20128c327ad03e61f2}} 
+\index{wh\_sic\_povm.cpp@{wh\_sic\_povm.cpp}!numerical\_gradient@{numerical\_gradient}}
+\index{numerical\_gradient@{numerical\_gradient}!wh\_sic\_povm.cpp@{wh\_sic\_povm.cpp}}
+\doxysubsubsection{\texorpdfstring{numerical\_gradient()}{numerical\_gradient()}}
+{\footnotesize\ttfamily void numerical\+\_\+gradient (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classFiducialVector}{Fiducial\+Vector}} \&}]{v,  }\item[{\mbox{\hyperlink{classFiducialVector}{Fiducial\+Vector}} \&}]{grad\+\_\+v }\end{DoxyParamCaption})}
+
+
+
+Compute a numerical approximation of the gradient of the \mbox{\hyperlink{classG__Matrix}{G\+\_\+\+Matrix}} loss. 
+

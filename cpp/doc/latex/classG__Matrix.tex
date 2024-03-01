@@ -1,0 +1,41 @@
+\hypertarget{classG__Matrix}{}\doxysection{G\+\_\+\+Matrix Class Reference}
+\label{classG__Matrix}\index{G\_Matrix@{G\_Matrix}}
+
+
+The matrix G associated with the loss to be minimized when determining fiducial vectors in the Weyl-\/\+Heisenberg group.  
+
+
+
+
+{\ttfamily \#include $<$wh\+\_\+sic\+\_\+povm.\+hpp$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classG__Matrix_aa78d8318b01a9543490aecd80035601a}\label{classG__Matrix_aa78d8318b01a9543490aecd80035601a}} 
+{\bfseries G\+\_\+\+Matrix} (const \mbox{\hyperlink{classFiducialVector}{Fiducial\+Vector}} \&vector)
+\item 
+\mbox{\Hypertarget{classG__Matrix_a506bc596bc686d1c24ca08dce4602688}\label{classG__Matrix_a506bc596bc686d1c24ca08dce4602688}} 
+void \mbox{\hyperlink{classG__Matrix_a506bc596bc686d1c24ca08dce4602688}{update}} (const \mbox{\hyperlink{classFiducialVector}{Fiducial\+Vector}} \&vector)
+\begin{DoxyCompactList}\small\item\em Recompute all elements of the matrix corresponding to an updated fiducial vector. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classG__Matrix_a751f6ae90eaa571ac0a37a35034dbdd5}\label{classG__Matrix_a751f6ae90eaa571ac0a37a35034dbdd5}} 
+c\+\_\+num \& \mbox{\hyperlink{classG__Matrix_a751f6ae90eaa571ac0a37a35034dbdd5}{idx}} (const size\+\_\+t k, const size\+\_\+t l)
+\begin{DoxyCompactList}\small\item\em Retrieve by reference the element in row k and column l. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classG__Matrix_aaa9770c72ae118becd5ddf3e5bece089}\label{classG__Matrix_aaa9770c72ae118becd5ddf3e5bece089}} 
+c\+\_\+num \mbox{\hyperlink{classG__Matrix_aaa9770c72ae118becd5ddf3e5bece089}{idx}} (const size\+\_\+t k, const size\+\_\+t l) const
+\begin{DoxyCompactList}\small\item\em Retrieve by value the element in row k and column l. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classG__Matrix_ae7aba6b7f707d58715cf11547cd67dd9}\label{classG__Matrix_ae7aba6b7f707d58715cf11547cd67dd9}} 
+double \mbox{\hyperlink{classG__Matrix_ae7aba6b7f707d58715cf11547cd67dd9}{sum\+\_\+of\+\_\+elements\+\_\+squared}} () const
+\begin{DoxyCompactList}\small\item\em Return the sum of all $\vert$\+G\+\_\+kl$\vert$$^\wedge$2 for elements G\+\_\+kl in matrix. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classG__Matrix_abaa17162939413af25496146806eae89}\label{classG__Matrix_abaa17162939413af25496146806eae89}} 
+unsigned int \mbox{\hyperlink{classG__Matrix_abaa17162939413af25496146806eae89}{dim}} () const
+\begin{DoxyCompactList}\small\item\em The dimensionality of the complex vector to which the matrix belongs. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The matrix G associated with the loss to be minimized when determining fiducial vectors in the Weyl-\/\+Heisenberg group. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{wh__sic__povm_8hpp}{wh\+\_\+sic\+\_\+povm.\+hpp}}\item 
+src/wh\+\_\+sic\+\_\+povm.\+cpp\end{DoxyCompactItemize}

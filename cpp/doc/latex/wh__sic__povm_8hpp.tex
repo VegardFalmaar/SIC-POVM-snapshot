@@ -1,0 +1,42 @@
+\hypertarget{wh__sic__povm_8hpp}{}\doxysection{src/wh\+\_\+sic\+\_\+povm.hpp File Reference}
+\label{wh__sic__povm_8hpp}\index{src/wh\_sic\_povm.hpp@{src/wh\_sic\_povm.hpp}}
+{\ttfamily \#include $<$cassert$>$}\newline
+{\ttfamily \#include \char`\"{}types.\+hpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}vectors.\+hpp\char`\"{}}\newline
+Include dependency graph for wh\+\_\+sic\+\_\+povm.\+hpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{wh__sic__povm_8hpp__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=229pt]{wh__sic__povm_8hpp__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classG__Matrix}{G\+\_\+\+Matrix}}
+\begin{DoxyCompactList}\small\item\em The matrix G associated with the loss to be minimized when determining fiducial vectors in the Weyl-\/\+Heisenberg group. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{wh__sic__povm_8hpp_a5f3832ac67e44db4978890de2151997f}\label{wh__sic__povm_8hpp_a5f3832ac67e44db4978890de2151997f}} 
+double \mbox{\hyperlink{wh__sic__povm_8hpp_a5f3832ac67e44db4978890de2151997f}{loss}} (const \mbox{\hyperlink{classG__Matrix}{G\+\_\+\+Matrix}} \&g)
+\begin{DoxyCompactList}\small\item\em Compute the loss associated with the given instance of \mbox{\hyperlink{classG__Matrix}{G\+\_\+\+Matrix}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{wh__sic__povm_8hpp_ad3280dc5be65ae20128c327ad03e61f2}\label{wh__sic__povm_8hpp_ad3280dc5be65ae20128c327ad03e61f2}} 
+void \mbox{\hyperlink{wh__sic__povm_8hpp_ad3280dc5be65ae20128c327ad03e61f2}{numerical\+\_\+gradient}} (const \mbox{\hyperlink{classFiducialVector}{Fiducial\+Vector}} \&v, \mbox{\hyperlink{classFiducialVector}{Fiducial\+Vector}} \&grad\+\_\+v)
+\begin{DoxyCompactList}\small\item\em Compute a numerical approximation of the gradient of the \mbox{\hyperlink{classG__Matrix}{G\+\_\+\+Matrix}} loss. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{wh__sic__povm_8hpp_ab72f3c19c51a8ec5d1ad1375c3591b7c}\label{wh__sic__povm_8hpp_ab72f3c19c51a8ec5d1ad1375c3591b7c}} 
+void \mbox{\hyperlink{wh__sic__povm_8hpp_ab72f3c19c51a8ec5d1ad1375c3591b7c}{gradient}} (const \mbox{\hyperlink{classFiducialVector}{Fiducial\+Vector}} \&v, \mbox{\hyperlink{classFiducialVector}{Fiducial\+Vector}} \&grad\+\_\+v)
+\begin{DoxyCompactList}\small\item\em Compute the gradient of the \mbox{\hyperlink{classG__Matrix}{G\+\_\+\+Matrix}} loss using an exact expression. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{wh__sic__povm_8hpp_a1ece40db0fbef7d55012a6627b91d163}\label{wh__sic__povm_8hpp_a1ece40db0fbef7d55012a6627b91d163}} 
+void \mbox{\hyperlink{wh__sic__povm_8hpp_a1ece40db0fbef7d55012a6627b91d163}{gradient}} (const \mbox{\hyperlink{classG__Matrix}{G\+\_\+\+Matrix}} \&g, const \mbox{\hyperlink{classFiducialVector}{Fiducial\+Vector}} \&v, \mbox{\hyperlink{classFiducialVector}{Fiducial\+Vector}} \&grad\+\_\+v)
+\begin{DoxyCompactList}\small\item\em Overload gradient to allow passing a \mbox{\hyperlink{classG__Matrix}{G\+\_\+\+Matrix}} for avoiding duplicate computations. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{wh__sic__povm_8hpp_ad9dabd7fd3b8e7c22a97f98d7b690db1}\label{wh__sic__povm_8hpp_ad9dabd7fd3b8e7c22a97f98d7b690db1}} 
+void \mbox{\hyperlink{wh__sic__povm_8hpp_ad9dabd7fd3b8e7c22a97f98d7b690db1}{gradient\+\_\+normalized}} (const \mbox{\hyperlink{classG__Matrix}{G\+\_\+\+Matrix}} \&g, const \mbox{\hyperlink{classFiducialVector}{Fiducial\+Vector}} \&v, \mbox{\hyperlink{classFiducialVector}{Fiducial\+Vector}} \&grad\+\_\+v)
+\begin{DoxyCompactList}\small\item\em Calculate the gradient of the loss of the normalized input vector. \end{DoxyCompactList}\end{DoxyCompactItemize}

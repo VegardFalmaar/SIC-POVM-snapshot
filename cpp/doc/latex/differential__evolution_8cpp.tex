@@ -1,0 +1,317 @@
+\hypertarget{differential__evolution_8cpp}{}\doxysection{main/differential\+\_\+evolution.cpp File Reference}
+\label{differential__evolution_8cpp}\index{main/differential\_evolution.cpp@{main/differential\_evolution.cpp}}
+{\ttfamily \#include $<$cstdlib$>$}\newline
+{\ttfamily \#include $<$cstring$>$}\newline
+{\ttfamily \#include $<$cmath$>$}\newline
+{\ttfamily \#include $<$limits$>$}\newline
+{\ttfamily \#include \char`\"{}diver.\+hpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../src/wh\+\_\+sic\+\_\+povm.\+hpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../src/vectors.\+hpp\char`\"{}}\newline
+Include dependency graph for differential\+\_\+evolution.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{differential__evolution_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{differential__evolution_8cpp_a7086f4cbc322aa518c8bc389449b117c}{find\+\_\+fiducial\+\_\+vector}} (const unsigned int dim)
+\item 
+int \mbox{\hyperlink{differential__evolution_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}{main}} (int argc, char $\ast$$\ast$argv)
+\item 
+\mbox{\hyperlink{types_8hpp_a3aaf5b04dea7a288c713f65a40bacad3}{c\+\_\+vec}} \mbox{\hyperlink{differential__evolution_8cpp_a1d8cc7ef4f2528ba065b074e5aecb2a8}{expand\+\_\+params\+\_\+to\+\_\+normalized\+\_\+vector}} (double params\mbox{[}$\,$\mbox{]}, const int param\+\_\+dim)
+\item 
+double \mbox{\hyperlink{differential__evolution_8cpp_a5eba0999362d02eb3538e39c5effb88c}{objective}} (double params\mbox{[}$\,$\mbox{]}, const int param\+\_\+dim, int \&fcall, bool \&quit, const bool validvector, void $\ast$\&\mbox{\hyperlink{differential__evolution_8cpp_ae376f130b17d169ee51be68077a89ed0}{context}})
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+const int \mbox{\hyperlink{differential__evolution_8cpp_ac707f2339095fc2e840753817f6cb023}{n\+Derived}} = 0
+\item 
+const int \mbox{\hyperlink{differential__evolution_8cpp_a88783830879774795ef9f9610f20f3e7}{n\+Discrete}} = 0
+\item 
+const int \mbox{\hyperlink{differential__evolution_8cpp_ae5939ae5ba5119e553b17e1e48e6a2eb}{discrete}} \mbox{[}$\,$\mbox{]} = \{0\}
+\item 
+const bool \mbox{\hyperlink{differential__evolution_8cpp_ac0d8713d1f801e1ca76b764c1517c8d1}{partition\+Discrete}} = false
+\item 
+const bool \mbox{\hyperlink{differential__evolution_8cpp_a6e23499d8e469bdfda76beea16ada2d9}{current}} = false
+\item 
+const bool \mbox{\hyperlink{differential__evolution_8cpp_adef9ee8cbd5e61ee8b73b2b7ba62d471}{expon}} = false
+\item 
+const bool \mbox{\hyperlink{differential__evolution_8cpp_a6965aca4a78a6b7202887bc73bf439a5}{j\+DE}} = true
+\item 
+const bool \mbox{\hyperlink{differential__evolution_8cpp_a19b57328e6ec9076120f7efeaa1e8117}{lambdaj\+DE}} = true
+\item 
+const double \mbox{\hyperlink{differential__evolution_8cpp_aaed949f827397c0277a21707a78e42db}{convthresh}} = 1.e-\/3
+\item 
+const double \mbox{\hyperlink{differential__evolution_8cpp_a4d665ba57728ad7fc580bc38113b2ffd}{max\+Node\+Pop}} = 1.\+9
+\item 
+const double \mbox{\hyperlink{differential__evolution_8cpp_a213d4c07d5617c942ff90a4ae0d2d101}{Ztolerance}} = 0.\+1
+\item 
+const bool \mbox{\hyperlink{differential__evolution_8cpp_a3c0dec0aa367aa0fd3410a5621f7e290}{resume}} = false
+\item 
+const bool \mbox{\hyperlink{differential__evolution_8cpp_ad88011bd3945ac6d60483521e7b2b2a2}{do\+Bayesian}} = false
+\item 
+const char \mbox{\hyperlink{differential__evolution_8cpp_a8ff2527576ac4c608d42d1957912edb7}{path}} \mbox{[}$\,$\mbox{]} = \char`\"{}output\+\_\+diver/diver\char`\"{}
+\item 
+const int \mbox{\hyperlink{differential__evolution_8cpp_ae86925d2aa2f964e66ca3cc5a8c77018}{maxciv}} = 100
+\item 
+const int \mbox{\hyperlink{differential__evolution_8cpp_a6ba11efdc8768c0a5d5888f25edd0cbb}{maxgen}} = 100
+\item 
+const int \mbox{\hyperlink{differential__evolution_8cpp_a4ae3586b18e855f683e45d6c7a3af84d}{nF}} = 1
+\item 
+const double \mbox{\hyperlink{differential__evolution_8cpp_a267df9f13cf67d6f960f4accde0b9fe3}{F}} \mbox{[}\mbox{\hyperlink{differential__evolution_8cpp_a4ae3586b18e855f683e45d6c7a3af84d}{nF}}\mbox{]} = \{0.\+6\}
+\item 
+const double \mbox{\hyperlink{differential__evolution_8cpp_a7f365e213815b2180cc0d81a398ba425}{Cr}} = 0.\+9
+\item 
+const double \mbox{\hyperlink{differential__evolution_8cpp_a01c828218289eff2af40b9cdf043393f}{lambda}} = 0.\+8
+\item 
+const int \mbox{\hyperlink{differential__evolution_8cpp_a17a4e87d37ed87427c8d3e62b3c015aa}{bndry}} = 3
+\item 
+const int \mbox{\hyperlink{differential__evolution_8cpp_a32d0f4a6e536087c925202ceb8c4763b}{convsteps}} = 10
+\item 
+const bool \mbox{\hyperlink{differential__evolution_8cpp_a26e8ba3469c951656727cae163fa2e57}{remove\+Duplicates}} = true
+\item 
+const int \mbox{\hyperlink{differential__evolution_8cpp_a7e2d418d21fb5f390a115b68d5c6e98d}{savecount}} = 1
+\item 
+const bool \mbox{\hyperlink{differential__evolution_8cpp_af852792ae08681ce29bbe2740907f99e}{output\+Samples}} = true
+\item 
+const int \mbox{\hyperlink{differential__evolution_8cpp_aee8729e338e4b80f5119df04f72f1f3a}{init\+\_\+pop\+\_\+strategy}} = 2
+\item 
+const bool \mbox{\hyperlink{differential__evolution_8cpp_a6d8770909564ef4d040a0895c61abf04}{discard\+\_\+unfit\+\_\+points}} = false
+\item 
+const int \mbox{\hyperlink{differential__evolution_8cpp_a9f7b9c84ceb94dd13626d87194f20684}{max\+\_\+init\+\_\+attempts}} = 10000
+\item 
+const double \mbox{\hyperlink{differential__evolution_8cpp_a79665825f8f83fae8ef768fb319ec21d}{max\+\_\+acceptable\+\_\+val}} = 1e6
+\item 
+const int \mbox{\hyperlink{differential__evolution_8cpp_ab1633aa266a0a720540840343194b2cf}{seed}} = 1
+\item 
+const int \mbox{\hyperlink{differential__evolution_8cpp_aa62928f1932e0d67ec2c1fe1546f5119}{verbose}} = 1
+\item 
+void $\ast$ \mbox{\hyperlink{differential__evolution_8cpp_ae376f130b17d169ee51be68077a89ed0}{context}} = nullptr
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{differential__evolution_8cpp_a1d8cc7ef4f2528ba065b074e5aecb2a8}\label{differential__evolution_8cpp_a1d8cc7ef4f2528ba065b074e5aecb2a8}} 
+\index{differential\_evolution.cpp@{differential\_evolution.cpp}!expand\_params\_to\_normalized\_vector@{expand\_params\_to\_normalized\_vector}}
+\index{expand\_params\_to\_normalized\_vector@{expand\_params\_to\_normalized\_vector}!differential\_evolution.cpp@{differential\_evolution.cpp}}
+\doxysubsubsection{\texorpdfstring{expand\_params\_to\_normalized\_vector()}{expand\_params\_to\_normalized\_vector()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{types_8hpp_a3aaf5b04dea7a288c713f65a40bacad3}{c\+\_\+vec}} expand\+\_\+params\+\_\+to\+\_\+normalized\+\_\+vector (\begin{DoxyParamCaption}\item[{double}]{params\mbox{[}$\,$\mbox{]},  }\item[{const int}]{param\+\_\+dim }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{differential__evolution_8cpp_a7086f4cbc322aa518c8bc389449b117c}\label{differential__evolution_8cpp_a7086f4cbc322aa518c8bc389449b117c}} 
+\index{differential\_evolution.cpp@{differential\_evolution.cpp}!find\_fiducial\_vector@{find\_fiducial\_vector}}
+\index{find\_fiducial\_vector@{find\_fiducial\_vector}!differential\_evolution.cpp@{differential\_evolution.cpp}}
+\doxysubsubsection{\texorpdfstring{find\_fiducial\_vector()}{find\_fiducial\_vector()}}
+{\footnotesize\ttfamily void find\+\_\+fiducial\+\_\+vector (\begin{DoxyParamCaption}\item[{const unsigned int}]{dim }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{differential__evolution_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}\label{differential__evolution_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}} 
+\index{differential\_evolution.cpp@{differential\_evolution.cpp}!main@{main}}
+\index{main@{main}!differential\_evolution.cpp@{differential\_evolution.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$$\ast$}]{argv }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{differential__evolution_8cpp_a5eba0999362d02eb3538e39c5effb88c}\label{differential__evolution_8cpp_a5eba0999362d02eb3538e39c5effb88c}} 
+\index{differential\_evolution.cpp@{differential\_evolution.cpp}!objective@{objective}}
+\index{objective@{objective}!differential\_evolution.cpp@{differential\_evolution.cpp}}
+\doxysubsubsection{\texorpdfstring{objective()}{objective()}}
+{\footnotesize\ttfamily double objective (\begin{DoxyParamCaption}\item[{double}]{params\mbox{[}$\,$\mbox{]},  }\item[{const int}]{param\+\_\+dim,  }\item[{int \&}]{fcall,  }\item[{bool \&}]{quit,  }\item[{const bool}]{validvector,  }\item[{void $\ast$\&}]{context }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{differential__evolution_8cpp_a17a4e87d37ed87427c8d3e62b3c015aa}\label{differential__evolution_8cpp_a17a4e87d37ed87427c8d3e62b3c015aa}} 
+\index{differential\_evolution.cpp@{differential\_evolution.cpp}!bndry@{bndry}}
+\index{bndry@{bndry}!differential\_evolution.cpp@{differential\_evolution.cpp}}
+\doxysubsubsection{\texorpdfstring{bndry}{bndry}}
+{\footnotesize\ttfamily const int bndry = 3}
+
+\mbox{\Hypertarget{differential__evolution_8cpp_ae376f130b17d169ee51be68077a89ed0}\label{differential__evolution_8cpp_ae376f130b17d169ee51be68077a89ed0}} 
+\index{differential\_evolution.cpp@{differential\_evolution.cpp}!context@{context}}
+\index{context@{context}!differential\_evolution.cpp@{differential\_evolution.cpp}}
+\doxysubsubsection{\texorpdfstring{context}{context}}
+{\footnotesize\ttfamily void$\ast$ context = nullptr}
+
+\mbox{\Hypertarget{differential__evolution_8cpp_a32d0f4a6e536087c925202ceb8c4763b}\label{differential__evolution_8cpp_a32d0f4a6e536087c925202ceb8c4763b}} 
+\index{differential\_evolution.cpp@{differential\_evolution.cpp}!convsteps@{convsteps}}
+\index{convsteps@{convsteps}!differential\_evolution.cpp@{differential\_evolution.cpp}}
+\doxysubsubsection{\texorpdfstring{convsteps}{convsteps}}
+{\footnotesize\ttfamily const int convsteps = 10}
+
+\mbox{\Hypertarget{differential__evolution_8cpp_aaed949f827397c0277a21707a78e42db}\label{differential__evolution_8cpp_aaed949f827397c0277a21707a78e42db}} 
+\index{differential\_evolution.cpp@{differential\_evolution.cpp}!convthresh@{convthresh}}
+\index{convthresh@{convthresh}!differential\_evolution.cpp@{differential\_evolution.cpp}}
+\doxysubsubsection{\texorpdfstring{convthresh}{convthresh}}
+{\footnotesize\ttfamily const double convthresh = 1.e-\/3}
+
+\mbox{\Hypertarget{differential__evolution_8cpp_a7f365e213815b2180cc0d81a398ba425}\label{differential__evolution_8cpp_a7f365e213815b2180cc0d81a398ba425}} 
+\index{differential\_evolution.cpp@{differential\_evolution.cpp}!Cr@{Cr}}
+\index{Cr@{Cr}!differential\_evolution.cpp@{differential\_evolution.cpp}}
+\doxysubsubsection{\texorpdfstring{Cr}{Cr}}
+{\footnotesize\ttfamily const double Cr = 0.\+9}
+
+\mbox{\Hypertarget{differential__evolution_8cpp_a6e23499d8e469bdfda76beea16ada2d9}\label{differential__evolution_8cpp_a6e23499d8e469bdfda76beea16ada2d9}} 
+\index{differential\_evolution.cpp@{differential\_evolution.cpp}!current@{current}}
+\index{current@{current}!differential\_evolution.cpp@{differential\_evolution.cpp}}
+\doxysubsubsection{\texorpdfstring{current}{current}}
+{\footnotesize\ttfamily const bool current = false}
+
+\mbox{\Hypertarget{differential__evolution_8cpp_a6d8770909564ef4d040a0895c61abf04}\label{differential__evolution_8cpp_a6d8770909564ef4d040a0895c61abf04}} 
+\index{differential\_evolution.cpp@{differential\_evolution.cpp}!discard\_unfit\_points@{discard\_unfit\_points}}
+\index{discard\_unfit\_points@{discard\_unfit\_points}!differential\_evolution.cpp@{differential\_evolution.cpp}}
+\doxysubsubsection{\texorpdfstring{discard\_unfit\_points}{discard\_unfit\_points}}
+{\footnotesize\ttfamily const bool discard\+\_\+unfit\+\_\+points = false}
+
+\mbox{\Hypertarget{differential__evolution_8cpp_ae5939ae5ba5119e553b17e1e48e6a2eb}\label{differential__evolution_8cpp_ae5939ae5ba5119e553b17e1e48e6a2eb}} 
+\index{differential\_evolution.cpp@{differential\_evolution.cpp}!discrete@{discrete}}
+\index{discrete@{discrete}!differential\_evolution.cpp@{differential\_evolution.cpp}}
+\doxysubsubsection{\texorpdfstring{discrete}{discrete}}
+{\footnotesize\ttfamily const int discrete\mbox{[}$\,$\mbox{]} = \{0\}}
+
+\mbox{\Hypertarget{differential__evolution_8cpp_ad88011bd3945ac6d60483521e7b2b2a2}\label{differential__evolution_8cpp_ad88011bd3945ac6d60483521e7b2b2a2}} 
+\index{differential\_evolution.cpp@{differential\_evolution.cpp}!doBayesian@{doBayesian}}
+\index{doBayesian@{doBayesian}!differential\_evolution.cpp@{differential\_evolution.cpp}}
+\doxysubsubsection{\texorpdfstring{doBayesian}{doBayesian}}
+{\footnotesize\ttfamily const bool do\+Bayesian = false}
+
+\mbox{\Hypertarget{differential__evolution_8cpp_adef9ee8cbd5e61ee8b73b2b7ba62d471}\label{differential__evolution_8cpp_adef9ee8cbd5e61ee8b73b2b7ba62d471}} 
+\index{differential\_evolution.cpp@{differential\_evolution.cpp}!expon@{expon}}
+\index{expon@{expon}!differential\_evolution.cpp@{differential\_evolution.cpp}}
+\doxysubsubsection{\texorpdfstring{expon}{expon}}
+{\footnotesize\ttfamily const bool expon = false}
+
+\mbox{\Hypertarget{differential__evolution_8cpp_a267df9f13cf67d6f960f4accde0b9fe3}\label{differential__evolution_8cpp_a267df9f13cf67d6f960f4accde0b9fe3}} 
+\index{differential\_evolution.cpp@{differential\_evolution.cpp}!F@{F}}
+\index{F@{F}!differential\_evolution.cpp@{differential\_evolution.cpp}}
+\doxysubsubsection{\texorpdfstring{F}{F}}
+{\footnotesize\ttfamily const double F\mbox{[}\mbox{\hyperlink{differential__evolution_8cpp_a4ae3586b18e855f683e45d6c7a3af84d}{nF}}\mbox{]} = \{0.\+6\}}
+
+\mbox{\Hypertarget{differential__evolution_8cpp_aee8729e338e4b80f5119df04f72f1f3a}\label{differential__evolution_8cpp_aee8729e338e4b80f5119df04f72f1f3a}} 
+\index{differential\_evolution.cpp@{differential\_evolution.cpp}!init\_pop\_strategy@{init\_pop\_strategy}}
+\index{init\_pop\_strategy@{init\_pop\_strategy}!differential\_evolution.cpp@{differential\_evolution.cpp}}
+\doxysubsubsection{\texorpdfstring{init\_pop\_strategy}{init\_pop\_strategy}}
+{\footnotesize\ttfamily const int init\+\_\+pop\+\_\+strategy = 2}
+
+\mbox{\Hypertarget{differential__evolution_8cpp_a6965aca4a78a6b7202887bc73bf439a5}\label{differential__evolution_8cpp_a6965aca4a78a6b7202887bc73bf439a5}} 
+\index{differential\_evolution.cpp@{differential\_evolution.cpp}!jDE@{jDE}}
+\index{jDE@{jDE}!differential\_evolution.cpp@{differential\_evolution.cpp}}
+\doxysubsubsection{\texorpdfstring{jDE}{jDE}}
+{\footnotesize\ttfamily const bool j\+DE = true}
+
+\mbox{\Hypertarget{differential__evolution_8cpp_a01c828218289eff2af40b9cdf043393f}\label{differential__evolution_8cpp_a01c828218289eff2af40b9cdf043393f}} 
+\index{differential\_evolution.cpp@{differential\_evolution.cpp}!lambda@{lambda}}
+\index{lambda@{lambda}!differential\_evolution.cpp@{differential\_evolution.cpp}}
+\doxysubsubsection{\texorpdfstring{lambda}{lambda}}
+{\footnotesize\ttfamily const double lambda = 0.\+8}
+
+\mbox{\Hypertarget{differential__evolution_8cpp_a19b57328e6ec9076120f7efeaa1e8117}\label{differential__evolution_8cpp_a19b57328e6ec9076120f7efeaa1e8117}} 
+\index{differential\_evolution.cpp@{differential\_evolution.cpp}!lambdajDE@{lambdajDE}}
+\index{lambdajDE@{lambdajDE}!differential\_evolution.cpp@{differential\_evolution.cpp}}
+\doxysubsubsection{\texorpdfstring{lambdajDE}{lambdajDE}}
+{\footnotesize\ttfamily const bool lambdaj\+DE = true}
+
+\mbox{\Hypertarget{differential__evolution_8cpp_a79665825f8f83fae8ef768fb319ec21d}\label{differential__evolution_8cpp_a79665825f8f83fae8ef768fb319ec21d}} 
+\index{differential\_evolution.cpp@{differential\_evolution.cpp}!max\_acceptable\_val@{max\_acceptable\_val}}
+\index{max\_acceptable\_val@{max\_acceptable\_val}!differential\_evolution.cpp@{differential\_evolution.cpp}}
+\doxysubsubsection{\texorpdfstring{max\_acceptable\_val}{max\_acceptable\_val}}
+{\footnotesize\ttfamily const double max\+\_\+acceptable\+\_\+val = 1e6}
+
+\mbox{\Hypertarget{differential__evolution_8cpp_a9f7b9c84ceb94dd13626d87194f20684}\label{differential__evolution_8cpp_a9f7b9c84ceb94dd13626d87194f20684}} 
+\index{differential\_evolution.cpp@{differential\_evolution.cpp}!max\_init\_attempts@{max\_init\_attempts}}
+\index{max\_init\_attempts@{max\_init\_attempts}!differential\_evolution.cpp@{differential\_evolution.cpp}}
+\doxysubsubsection{\texorpdfstring{max\_init\_attempts}{max\_init\_attempts}}
+{\footnotesize\ttfamily const int max\+\_\+init\+\_\+attempts = 10000}
+
+\mbox{\Hypertarget{differential__evolution_8cpp_ae86925d2aa2f964e66ca3cc5a8c77018}\label{differential__evolution_8cpp_ae86925d2aa2f964e66ca3cc5a8c77018}} 
+\index{differential\_evolution.cpp@{differential\_evolution.cpp}!maxciv@{maxciv}}
+\index{maxciv@{maxciv}!differential\_evolution.cpp@{differential\_evolution.cpp}}
+\doxysubsubsection{\texorpdfstring{maxciv}{maxciv}}
+{\footnotesize\ttfamily const int maxciv = 100}
+
+\mbox{\Hypertarget{differential__evolution_8cpp_a6ba11efdc8768c0a5d5888f25edd0cbb}\label{differential__evolution_8cpp_a6ba11efdc8768c0a5d5888f25edd0cbb}} 
+\index{differential\_evolution.cpp@{differential\_evolution.cpp}!maxgen@{maxgen}}
+\index{maxgen@{maxgen}!differential\_evolution.cpp@{differential\_evolution.cpp}}
+\doxysubsubsection{\texorpdfstring{maxgen}{maxgen}}
+{\footnotesize\ttfamily const int maxgen = 100}
+
+\mbox{\Hypertarget{differential__evolution_8cpp_a4d665ba57728ad7fc580bc38113b2ffd}\label{differential__evolution_8cpp_a4d665ba57728ad7fc580bc38113b2ffd}} 
+\index{differential\_evolution.cpp@{differential\_evolution.cpp}!maxNodePop@{maxNodePop}}
+\index{maxNodePop@{maxNodePop}!differential\_evolution.cpp@{differential\_evolution.cpp}}
+\doxysubsubsection{\texorpdfstring{maxNodePop}{maxNodePop}}
+{\footnotesize\ttfamily const double max\+Node\+Pop = 1.\+9}
+
+\mbox{\Hypertarget{differential__evolution_8cpp_ac707f2339095fc2e840753817f6cb023}\label{differential__evolution_8cpp_ac707f2339095fc2e840753817f6cb023}} 
+\index{differential\_evolution.cpp@{differential\_evolution.cpp}!nDerived@{nDerived}}
+\index{nDerived@{nDerived}!differential\_evolution.cpp@{differential\_evolution.cpp}}
+\doxysubsubsection{\texorpdfstring{nDerived}{nDerived}}
+{\footnotesize\ttfamily const int n\+Derived = 0}
+
+\mbox{\Hypertarget{differential__evolution_8cpp_a88783830879774795ef9f9610f20f3e7}\label{differential__evolution_8cpp_a88783830879774795ef9f9610f20f3e7}} 
+\index{differential\_evolution.cpp@{differential\_evolution.cpp}!nDiscrete@{nDiscrete}}
+\index{nDiscrete@{nDiscrete}!differential\_evolution.cpp@{differential\_evolution.cpp}}
+\doxysubsubsection{\texorpdfstring{nDiscrete}{nDiscrete}}
+{\footnotesize\ttfamily const int n\+Discrete = 0}
+
+\mbox{\Hypertarget{differential__evolution_8cpp_a4ae3586b18e855f683e45d6c7a3af84d}\label{differential__evolution_8cpp_a4ae3586b18e855f683e45d6c7a3af84d}} 
+\index{differential\_evolution.cpp@{differential\_evolution.cpp}!nF@{nF}}
+\index{nF@{nF}!differential\_evolution.cpp@{differential\_evolution.cpp}}
+\doxysubsubsection{\texorpdfstring{nF}{nF}}
+{\footnotesize\ttfamily const int nF = 1}
+
+\mbox{\Hypertarget{differential__evolution_8cpp_af852792ae08681ce29bbe2740907f99e}\label{differential__evolution_8cpp_af852792ae08681ce29bbe2740907f99e}} 
+\index{differential\_evolution.cpp@{differential\_evolution.cpp}!outputSamples@{outputSamples}}
+\index{outputSamples@{outputSamples}!differential\_evolution.cpp@{differential\_evolution.cpp}}
+\doxysubsubsection{\texorpdfstring{outputSamples}{outputSamples}}
+{\footnotesize\ttfamily const bool output\+Samples = true}
+
+\mbox{\Hypertarget{differential__evolution_8cpp_ac0d8713d1f801e1ca76b764c1517c8d1}\label{differential__evolution_8cpp_ac0d8713d1f801e1ca76b764c1517c8d1}} 
+\index{differential\_evolution.cpp@{differential\_evolution.cpp}!partitionDiscrete@{partitionDiscrete}}
+\index{partitionDiscrete@{partitionDiscrete}!differential\_evolution.cpp@{differential\_evolution.cpp}}
+\doxysubsubsection{\texorpdfstring{partitionDiscrete}{partitionDiscrete}}
+{\footnotesize\ttfamily const bool partition\+Discrete = false}
+
+\mbox{\Hypertarget{differential__evolution_8cpp_a8ff2527576ac4c608d42d1957912edb7}\label{differential__evolution_8cpp_a8ff2527576ac4c608d42d1957912edb7}} 
+\index{differential\_evolution.cpp@{differential\_evolution.cpp}!path@{path}}
+\index{path@{path}!differential\_evolution.cpp@{differential\_evolution.cpp}}
+\doxysubsubsection{\texorpdfstring{path}{path}}
+{\footnotesize\ttfamily const char path\mbox{[}$\,$\mbox{]} = \char`\"{}output\+\_\+diver/diver\char`\"{}}
+
+\mbox{\Hypertarget{differential__evolution_8cpp_a26e8ba3469c951656727cae163fa2e57}\label{differential__evolution_8cpp_a26e8ba3469c951656727cae163fa2e57}} 
+\index{differential\_evolution.cpp@{differential\_evolution.cpp}!removeDuplicates@{removeDuplicates}}
+\index{removeDuplicates@{removeDuplicates}!differential\_evolution.cpp@{differential\_evolution.cpp}}
+\doxysubsubsection{\texorpdfstring{removeDuplicates}{removeDuplicates}}
+{\footnotesize\ttfamily const bool remove\+Duplicates = true}
+
+\mbox{\Hypertarget{differential__evolution_8cpp_a3c0dec0aa367aa0fd3410a5621f7e290}\label{differential__evolution_8cpp_a3c0dec0aa367aa0fd3410a5621f7e290}} 
+\index{differential\_evolution.cpp@{differential\_evolution.cpp}!resume@{resume}}
+\index{resume@{resume}!differential\_evolution.cpp@{differential\_evolution.cpp}}
+\doxysubsubsection{\texorpdfstring{resume}{resume}}
+{\footnotesize\ttfamily const bool resume = false}
+
+\mbox{\Hypertarget{differential__evolution_8cpp_a7e2d418d21fb5f390a115b68d5c6e98d}\label{differential__evolution_8cpp_a7e2d418d21fb5f390a115b68d5c6e98d}} 
+\index{differential\_evolution.cpp@{differential\_evolution.cpp}!savecount@{savecount}}
+\index{savecount@{savecount}!differential\_evolution.cpp@{differential\_evolution.cpp}}
+\doxysubsubsection{\texorpdfstring{savecount}{savecount}}
+{\footnotesize\ttfamily const int savecount = 1}
+
+\mbox{\Hypertarget{differential__evolution_8cpp_ab1633aa266a0a720540840343194b2cf}\label{differential__evolution_8cpp_ab1633aa266a0a720540840343194b2cf}} 
+\index{differential\_evolution.cpp@{differential\_evolution.cpp}!seed@{seed}}
+\index{seed@{seed}!differential\_evolution.cpp@{differential\_evolution.cpp}}
+\doxysubsubsection{\texorpdfstring{seed}{seed}}
+{\footnotesize\ttfamily const int seed = 1}
+
+\mbox{\Hypertarget{differential__evolution_8cpp_aa62928f1932e0d67ec2c1fe1546f5119}\label{differential__evolution_8cpp_aa62928f1932e0d67ec2c1fe1546f5119}} 
+\index{differential\_evolution.cpp@{differential\_evolution.cpp}!verbose@{verbose}}
+\index{verbose@{verbose}!differential\_evolution.cpp@{differential\_evolution.cpp}}
+\doxysubsubsection{\texorpdfstring{verbose}{verbose}}
+{\footnotesize\ttfamily const int verbose = 1}
+
+\mbox{\Hypertarget{differential__evolution_8cpp_a213d4c07d5617c942ff90a4ae0d2d101}\label{differential__evolution_8cpp_a213d4c07d5617c942ff90a4ae0d2d101}} 
+\index{differential\_evolution.cpp@{differential\_evolution.cpp}!Ztolerance@{Ztolerance}}
+\index{Ztolerance@{Ztolerance}!differential\_evolution.cpp@{differential\_evolution.cpp}}
+\doxysubsubsection{\texorpdfstring{Ztolerance}{Ztolerance}}
+{\footnotesize\ttfamily const double Ztolerance = 0.\+1}
+

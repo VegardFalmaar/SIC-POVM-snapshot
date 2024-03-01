@@ -1,0 +1,14 @@
+Initial seed:
+0
+
+Max number of seeds tested:
+100
+
+Number of threads:
+17
+
+Duration (ms):
+2
+
+Result:
+Solution found

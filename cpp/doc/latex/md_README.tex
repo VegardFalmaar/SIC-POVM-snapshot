@@ -1,0 +1,17 @@
+Seeds 0-\/49 have been tested in dimension 40, time 310 minutes.\hypertarget{md_README_autotoc_md0}{}\doxysection{TO-\/\+DO}\label{md_README_autotoc_md0}
+
+\begin{DoxyItemize}
+\item Parallelize starting vectors, MPI
+\item A proper system for keeping track of results.
+\item Review the handling of data/variables between the functions in {\ttfamily gradient\+\_\+descent}. (Related to the above point.)
+\item Stop generating a new array of indices to shuffle every time a new vector is generated? Can shuffle in-\/place instead.
+\end{DoxyItemize}\hypertarget{md_README_autotoc_md1}{}\doxysection{DONE}\label{md_README_autotoc_md1}
+
+\begin{DoxyItemize}
+\item Save loss, fiducial, time to file
+\item Parallelize starting vectors instead of loss, Open\+MP
+\item Better generation of start vectors
+\item (Failed, gone back) Try {\ttfamily long double} for higher precision
+\item Precompute all d(d+1)/2 distinct values of G-\/matrix in analytic gradient function. Use a class such the same array may be used throughout the minimization of one vector?
+\item Simplify the loop over vector batches, better to loop seed by seed. 
+\end{DoxyItemize}

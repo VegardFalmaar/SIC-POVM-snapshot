@@ -1,0 +1,83 @@
+\hypertarget{classFiducialVector}{}\doxysection{Fiducial\+Vector Class Reference}
+\label{classFiducialVector}\index{FiducialVector@{FiducialVector}}
+
+
+A complex vector with functionality required for determining a fiducial vector in arbitrary dimensions.  
+
+
+
+
+{\ttfamily \#include $<$vectors.\+hpp$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classFiducialVector_ab7327c6332497dbdb4f95e0b36f09076}\label{classFiducialVector_ab7327c6332497dbdb4f95e0b36f09076}} 
+\mbox{\hyperlink{classFiducialVector_ab7327c6332497dbdb4f95e0b36f09076}{Fiducial\+Vector}} (const unsigned int dimension)
+\begin{DoxyCompactList}\small\item\em Constructor where elements of vector default to c-\/number 0.\+0 + 0.\+0i. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classFiducialVector_abd24edf24b67247711bb2badbce239b1}{Fiducial\+Vector}} (std\+::initializer\+\_\+list$<$ c\+\_\+num $>$ values)
+\begin{DoxyCompactList}\small\item\em Constructor accepting an initializer list of values. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classFiducialVector_a6ba41a7f4ba79b7dac524963a92c4a0b}\label{classFiducialVector_a6ba41a7f4ba79b7dac524963a92c4a0b}} 
+\mbox{\hyperlink{classFiducialVector_a6ba41a7f4ba79b7dac524963a92c4a0b}{Fiducial\+Vector}} (c\+\_\+vec values)
+\begin{DoxyCompactList}\small\item\em Constructor accepting a vector of complex numbers. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classFiducialVector_acb40a6a785cc857b34b41b326831e43d}\label{classFiducialVector_acb40a6a785cc857b34b41b326831e43d}} 
+c\+\_\+num \& \mbox{\hyperlink{classFiducialVector_acb40a6a785cc857b34b41b326831e43d}{operator\mbox{[}$\,$\mbox{]}}} (const int idx)
+\begin{DoxyCompactList}\small\item\em Index elements by reference. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classFiducialVector_a783d2317e1a9f12f6166d71d73c6652b}\label{classFiducialVector_a783d2317e1a9f12f6166d71d73c6652b}} 
+c\+\_\+num \mbox{\hyperlink{classFiducialVector_a783d2317e1a9f12f6166d71d73c6652b}{operator\mbox{[}$\,$\mbox{]}}} (const int idx) const
+\begin{DoxyCompactList}\small\item\em Index elements by value without the possibility to change state of vector. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classFiducialVector_a6b9969d5b3c2c0143db05ed4059e51bd}\label{classFiducialVector_a6b9969d5b3c2c0143db05ed4059e51bd}} 
+double {\bfseries norm\+\_\+squared} () const
+\item 
+\mbox{\Hypertarget{classFiducialVector_afdb2f3bdca647f03a798d97d1faee2c9}\label{classFiducialVector_afdb2f3bdca647f03a798d97d1faee2c9}} 
+double {\bfseries norm} () const
+\item 
+\mbox{\Hypertarget{classFiducialVector_a1f4e63bbe7cf4268ccdf0ae7bb4773af}\label{classFiducialVector_a1f4e63bbe7cf4268ccdf0ae7bb4773af}} 
+void \mbox{\hyperlink{classFiducialVector_a1f4e63bbe7cf4268ccdf0ae7bb4773af}{normalize}} ()
+\begin{DoxyCompactList}\small\item\em Rescale all elements by norm such that new norm equals 1. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classFiducialVector_a39a424bbd41aa2e11d00408d97b3bbf5}\label{classFiducialVector_a39a424bbd41aa2e11d00408d97b3bbf5}} 
+void \mbox{\hyperlink{classFiducialVector_a39a424bbd41aa2e11d00408d97b3bbf5}{remove\+\_\+complex\+\_\+phase}} ()
+\begin{DoxyCompactList}\small\item\em Multiply all elements with phase factor such that phase of first element is 0. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classFiducialVector_a7cd12ed4941e4a9ef7d30b979e113fef}\label{classFiducialVector_a7cd12ed4941e4a9ef7d30b979e113fef}} 
+unsigned int {\bfseries size} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{classFiducialVector_a2fa21ef77c670bbe712dffe25c3e9626}{operator$<$$<$}} (std\+::ostream \&os, const \mbox{\hyperlink{classFiducialVector}{Fiducial\+Vector}} \&v)
+\begin{DoxyCompactList}\small\item\em Overload $<$$<$ operator to let instance of the class to be passed to stream e.\+g. for printing. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A complex vector with functionality required for determining a fiducial vector in arbitrary dimensions. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classFiducialVector_abd24edf24b67247711bb2badbce239b1}\label{classFiducialVector_abd24edf24b67247711bb2badbce239b1}} 
+\index{FiducialVector@{FiducialVector}!FiducialVector@{FiducialVector}}
+\index{FiducialVector@{FiducialVector}!FiducialVector@{FiducialVector}}
+\doxysubsubsection{\texorpdfstring{FiducialVector()}{FiducialVector()}}
+{\footnotesize\ttfamily Fiducial\+Vector\+::\+Fiducial\+Vector (\begin{DoxyParamCaption}\item[{std\+::initializer\+\_\+list$<$ c\+\_\+num $>$}]{values }\end{DoxyParamCaption})}
+
+
+
+Constructor accepting an initializer list of values. 
+
+Usage\+: \mbox{\hyperlink{classFiducialVector}{Fiducial\+Vector}} v \{ c\+\_\+num(1, -\/1), c\+\_\+num(2, -\/2), c\+\_\+num(3, -\/3) \}; 
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{classFiducialVector_a2fa21ef77c670bbe712dffe25c3e9626}\label{classFiducialVector_a2fa21ef77c670bbe712dffe25c3e9626}} 
+\index{FiducialVector@{FiducialVector}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!FiducialVector@{FiducialVector}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily std\+::ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{const \mbox{\hyperlink{classFiducialVector}{Fiducial\+Vector}} \&}]{v }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Overload $<$$<$ operator to let instance of the class to be passed to stream e.\+g. for printing. 
+
+Vector is added to ostream object with one element per line on the form a+bi, and ends in a newline. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{vectors_8hpp}{vectors.\+hpp}}\item 
+src/vectors.\+cpp\end{DoxyCompactItemize}
